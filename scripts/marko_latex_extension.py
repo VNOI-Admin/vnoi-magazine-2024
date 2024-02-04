@@ -1,17 +1,20 @@
+from typing import (TypeVar)
 from marko.ext.latex_renderer import LatexRenderer
-from marko import (inline, block)
+from marko import (inline, block, MarkoExtension)
 import re
 import yaml
 import sys
-import os
+import io
 from collections import namedtuple
 from format_cpp import format_cpp
 
-sys.stdin.reconfigure(encoding="utf-8-sig")
+
+if isinstance(sys.stdin, io.TextIOWrapper) and sys.version_info >= (3, 7):
+    sys.stdin.reconfigure(encoding="utf-8-sig")
 
 class BlockElementWithPattern(block.BlockElement):
     priority=100
-    pattern=None
+    pattern: re.Pattern[str] | str | None = None
     include_children=False
    
     def __init__(self, match):
@@ -19,6 +22,8 @@ class BlockElementWithPattern(block.BlockElement):
 
     @classmethod
     def match(cls, source):
+        if cls.pattern is None:
+            raise Exception('pattern not set')
         return source.expect_re(cls.pattern)
 
     @classmethod
@@ -113,12 +118,15 @@ class MarkoLatexRenderer(LatexRenderer):
     
     def render_document(self, element):
         children = self.render_children(element)
-        def get(field, default=''):
+        
+        T = TypeVar('T')
+
+        def get(field, default: T) -> T:
             return self.front_matter.get(field, default)
         
         items = []
         
-        items.append(f'\\renewcommand\\authorInfo{{ {get("author_info")} }}')
+        items.append(f'\\renewcommand\\authorInfo{{ {get("author_info", "")} }}')
         
         if get('is_interview', False):
             Q = get('Q', 'Q')
@@ -128,9 +136,9 @@ class MarkoLatexRenderer(LatexRenderer):
             items.append(f'\\def\\Atext{{{A}}}')
             
         items.append(self._environment2("article", children, [
-            get('title'),
-            get('subtitle'),
-            get('author')
+            get('title', ''),
+            get('subtitle', ''),
+            get('author', '')
         ]))
         return '\n'.join(items)
     
@@ -255,24 +263,23 @@ class MarkoLatexRenderer(LatexRenderer):
     def _environment2(env_name: str, content: str, options = ()):
         options_str = f"{''.join(map(lambda s: '{' + s + '}', options))}" if options else ""
         return f"\\begin{{{env_name}}}{options_str}\n{content}\\end{{{env_name}}}\n"
-    
-class MarkoLatexExtension:
-    elements=[
-            BlockMath,
-            BlockMathInParagraph,
-            InlineMath,
-            CustomFootnote,
-            Strikethrough,
-            LatexTabular,
-            LatexLongTable,
-            LatexMinipage,
-            LatexTabularx,
-            Emoji,
-            FrontMatter,
-            InterviewQA,
-            Shorthand
-        ]
-    renderer_mixins = [MarkoLatexRenderer]
 
-def make_extension(*args):
-    return MarkoLatexExtension(*args)
+def make_extension():
+    return MarkoExtension(
+        elements=[
+                BlockMath,
+                BlockMathInParagraph,
+                InlineMath,
+                CustomFootnote,
+                Strikethrough,
+                LatexTabular,
+                LatexLongTable,
+                LatexMinipage,
+                LatexTabularx,
+                Emoji,
+                FrontMatter,
+                InterviewQA,
+                Shorthand
+            ],
+        renderer_mixins = [MarkoLatexRenderer]
+    )
