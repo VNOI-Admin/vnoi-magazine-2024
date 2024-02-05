@@ -1,5 +1,8 @@
 \null
 \vfill
+
+\setbackground{../assets/credit-bg.png}
+
 \section*{Ban biên tập}
 \begin{itemize}
     \item[] Nguyễn Trung Quân (tổng biên tập)
