@@ -46,7 +46,7 @@ jobs:
         run: make render-pdf
 
       - name: Generate PDF second pass (for TOC)
-        run: make render-df
+        run: make render-pdf
 
       - name: Make release
         uses: softprops/action-gh-release@v1
