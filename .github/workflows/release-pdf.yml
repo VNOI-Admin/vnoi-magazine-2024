@@ -13,6 +13,9 @@ concurrency:
 
 jobs:
   generate_pdfs:
+    defaults:
+      run:
+        shell: bash
     permissions: read-all
     runs-on: ubuntu-latest
     env:
