@@ -34,7 +34,7 @@ render-articles:
 	mkdir -p src/articles; \
 	for article in ./articles/*.md ./interviews/*.md; do \
 		echo Processing $$article; \
-		cat $$article | marko -e marko_latex_extension -o src/$${article//.md/.latex}; \
+		marko -e marko_latex_extension -o src/$${article//.md/.latex} $$article; \
 	done
 
 render-pdf: $(BUILD_FOLDER)
