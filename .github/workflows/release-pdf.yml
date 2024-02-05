@@ -1,0 +1,56 @@
+on:
+  push:
+    # Only generate pdf when something is pushed to main.
+    branches:
+      - main
+      - master
+    tags:
+      - v*
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  generate_pdfs:
+    defaults:
+      run:
+        shell: bash
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      SHA: ${{ github.sha }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v1
+        with:
+          submodules: true
+
+      - name: Install texlive and packages
+        run: make install-texlive-ubuntu
+
+      - name: Create venv
+        run: |
+          python3 -m venv .venv
+          source .venv/bin/activate
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Render articles
+        run: make render-articles
+
+      - name: Generate PDF first pass
+        run: make render-pdf
+
+      - name: Generate PDF second pass (for TOC)
+        run: make render-pdf
+
+      - name: Make release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: build/*.pdf
+        

@@ -8,3 +8,5 @@ _minted*/
 *.out
 *.pdf
 *.toc
+
+venv/
