@@ -1,9 +1,10 @@
 ---
-title: Phỏng vấn Bùi Việt Dũng
-subtitle: "Interviewer: Vương Hoàng Long ~-- ICPC World Finalist 2021"
-is_interview: true
-Q: Long
-A: Dũng
+layout: interview
+meta:
+    title: Phỏng vấn Bùi Việt Dũng
+    interviewer: "Vương Hoàng Long ~-- ICPC World Finalist 2021"
+    interviewQ: Long
+    interviewA: Dũng
 ---
 Q: Chào Dũng, rất cảm ơn bạn đã nhận lời phỏng vấn cho tạp chí VNOI năm đầu tiên này. Bạn cũng là người đầu tiên bọn mình phỏng vấn . Chúng ta có thể bắt đầu nhé, bạn có thể giới thiệu qua một số thông tin cá nhân được không?
 

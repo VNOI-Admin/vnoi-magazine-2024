@@ -1,9 +1,10 @@
 ---
-title: Phỏng vấn Lê Bảo Hiệp
-subtitle: "Interviewer: Mai Vinh Hiển ~-- Tình nguyện viên VNOI Gen 2"
-is_interview: true
-Q: Hiển
-A: Hiệp
+layout: interview
+meta:
+    title: Phỏng vấn Lê Bảo Hiệp
+    interviewer: "Mai Vinh Hiển ~-- Tình nguyện viên VNOI Gen 2"
+    interviewQ: Hiển
+    interviewA: Hiệp
 ---
 Q: Xin chào Hiệp, bạn có thể giới thiệu đôi chút về bản thân, công việc hiện tại cũng như thành tích nổi bật của bạn được không?
 

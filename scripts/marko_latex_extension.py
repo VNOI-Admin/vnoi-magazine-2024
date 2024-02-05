@@ -127,27 +127,17 @@ class MarkoLatexRenderer(LatexRenderer):
     def render_document(self, element: marko.block.Document):
         children = self.render_children(element)
         
-        T = TypeVar('T')
+        layout = self.front_matter.get('layout')
 
-        def get(field: str, default: T) -> T:
-            return self.front_matter.get(field, default)
-        
-        items: list[str] = []
-        
-        if get('is_interview', False):
-            Q = get('Q', 'Q')
-            A = get('A', 'A')
+        if type(layout) != str:
+            raise Exception('layout is unset')
 
-            items.append(f'\\def\\Qtext{{{Q}}}')
-            items.append(f'\\def\\Atext{{{A}}}')
-            
-        items.append(self._environment2("article", children, {
-            'title': get('title', ''),
-            'subtitle': get('subtitle', ''),
-            'author': get('author', ''),
-            'authorInfo': get('author_info', ''),
-        }))
-        return '\n'.join(items)
+        meta = cast(dict[str, str], self.front_matter.get('meta'))
+        return self._environment2(
+            layout,
+            children,
+            meta
+        )
     
     def render_heading(self, element: marko.block.Heading):
         """
@@ -243,7 +233,7 @@ class MarkoLatexRenderer(LatexRenderer):
         return ''
     
     def render_interview_qa(self, element: InterviewQA):
-        if self.front_matter.get('is_interview', False):
+        if self.front_matter.get('layout') == 'interview':
             return r'\interview' + element.type + ' '
         return element.type + ': '
     
@@ -275,7 +265,7 @@ class MarkoLatexRenderer(LatexRenderer):
     
     @staticmethod
     def _environment2(env_name: str, content: str, options: dict[str,  str] = {}) -> str:
-        options_str = '\n'.join(map(lambda item: f'{item[0]}={{{item[1]}}},', options.items()))
+        options_str = '\n'.join(map(lambda item: f'  {item[0]}={{{item[1]}}},', options.items()))
         return f"\\begin{{{env_name}}}[\n{options_str}\n]\n{content}\\end{{{env_name}}}\n"
 
 def make_extension():

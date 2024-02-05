@@ -1,9 +1,10 @@
 ---
-title: Phỏng vấn Trần Xuân Bách
-subtitle: "Interviewer: Nguyễn Trung Quân ~-- Tình nguyện viên VNOI Gen 2"
-is_interview: true
-Q: Quân
-A: Bách
+layout: interview
+meta:
+    title: Phỏng vấn Trần Xuân Bách
+    interviewer: "Nguyễn Trung Quân ~-- Tình nguyện viên VNOI Gen 2"
+    interviewQ: Quân
+    interviewA: Bách
 ---
 Q: Chào Bách, bạn có thể giới thiệu đôi chút về bản thân cũng như thành tích nổi bật của bạn được không?
 

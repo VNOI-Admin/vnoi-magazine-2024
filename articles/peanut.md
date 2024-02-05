@@ -1,7 +1,9 @@
 ---
-title: "Cách làm ``lạc rang''"
-author: Trần Xuân Bách
-author_info: 12A1 Tin, Trường THPT Chuyên Khoa học Tự nhiên
+layout: article
+meta:
+    title: "Cách làm ``lạc rang''"
+    author: Trần Xuân Bách
+    authorInfo: 12A1 Tin, Trường THPT Chuyên Khoa học Tự nhiên
 ---
 
 ## Giới thiệu

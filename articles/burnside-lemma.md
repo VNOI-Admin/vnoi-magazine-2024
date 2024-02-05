@@ -1,8 +1,10 @@
 ---
-title: "Bổ đề ``cháy cạnh''"
-subtitle: (Bổ đề Burnside \& Định lý liệt kê Pólya)
-author: Nguyễn Hoàng Dũng
-author_info: 11 Tin, Trường THPT Chuyên Hà Nội - Amsterdam
+layout: article
+meta:
+    title: "Bổ đề ``cháy cạnh''"
+    subtitle: (Bổ đề Burnside \& Định lý liệt kê Pólya)
+    author: Nguyễn Hoàng Dũng
+    authorInfo: 11 Tin, Trường THPT Chuyên Hà Nội - Amsterdam
 ---
 
 ## Giới thiệu

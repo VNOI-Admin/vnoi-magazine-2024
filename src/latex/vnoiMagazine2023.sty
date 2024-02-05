@@ -1,6 +1,7 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{vnoiMagazine2023}[2023/01/16 VNOI magazine 2023]
 
+\RequirePackage{currfile}
 \RequirePackage{keycommand}
 \RequirePackage{pdfpages}
 \RequirePackage{minted}
@@ -70,17 +71,19 @@
 
 \setlength{\columnsep}{0.8cm}
 
+\newcommand\missingArg[1]{
+    \PackageError{vnoiMagazine2023}{Missing argument #1 in \currfilename}{Please specify #1 in the markdown meta}
+}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%
 % Environment as layout
 %%%%%%%%%%%%%%%%%%%%%%%
 \newkeyenvironment{article}[
-    author,
-    title,
-    subtitle,
-    author,
-    authorInfo
+    title=\missingArg{title},
+    subtitle={},
+    author=\missingArg{author},
+    authorInfo=\missingArg{authorInfo}
 ]
     {
         \pagestyle{fancy}
@@ -113,8 +116,10 @@
     }
 
 \newkeyenvironment{interview}[
-    title,
-    subtitle,
+    title=\missingArg{title},
+    interviewer=\missingArg{interviewer},
+    interviewQ=\missingArg{interviewQ},
+    interviewA=\missingArg{interviewA}
 ]{
     \pagestyle{fancy}
    
@@ -128,12 +133,15 @@
    
     \vfill
     \customPart{\commandkey{title}}
-    \noindent \commandkey{subtitle}
+    \noindent Interviewer: \commandkey{interviewer}
     \vfill
    
     \pagebreak
    
     \everymath={\displaystyle}
+
+    \def\Qtext{\commandkey{interviewA}}
+    \def\Atext{\commandkey{interviewQ}}
 }{
     \pagebreak
 }
