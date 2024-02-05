@@ -1,7 +1,9 @@
 ---
-title: Tối ưu quy hoạch động 1 chiều
-author: Nguyễn Tuấn Tài
-author_info: Sinh viên năm 1, Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia TP.HCM
+layout: article
+meta:
+    title: Tối ưu quy hoạch động 1 chiều
+    author: Nguyễn Tuấn Tài
+    authorInfo: Sinh viên năm 1, Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia TP.HCM
 ---
 
 > *Giới thiệu: đây là kiến thức xuất hiện trong đề thi TST 2022, và đã lấy đi rất nhiều nước mắt của thí sinh. Nếu bạn muốn thử học một thuật toán mới lạ mà nhiều người chưa biết (ngay cả Trần Xuân Bách!), thì đây chính là bài viết dành cho bạn!*

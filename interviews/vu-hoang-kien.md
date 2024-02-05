@@ -1,9 +1,10 @@
 ---
-title: Phỏng vấn Vũ Hoàng Kiên
-subtitle: "Interviewer: Phạm Tuấn Nghĩa ~-- ICPC World Finalist 2020 \\& 2022"
-is_interview: true
-Q: Nghĩa
-A: Kiên
+layout: interview
+meta:
+    title: Phỏng vấn Vũ Hoàng Kiên
+    interviewer: "Phạm Tuấn Nghĩa ~-- ICPC World Finalist 2020 \\& 2022"
+    interviewQ: Nghĩa
+    interviewA: Kiên
 ---
 A: Xin chào tất cả mọi người, mình là Kiên. Hiện tại mình đang học năm 2 của trường Đại học Quốc gia Singapore. Rất vui được gặp các bạn!
 

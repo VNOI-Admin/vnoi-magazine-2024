@@ -1,9 +1,10 @@
 ---
-title: Phỏng vấn Nguyễn Xuân Tùng
-subtitle: "Interviewer: Vương Hoàng Long ~-- ICPC World Finalist 2021"
-is_interview: true
-Q: Long
-A: Tùng
+layout: interview
+meta:
+    title: Phỏng vấn Nguyễn Xuân Tùng
+    interviewer: "Vương Hoàng Long ~-- ICPC World Finalist 2021"
+    interviewQ: Long
+    interviewA: Tùng
 ---
 Q: Chào thần Mèo! Cảm ơn thần Mèo đã nhận lời tham dự phỏng vấn của VNOI! Theo đúng truyền thống, thần Mèo có muốn giới thiệu về bản thân mình không?
 

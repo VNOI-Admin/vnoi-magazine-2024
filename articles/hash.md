@@ -1,7 +1,9 @@
 ---
-title: Tất tần tật về Hash
-author: Lê Tuấn Hoàng
-author_info: 12 Tin, Trường THPT Chuyên Hà Nội - Amsterdam
+layout: article
+meta:
+    title: Tất tần tật về Hash
+    author: Lê Tuấn Hoàng
+    authorInfo: 12 Tin, Trường THPT Chuyên Hà Nội - Amsterdam
 ---
 
 ## Giới thiệu

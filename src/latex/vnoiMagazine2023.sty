@@ -1,6 +1,8 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{vnoiMagazine2023}[2023/01/16 VNOI magazine 2023]
 
+\RequirePackage{currfile}
+\RequirePackage{keycommand}
 \RequirePackage{pdfpages}
 \RequirePackage{minted}
 \RequirePackage{csquotes}
@@ -68,51 +70,82 @@
 }
 
 \setlength{\columnsep}{0.8cm}
-\newcommand\authorInfo{}
-\newenvironment{article}[3]{
-    
-    \pagestyle{fancy}
-    
-    % \ifodd\value{page}\null\newpage\fi%
-    
-    \fancyhead{}
-    \lhead{#1}
-    \rhead{\textrm{\textit{#3}}}
-    
-    ~\thispagestyle{empty}
-    \autoSetBackground
-    
-    % \pagecolor[rgb]{0,0,0}
-    % \color[rgb]{1,1,1}
-    
-    \vfill
-    \customPart{#1}
-    \noindent #2
-    \begin{flushright}
-        \textrm{
-            \textit{#3 \\ \noindent\authorInfo}
-        }
-    \end{flushright}
-    \vfill
-    
-    % \addtocontents{toc}{#1}
-    
-    \pagebreak
-    
-    % \pagecolor[rgb]{1,1,1}
-    % \color[rgb]{0,0,0}
-    
-    \everymath={\displaystyle}
-    \begin{multicols*}{2}
-}{
-    \end{multicols*}
-    \pagebreak
+
+\newcommand\missingArg[1]{
+    \PackageError{vnoiMagazine2023}{Missing argument #1 in \currfilename}{Please specify #1 in the markdown meta}
 }
 
-\newcommand{\interview}[3]{
-    \begin{article}{#1}{Interviewer: #2}{}
-        \input{#3}
-    \end{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+% Environment as layout
+%%%%%%%%%%%%%%%%%%%%%%%
+\newkeyenvironment{article}[
+    title=\missingArg{title},
+    subtitle={},
+    author=\missingArg{author},
+    authorInfo=\missingArg{authorInfo}
+]
+    {
+        \pagestyle{fancy}
+        %
+        \fancyhead{}
+        \lhead{\commandkey{title}}
+        \rhead{\textrm{\textit{\commandkey{author}}}}
+        %
+        ~\thispagestyle{empty}
+        \setbackground{../assets/page-bg.png}
+        % \autoSetBackground
+        %
+        \vfill
+        \customPart{\commandkey{title}}
+        \noindent \commandkey{subtitle}
+        \begin{flushright}
+            \textrm{
+                \textit{\commandkey{author} \\ \noindent\commandkey{authorInfo}}
+            }
+        \end{flushright}
+        \vfill
+        %
+        \pagebreak
+        %
+        \everymath={\displaystyle}
+        \begin{multicols*}{2}
+    }
+    {
+        \end{multicols*}
+        \pagebreak
+    }
+
+\newkeyenvironment{interview}[
+    title=\missingArg{title},
+    interviewer=\missingArg{interviewer},
+    interviewQ=\missingArg{interviewQ},
+    interviewA=\missingArg{interviewA}
+]{
+    \pagestyle{fancy}
+   
+    % \ifodd\value{page}\null\newpage\fi%
+   
+    \fancyhead{}
+    \lhead{\commandkey{title}}
+   
+    ~\thispagestyle{empty}
+    % \autoSetBackground
+    \setbackground{../assets/page-bg.png}
+   
+    \vfill
+    \customPart{\commandkey{title}}
+    \noindent Interviewer: \commandkey{interviewer}
+    \vfill
+   
+    \pagebreak
+   
+    \everymath={\displaystyle}
+
+    \def\Qtext{\commandkey{interviewA}}
+    \def\Atext{\commandkey{interviewQ}}
+}{
+    \pagebreak
 }
 
 % Minted syntax highlight

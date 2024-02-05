@@ -1,8 +1,10 @@
 ---
-title: Cây DSU
-subtitle: (DSU Tree)
-author: Lê Minh Khánh
-author_info: 12A1 Tin, Trường THPT Chuyên Khoa học Tự nhiên, Đại học Quốc gia Hà Nội
+layout: article
+meta:
+    title: Cây DSU
+    subtitle: (DSU Tree)
+    author: Lê Minh Khánh
+    authorInfo: 12A1 Tin, Trường THPT Chuyên Khoa học Tự nhiên, Đại học Quốc gia Hà Nội
 ---
 
 ## Lời nói đầu

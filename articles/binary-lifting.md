@@ -1,7 +1,9 @@
 ---
-title: "``Nhảy nhị phân'' với bộ nhớ $\\mathcal O(n)$"
-author: Ngô Nhật Quang
-author_info: 12A2 Tin, Trường THPT Chuyên Khoa học Tự nhiên, Đại học Quốc gia Hà Nội
+layout: article
+meta:
+    title: "``Nhảy nhị phân'' với bộ nhớ $\\mathcal O(n)$"
+    author: Ngô Nhật Quang
+    authorInfo: 12A2 Tin, Trường THPT Chuyên Khoa học Tự nhiên, Đại học Quốc gia Hà Nội
 ---
 
 ## Giới thiệu

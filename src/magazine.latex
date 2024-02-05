@@ -13,14 +13,14 @@
 \graphicspath{./}
 \begin{document}
     \begin{titlepage}
-        \setCoverImage{../assets/cover_x2.png}
+        \setCoverImage{../assets/cover.png}
     \end{titlepage}
     
     \input{./introduction.latex}
     
     \newpage
     \newgeometry{left=3.5cm,right=3.5cm,top=5cm}
-    \autoSetBackground
+    \setbackground{../assets/page-bg.png}
     \renewcommand{\contentsname}{\hfill\bfseries\Large Mục lục\hfill}   
     \renewcommand{\cftaftertoctitle}{\hfill}
     \tableofcontents

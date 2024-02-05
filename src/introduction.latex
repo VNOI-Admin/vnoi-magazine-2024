@@ -1,6 +1,7 @@
 \newgeometry{left=3.5cm,right=3.5cm,bottom=1.5cm}
 \null
 \vfill
+\setbackground{../assets/credit-bg.png}
 \textit{Quý độc giả thân mến,}
 
 Tạp chí VNOI - Xuân Quý Mão là một ấn phẩm đặc biệt của Câu lạc bộ Olympic Tin

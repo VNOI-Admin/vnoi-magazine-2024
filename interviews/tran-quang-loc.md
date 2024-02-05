@@ -1,9 +1,10 @@
 ---
-title: Phỏng vấn Trần Quang Lộc
-subtitle: "Interviewer: Hoàng Xuân Nhật ~-- Huy chương Bạc IOI 2018"
-is_interview: true
-Q: Nhật
-A: Lộc
+layout: interview
+meta:
+    title: Phỏng vấn Trần Quang Lộc
+    interviewer: "Hoàng Xuân Nhật ~-- Huy chương Bạc IOI 2018"
+    interviewQ: Nhật
+    interviewA: Lộc
 ---
 Q: Xin chào anh Lộc, mời anh giới thiệu về bản thân ạ.
 
