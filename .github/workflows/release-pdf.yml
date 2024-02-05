@@ -19,13 +19,13 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       SHA: ${{ github.sha }}
     steps:
-      - name: Install texlive and packages
-        run: make install-texlive-ubuntu
-
       - name: Checkout code
         uses: actions/checkout@v1
         with:
           submodules: true
+
+      - name: Install texlive and packages
+        run: make install-texlive-ubuntu
 
       - name: Create venv
         run: |
