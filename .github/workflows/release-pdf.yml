@@ -50,7 +50,12 @@ jobs:
         run: make render-pdf
 
       - name: Make release
-        uses: softprops/action-gh-release@v1
+        uses: marvinpinto/action-automatic-releases@v1.2.1
         with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          automatic_release_tag: ${{ github.ref_name }}
+          # mark as prerelease if not main branch
+          prerelease: ${{ github.ref_name != 'main' }}
+          title: ${{ github.ref_name == 'main' && 'PDF' || github.ref_name }}
           files: build/*.pdf
         
