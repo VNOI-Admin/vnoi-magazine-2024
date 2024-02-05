@@ -4,6 +4,7 @@ FLAGS=-halt-on-error -shell-escape
 BUILD_FOLDER=build/
 PDF_NAME=vnoi-magazine-2024.pdf
 OUTPUT=$(BUILD_FOLDER)/$(PDF_NAME)
+SHELL := /bin/bash
 
 all: magazine
 
