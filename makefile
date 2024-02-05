@@ -13,7 +13,6 @@ install-texlive-ubuntu:
 		ghostscript \
 		texlive \
 		texlive-fonts-recommended \
-		texlive-lang-cyrillic \
 		texlive-latex-extra \
 		texlive-lang-other \
 		texlive-plain-generic
