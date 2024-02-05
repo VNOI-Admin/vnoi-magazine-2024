@@ -148,6 +148,31 @@
     \pagebreak
 }
 
+\newkeyenvironment{post}[
+    title=\missingArg{title},
+    summary=''
+]{
+    \pagestyle{fancy}
+   
+    % \ifodd\value{page}\null\newpage\fi%
+   
+    \fancyhead{}
+    \lhead{\commandkey{title}}
+   
+    % \setbackground{../assets/page-bg.png}
+   
+    \customPart{\commandkey{title}}
+    \textit{
+        \commandkey{summary}
+    }
+   
+    \everymath={\displaystyle}
+    \begin{multicols*}{2}
+}{
+    \end{multicols*}
+    \pagebreak
+}
+
 % Minted syntax highlight
 \usemintedstyle{vs}
 % \definecolor{bg}{HTML}{555555}
