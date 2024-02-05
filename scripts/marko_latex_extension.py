@@ -134,8 +134,6 @@ class MarkoLatexRenderer(LatexRenderer):
         
         items: list[str] = []
         
-        items.append(f'\\renewcommand\\authorInfo{{ {get("author_info", "")} }}')
-        
         if get('is_interview', False):
             Q = get('Q', 'Q')
             A = get('A', 'A')
@@ -143,11 +141,12 @@ class MarkoLatexRenderer(LatexRenderer):
             items.append(f'\\def\\Qtext{{{Q}}}')
             items.append(f'\\def\\Atext{{{A}}}')
             
-        items.append(self._environment2("article", children, [
-            get('title', ''),
-            get('subtitle', ''),
-            get('author', '')
-        ]))
+        items.append(self._environment2("article", children, {
+            'title': get('title', ''),
+            'subtitle': get('subtitle', ''),
+            'author': get('author', ''),
+            'authorInfo': get('author_info', ''),
+        }))
         return '\n'.join(items)
     
     def render_heading(self, element: marko.block.Heading):
@@ -275,9 +274,9 @@ class MarkoLatexRenderer(LatexRenderer):
         return "".join(specials.get(s, s) for s in text)
     
     @staticmethod
-    def _environment2(env_name: str, content: str, options: list[str] = []) -> str:
-        options_str = f"{''.join(map(lambda s: '{' + s + '}', options))}" if options else ""
-        return f"\\begin{{{env_name}}}{options_str}\n{content}\\end{{{env_name}}}\n"
+    def _environment2(env_name: str, content: str, options: dict[str,  str] = {}) -> str:
+        options_str = '\n'.join(map(lambda item: f'{item[0]}={{{item[1]}}},', options.items()))
+        return f"\\begin{{{env_name}}}[\n{options_str}\n]\n{content}\\end{{{env_name}}}\n"
 
 def make_extension():
     return MarkoExtension(

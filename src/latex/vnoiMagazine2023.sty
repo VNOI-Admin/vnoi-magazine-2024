@@ -1,6 +1,7 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{vnoiMagazine2023}[2023/01/16 VNOI magazine 2023]
 
+\RequirePackage{keycommand}
 \RequirePackage{pdfpages}
 \RequirePackage{minted}
 \RequirePackage{csquotes}
@@ -68,51 +69,73 @@
 }
 
 \setlength{\columnsep}{0.8cm}
-\newcommand\authorInfo{}
-\newenvironment{article}[3]{
-    
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%
+% Environment as layout
+%%%%%%%%%%%%%%%%%%%%%%%
+\newkeyenvironment{article}[
+    author,
+    title,
+    subtitle,
+    author,
+    authorInfo
+]
+    {
+        \pagestyle{fancy}
+        %
+        \fancyhead{}
+        \lhead{\commandkey{title}}
+        \rhead{\textrm{\textit{\commandkey{author}}}}
+        %
+        ~\thispagestyle{empty}
+        \autoSetBackground
+        %
+        \vfill
+        \customPart{\commandkey{title}}
+        \noindent \commandkey{subtitle}
+        \begin{flushright}
+            \textrm{
+                \textit{\commandkey{author} \\ \noindent\commandkey{authorInfo}}
+            }
+        \end{flushright}
+        \vfill
+        %
+        \pagebreak
+        %
+        \everymath={\displaystyle}
+        \begin{multicols*}{2}
+    }
+    {
+        \end{multicols*}
+        \pagebreak
+    }
+
+\newkeyenvironment{interview}[
+    title,
+    subtitle,
+]{
     \pagestyle{fancy}
-    
+   
     % \ifodd\value{page}\null\newpage\fi%
-    
+   
     \fancyhead{}
-    \lhead{#1}
-    \rhead{\textrm{\textit{#3}}}
-    
+    \lhead{\commandkey{title}}
+   
     ~\thispagestyle{empty}
     \autoSetBackground
-    
-    % \pagecolor[rgb]{0,0,0}
-    % \color[rgb]{1,1,1}
-    
+   
     \vfill
-    \customPart{#1}
-    \noindent #2
-    \begin{flushright}
-        \textrm{
-            \textit{#3 \\ \noindent\authorInfo}
-        }
-    \end{flushright}
+    \customPart{\commandkey{title}}
+    \noindent \commandkey{subtitle}
     \vfill
-    
-    % \addtocontents{toc}{#1}
-    
+   
     \pagebreak
-    
-    % \pagecolor[rgb]{1,1,1}
-    % \color[rgb]{0,0,0}
-    
+   
     \everymath={\displaystyle}
-    \begin{multicols*}{2}
 }{
-    \end{multicols*}
     \pagebreak
-}
-
-\newcommand{\interview}[3]{
-    \begin{article}{#1}{Interviewer: #2}{}
-        \input{#3}
-    \end{article}
 }
 
 % Minted syntax highlight
