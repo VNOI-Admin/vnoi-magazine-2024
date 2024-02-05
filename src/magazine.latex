@@ -27,6 +27,8 @@
     \newpage
     \restoregeometry
     
+    \input{./articles/vnoi-2023.latex}
+    \input{./articles/vnoi-cup.latex}
     \input{./articles/gaming.latex}
     \input{./articles/hash.latex}
     \input{./articles/1d1d-dp-optimization.latex}
