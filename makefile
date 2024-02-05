@@ -2,13 +2,22 @@ export TEXINPUTS=.:latex/:
 LATEX=pdflatex
 FLAGS=-halt-on-error -shell-escape
 BUILD_FOLDER=build/
-OUTPUT=$(BUILD_FOLDER)/vnoi-magazine-2023.pdf
+PDF_NAME=vnoi-magazine-2024.pdf
+OUTPUT=$(BUILD_FOLDER)/$(PDF_NAME)
 
 all: magazine
 
-install-dependencies:
-	pip install marko pyyaml
-	
+install-texlive-ubuntu:
+	sudo apt update
+	sudo apt install \
+		ghostscript \
+		texlive \
+		texlive-fonts-recommended \
+		texlive-lang-cyrillic \
+		texlive-latex-extra \
+		texlive-lang-other \
+		texlive-plain-generic
+
 clean:
 	rm src/*.log
 	rm src/*.out
@@ -19,12 +28,7 @@ $(BUILD_FOLDER):
 	mkdir -p $(BUILD_FOLDER)
 	
 magazine: render-articles | $(BUILD_FOLDER)
-	cd src; \
-	$(LATEX) $(FLAGS) vnoi-magazine-2023.latex; \
-	cp vnoi-magazine-2023.pdf ../
-	
-install-deps:
-	pip install marko
+	make render-pdf
 	
 render-articles:
 	export PYTHONPATH="${PYTHONPATH}:./scripts/"; \
@@ -33,10 +37,9 @@ render-articles:
 		echo Processing $$article; \
 		cat $$article | marko -e marko_latex_extension -o src/$${article//.md/.latex}; \
 	done
-	
-preprocess-interviews:
-	mkdir -p src/interviews; \
-	for interview in ./interviews/*.txt; do \
-		echo Processing $$interview; \
-		cat $$interview | python ./scripts/preprocess-interview.py > src/$${interview//.txt/.latex}; \
-	done
+
+render-pdf: $(BUILD_FOLDER)
+	cd src; \
+	$(LATEX) $(FLAGS) magazine.latex; \
+	cd ..; \
+	cp src/magazine.pdf $(OUTPUT)
