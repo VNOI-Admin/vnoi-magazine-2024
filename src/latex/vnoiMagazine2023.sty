@@ -13,7 +13,6 @@
     citecolor = red,
     anchorcolor = blue
 ]{hyperref}
-\RequirePackage{amsmath}
 \RequirePackage{multicol}
 \RequirePackage{flushend}
 \RequirePackage{enumitem}
@@ -27,25 +26,37 @@
 \RequirePackage{tocloft}
 \RequirePackage{eso-pic}
 \RequirePackage{intcalc}
+\RequirePackage{capt-of}
+\RequirePackage{etoolbox}
+\RequirePackage{wrapfig2}
+\RequirePackage{amsmath}
 
 \newcolumntype{S}{>{\hsize=.5\hsize}X}
 
 \newcommand{\setCoverImage}[1]{\includepdf{#1}}
-\newcommand{\includeImage}[2]{%
-    \begin{center}
-        \includegraphics[width=0.9\linewidth]{#1} \\
-        \textit{\small #2}
-    \end{center}
-}
 
-\newcommand{\insertLink}[2]{%
-    \href{#1}{#2}\footnote{#1}
+\newcommand{\defineLocalCommand}{
+    \newcommand{\includeImage}[2]{%
+        \begin{center}
+            \includegraphics[width=0.9\linewidth]{##1} \\
+            \footnotesize{\textit{##2}}
+        \end{center}
+    }
+    \newcommand{\insertLink}[2]{%
+        \href{##1}{##2}\footnote{##1}
+    }
+    \newcommand{\insertTableLink}[2]{%
+        \href{##1}{##2}\footnote{##1}
+    }
+    \newcommand\customPart[1]{
+        \part*{##1}
+        \addcontentsline{toc}{part}{\protect\numberline{}##1}
+    }
+    \newcommand\shorthand[2]{%
+        ##1\footnote{##1: ##2}
+    }
+    \newcommand{\peanut}{\includegraphics[width=1em]{./assets/peanut/peanut.png}}
 }
-
-\newcommand{\insertTableLink}[2]{%
-    \href{#1}{#2}\footnote{#1}
-}
-\newcommand{\peanut}{\includegraphics[width=1em]{./assets/peanut/peanut.png}}
 
 \renewcommand{\cftpartleader}{\cftdotfill{\cftdotsep}}
 \renewcommand\cftpartafterpnum{\vskip-20pt}
@@ -62,16 +73,6 @@
 \newcommand\autoSetBackground[0]{
     \setbackground{../assets/background/\intcalcMod{\value{backgroundCounter}}{5}.png}  \stepcounter{backgroundCounter}
 }
-
-\newcommand\customPart[1]{
-    \part*{#1}
-    \addcontentsline{toc}{part}{\protect\numberline{}#1}
-}
-
-\newcommand\shorthand[2]{%
-    #1\footnote{#1: #2}
-}
-
 \setlength{\columnsep}{0.8cm}
 
 \newcommand\missingArg[1]{
@@ -89,6 +90,7 @@
     authorInfo=\missingArg{authorInfo}
 ]
 {
+    \defineLocalCommand{}
     \pagestyle{fancy}
     %
     \fancyhead{}
@@ -125,6 +127,7 @@
     interviewQ=\missingArg{interviewQ},
     interviewA=\missingArg{interviewA}
 ]{
+    \defineLocalCommand{}
     \pagestyle{fancy}
    
     % \ifodd\value{page}\null\newpage\fi%
@@ -155,6 +158,33 @@
     title=\missingArg{title},
     interviewer=\missingArg{interviewer},
 ]{
+    \defineLocalCommand{}
+
+    \newtoggle{imageSideBool}
+    \newcommand\imageSide[0]{%
+        \iftoggle{imageSideBool}{L}{R}%
+    }
+
+    % redefine includeImage to have floating image
+    \renewcommand{\includeImage}[2]{%
+        \setlength\intextsep{-0.4ex}
+        \begin{wrapfigure}{\imageSide}{0.4\textwidth}
+            % \vspace{-\intextsep}
+            \centering
+            \includegraphics[width=\linewidth]{##1}
+            % check if ##2 is empty
+            \ifblank{##2}{}{%
+                \footnotesize{\textit{##2}}%
+            }
+            % \vspace{-\intextsep}
+        \end{wrapfigure}
+        \iftoggle{imageSideBool}{
+            \togglefalse{imageSideBool}
+        }{
+            \toggletrue{imageSideBool}
+        }
+    }
+
     \pagestyle{fancy}
    
     % \ifodd\value{page}\null\newpage\fi%
@@ -182,6 +212,7 @@
     title=\missingArg{title},
     summary=''
 ]{
+    \defineLocalCommand{}
     \setbackgroundEverypage{../assets/page-bg.png}
     \pagestyle{fancy}
    
@@ -208,6 +239,7 @@
     title=\missingArg{title},
     summary=''
 ]{
+    \defineLocalCommand{}
     \setbackgroundEverypage{../assets/page-bg.png}
     \pagestyle{fancy}
    
