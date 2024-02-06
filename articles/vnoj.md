@@ -9,7 +9,7 @@ meta:
 
 ## Lịch sử phát triển
 
-Quay trở lại năm 2007, đây là thời kỳ Internet phát triển mạnh tại Việt Nam, cùng khoảng thời gian đó trên thế giới xuất hiện nhiều Online Judge như SPOJ, UVa, … Ấp ủ ý tưởng về một trình chấm trực tuyến cho các bạn học sinh, sinh viên Việt Nam, nhóm các sinh viên bao gồm Ngô Minh Đức, Khúc Anh Tuấn và Nguyễn Minh Hiếu đã lập ra VOJ với sự hỗ trợ của ban quản trị SPOJ và nằm dưới sự quản lý của Diễn đàn tin học Việt Nam (VNOI), hiện nay hệ thống VOJ vẫn còn hoạt động tại tên miền [vn.spoj.com](https://vn.spoj.com/)
+Quay trở lại năm 2007, đây là thời kỳ Internet phát triển mạnh tại Việt Nam, cùng khoảng thời gian đó trên thế giới xuất hiện nhiều Online Judge như SPOJ, UVa, … Ấp ủ ý tưởng về một trình chấm trực tuyến cho các bạn học sinh, sinh viên Việt Nam, nhóm các sinh viên bao gồm Ngô Minh Đức, Khúc Anh Tuấn và Nguyễn Minh Hiếu đã lập ra VOJ với sự hỗ trợ của ban quản trị SPOJ và nằm dưới sự quản lý của Diễn đàn tin học Việt Nam (VNOI), hiện nay hệ thống VOJ vẫn còn hoạt động tại tên miền <https://vn.spoj.com/>
 
 ![Các lượt nộp bài trên trang vn.spoj.com](../assets/vnoj/image1.jpg)
 
@@ -17,7 +17,7 @@ Sau khi ra đời, VOJ là nơi lưu trữ dữ liệu về bài tập của nhi
 
 Tuy nhiên, sau nhiều năm hoạt động, hệ thống VOJ dần thể hiện những điểm yếu so với các hệ thống mới, bao gồm việc khó sử dụng hơn, xuất hiện nhiều lỗi với các bài tập cũ, dẫn tới bài bị ẩn và không thể chấm được. Vì vậy vào ngày 01/04/2017, ban quản trị VNOI quyết định chuyển các bài tập từ VOJ sang hệ thống Codeforces, một hệ thống chấm bài được phát triển và duy trì bởi Mikhail Mirzayanov cùng cộng sự. 
 
-Tới ngày 03/04/2020 việc tải các bài tập lên hệ thống Codeforces đã chính thức hoàn tất. Ngoài những bài đã có trên hệ thống VOJ, ban quản trị còn bổ sung thêm dữ liệu cho một số các kỳ thi như VOI 2017, VOI 2018, VNOI Online, … Hiện nay [nhóm Codeforces VNOI](https://codeforces.com/group/FLVn1Sc504/) vẫn còn trực tuyến, tuy nhiên các bài tập tại đây không còn được cập nhật, bổ sung.
+Tới ngày 03/04/2020 việc tải các bài tập lên hệ thống Codeforces đã chính thức hoàn tất. Ngoài những bài đã có trên hệ thống VOJ, ban quản trị còn bổ sung thêm dữ liệu cho một số các kỳ thi như VOI 2017, VOI 2018, VNOI Online, … Hiện nay [nhóm Codeforces VNOI](<https://codeforces.com/group/FLVn1Sc504/>) vẫn còn trực tuyến, tuy nhiên các bài tập tại đây không còn được cập nhật, bổ sung.
 
 ![Nhóm Codeforces VNOI vào thời điểm năm 2020](../assets/vnoj/image2.jpg)
 
@@ -25,7 +25,7 @@ Ngày 28/02/2021, Đại hội thành lập Câu lạc bộ Olympic Tin học Vi
 
 ![Nhóm Codeforces VNOI vào thời điểm năm 2020](../assets/vnoj/image3.jpg)
 
-Hệ thống VNOJ – VNOI Online Judge được phát triển dựa trên DMOJ – một hệ thống chấm bài mã nguồn mở. Hiện nay, VNOJ vẫn đang hoạt động tại tên miền [oj.vnoi.info](https://oj.vnoi.info), các bài tập và kỳ thi trên hệ thống vẫn được cập nhật thường xuyên, liên tục. Trong số đó, nhiều kỳ thi mang thương hiệu của VNOI đã được tổ chức thành công như Bedao Contest, VNOI CUP, …. 
+Hệ thống VNOJ – VNOI Online Judge được phát triển dựa trên DMOJ – một hệ thống chấm bài mã nguồn mở. Hiện nay, VNOJ vẫn đang hoạt động tại tên miền <https://oj.vnoi.info>, các bài tập và kỳ thi trên hệ thống vẫn được cập nhật thường xuyên, liên tục. Trong số đó, nhiều kỳ thi mang thương hiệu của VNOI đã được tổ chức thành công như Bedao Contest, VNOI CUP, …. 
 
 ## Các tính năng nổi bật của VNOJ
 
