@@ -28,6 +28,7 @@
     \restoregeometry
     
     \input{./articles/vnoi-2023.latex}
+    \input{./articles/vnoj.latex}
     \input{./articles/vnoi-cup.latex}
     \input{./interviews/2024-hoang-quoc-viet.latex}
     \input{./articles/gaming.latex}
