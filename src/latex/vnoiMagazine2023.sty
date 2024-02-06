@@ -109,14 +109,14 @@
     \end{flushright}
     \vfill
     %
-    \pagebreak
+    \newpage
     %
     \everymath={\displaystyle}
     \begin{multicols*}{2}
 }
 {
     \end{multicols*}
-    \pagebreak
+    \newpage
 }
 
 \newkeyenvironment{interview}[
@@ -141,14 +141,41 @@
     \noindent Interviewer: \commandkey{interviewer}
     \vfill
    
-    \pagebreak
+    \newpage
    
     \everymath={\displaystyle}
 
     \def\Qtext{\commandkey{interviewA}}
     \def\Atext{\commandkey{interviewQ}}
 }{
-    \pagebreak
+    \newpage
+}
+
+\newkeyenvironment{interview2}[
+    title=\missingArg{title},
+    interviewer=\missingArg{interviewer},
+]{
+    \pagestyle{fancy}
+   
+    % \ifodd\value{page}\null\newpage\fi%
+   
+    \fancyhead{}
+    \lhead{\commandkey{title}}
+   
+    ~\thispagestyle{empty}
+    % \autoSetBackground
+    \setbackgroundEverypage{../assets/page-bg.png}
+   
+    \vfill
+    \customPart{\commandkey{title}}
+    \noindent Interviewer: \commandkey{interviewer}
+    \vfill
+   
+    \newpage
+   
+    \everymath={\displaystyle}
+}{
+    \newpage
 }
 
 \newkeyenvironment{post}[
@@ -174,7 +201,7 @@
     \begin{multicols*}{2}
 }{
     \end{multicols*}
-    \pagebreak
+    \newpage
 }
 
 % Minted syntax highlight
