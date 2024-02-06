@@ -1,7 +1,7 @@
 ---
 layout: interview2
 meta:
-    title: Phỏng vấn Hoàng Quốc Việt 
+    title: Phỏng vấn Hoàng Quốc Việt
     interviewer: "Vương Hoàng Long ~-- ICPC World Finalist 2021"
 ---
 
@@ -31,7 +31,7 @@ Hồi đấy trừ làm những bài dễ ra thì em làm cũng khá nhiều bà
 
 ### Được biết thì bạn Việt có điểm khác so với những bạn trong VNOI,.đấy là tuy bạn rất khủng nhưng lại có rất nhiều người yêu. Liệu Việt có thể chia sẻ cách để làm quen, mở rộng và duy trì các mối quan hệ được không?
 
-Việt: Kinh nghiệm của em thì cứ là chính mình thôi là được ạ, tại nếu người ta thích mình thì người ta sẽ cảm mến chính bản thân mình chứ không cần phải tỏ ra mình là người khác ạ. Khi đã có được thiện cảm của người ta thì mọi chuyện lúc đấy sẽ diễn ra tự nhiên thôi ạ.Người ta cũng có câu là kể cả con gái tỏ ra chủ động thì người ta cũng không bao giờ chủ động nên mình là con trai thì lúc nào cũng phải chủ động trước ạ.
+Kinh nghiệm của em thì cứ là chính mình thôi là được ạ, tại nếu người ta thích mình thì người ta sẽ cảm mến chính bản thân mình chứ không cần phải tỏ ra mình là người khác ạ. Khi đã có được thiện cảm của người ta thì mọi chuyện lúc đấy sẽ diễn ra tự nhiên thôi ạ.Người ta cũng có câu là kể cả con gái tỏ ra chủ động thì người ta cũng không bao giờ chủ động nên mình là con trai thì lúc nào cũng phải chủ động trước ạ.
 
 ### Bạn có thể chia sẻ quá trình nhập học đại học của bạn được không? Gia đình bạn có ủng hộ những quyết định của bạn không?
 
@@ -88,4 +88,4 @@ Em có thể tiết lộ là em đang ấp ủ chuyện xem xét các bạn TNV 
 
 Em hiện đang tham gia khá nhiều các workshop liên quan đến định hướng nghề nghiệp như blockchain và software engineering. Em cũng muốn thử sức ở lĩnh vực nào liên quan nhiều đến tài chính một chút tại em thấy tư duy tài chính cũng khá hay, giúp bản thân suy nghĩ mạch lạc hơn ạ. Ước mơ xa hơn của em là được làm startup, nhưng công ty lý tưởng để vào làm thì em cũng có một số cái tên như Pendle Finance, Dytechlab ạ. Em cũng chưa đi làm nhưng dưới góc nhìn của em thì một công việc lý tưởng phải là nơi em thật sự đam mê, luôn sẵn sàng cống hiến hay thức đêm nếu có nhiệm vụ quan trọng. Đấy sẽ là nơi em ở được là một phần của công ty chứ không phải làm cho xong việc rồi nghỉ.
 
-Cảm ơn bạn đã nhận lời và tham gia phỏng vấn ngày hôm nay. Chúc bạn một năm mới nhiều sức khỏe, ngày càng phát triển Bedao và sớm kiếm được thực tập ở các công ty lớn!
+### Cảm ơn bạn đã nhận lời và tham gia phỏng vấn ngày hôm nay. Chúc bạn một năm mới nhiều sức khỏe, ngày càng phát triển Bedao và sớm kiếm được thực tập ở các công ty lớn!

@@ -30,7 +30,15 @@
     \input{./articles/vnoi-2023.latex}
     \input{./articles/vnoj.latex}
     \input{./articles/vnoi-cup.latex}
+
+    \input{./articles/tortoise_and_hare.latex}
+    \input{./articles/vtree.latex}
+
+    \input{./interviews/2024-hoang-quoc-viet.latex}
+
+
     \input{./articles/do-vui.latex}
+
     
     \newpage
     \input{./credit.latex}
