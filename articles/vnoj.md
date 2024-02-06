@@ -17,7 +17,7 @@ Sau khi ra đời, VOJ là nơi lưu trữ dữ liệu về bài tập của nhi
 
 Tuy nhiên, sau nhiều năm hoạt động, hệ thống VOJ dần thể hiện những điểm yếu so với các hệ thống mới, bao gồm việc khó sử dụng hơn, xuất hiện nhiều lỗi với các bài tập cũ, dẫn tới bài bị ẩn và không thể chấm được. Vì vậy vào ngày 01/04/2017, ban quản trị VNOI quyết định chuyển các bài tập từ VOJ sang hệ thống Codeforces, một hệ thống chấm bài được phát triển và duy trì bởi Mikhail Mirzayanov cùng cộng sự. 
 
-Tới ngày 03/04/2020 việc tải các bài tập lên hệ thống Codeforces đã chính thức hoàn tất. Ngoài những bài đã có trên hệ thống VOJ, ban quản trị còn bổ sung thêm dữ liệu cho một số các kỳ thi như VOI 2017, VOI 2018, VNOI Online, … Hiện nay [nhóm Codeforces VNOI](<https://codeforces.com/group/FLVn1Sc504/>) vẫn còn trực tuyến, tuy nhiên các bài tập tại đây không còn được cập nhật, bổ sung.
+Tới ngày 03/04/2020 việc tải các bài tập lên hệ thống Codeforces đã chính thức hoàn tất. Ngoài những bài đã có trên hệ thống VOJ, ban quản trị còn bổ sung thêm dữ liệu cho một số các kỳ thi như VOI 2017, VOI 2018, VNOI Online, … Hiện nay [nhóm Codeforces VNOI](https://codeforces.com/group/FLVn1Sc504/) vẫn còn trực tuyến, tuy nhiên các bài tập tại đây không còn được cập nhật, bổ sung.
 
 ![Nhóm Codeforces VNOI vào thời điểm năm 2020](../assets/vnoj/image2.jpg)
 
