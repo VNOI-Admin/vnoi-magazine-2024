@@ -9,4 +9,4 @@ _minted*/
 *.pdf
 *.toc
 
-venv/
+.venv/
