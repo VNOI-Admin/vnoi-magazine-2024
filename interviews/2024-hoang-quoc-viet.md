@@ -37,11 +37,10 @@ Việt: Kinh nghiệm của em thì cứ là chính mình thôi là được ạ
 
 Sau thi tốt nghiệp thì em cũng được tuyển thẳng vào UET do có giải QG nên sau đó em có chọn ngành CNTT (CN1) ạ. Theo em được nghe thì ngành này được ít người biết đến so với ngành Khoa học máy tính của UET, do nghe qua học CNTT thì người ta tưởng là đi cài win dạo, nhưng mà theo em quan sát được thì có rất nhiều người khủng vào ngành này nên em cũng vào luôn. Về trường thì nhiều người khi hỏi UET thì họ không biết là trường nào, họ còn hỏi lại có phải là Học viện Bưu chính Viễn thông (PTIT) không nên em thấy trường rất ít được nhiều người biết tới. Nhưng em may mắn là có mẹ hoàn toàn ủng hộ em, nên mọi quyết định em đều tự tìm hiểu còn gia đình chỉ đứng sau ủng hộ em thôi ạ. Việc em chọn UET mà không chọn những trường khác như Bách Khoa Hà Nội (HUST) thì chắc chắn do sợ môn đại cương rồi ạ. Nhưng mà đấy cũng không phải lý do chính mà là em vào UET để thi ICPC do em được biết trường rất đầu tư vào ICPC ạ, nên nhiều bạn mạnh vào trường cũng giúp em có thể thoải mái lập team hơn, ngay trước khi vào UET là em đã có team rồi ạ
 
-**Kỳ thi ở Huế là năm thứ 2 bạn thi ICPC, bạn có thể kể về hành trình luyện tập và thi ICPC của bạn trong 2 năm qua được không?**
-
-Năm nhất thì bọn em làm bài nhiều hơn thì lại không được thi ICPC Regional ở TPHCM, qua năm hai thì bọn em cũng làm nhiều bài nhưng không làm nhiều như kỳ vọng, thế thì năm đấy lại được thi ICPC Regional ở Huế. Thật ra cũng do thiên thời, địa lợi, nhân hóa nữa ạ, do năm đó UET lấy số đội tham dự cũng nhiều nên đội được tham dự. Trong lúc train thì bọn em có xoay vai trò của nhau, nhất là vị trí leader khi mà mọi người sẽ thay phiên ‘chỉ đạo’ trong từng buổi luyện tập. Mỗi buổi như thế team sẽ cùng nhau làm 5 tiếng và sau đó thảo luận về bài và cùng nhau giải lại những bài chưa làm được. Việc luyện tập thì làm một mình sẽ chủ động thời gian hơn nhưng theo em thấy thì sẽ không có tinh thần như khi làm chung với team vì nhiều lúc có một số chỗ mình cần hỏi thì không có ngay đồng đội ngay cạnh để giải đáp được. Cường độ luyện tập thì bọn em sẽ làm theo team 1 tuần/1 lần, còn làm cá nhân thì tùy thời gian biểu của mỗi người mà bọn em làm bài trên Codeforces thôi ạ. 
+### Kỳ thi ở Huế là năm thứ 2 bạn thi ICPC, bạn có thể kể về hành trình luyện tập và thi ICPC của bạn trong 2 năm qua được không?
 
 ![](../assets/interviews/2024-hoang-quoc-viet/image1.jpg)
+Năm nhất thì bọn em làm bài nhiều hơn thì lại không được thi ICPC Regional ở TPHCM, qua năm hai thì bọn em cũng làm nhiều bài nhưng không làm nhiều như kỳ vọng, thế thì năm đấy lại được thi ICPC Regional ở Huế. Thật ra cũng do thiên thời, địa lợi, nhân hóa nữa ạ, do năm đó UET lấy số đội tham dự cũng nhiều nên đội được tham dự. Trong lúc train thì bọn em có xoay vai trò của nhau, nhất là vị trí leader khi mà mọi người sẽ thay phiên ‘chỉ đạo’ trong từng buổi luyện tập. Mỗi buổi như thế team sẽ cùng nhau làm 5 tiếng và sau đó thảo luận về bài và cùng nhau giải lại những bài chưa làm được. Việc luyện tập thì làm một mình sẽ chủ động thời gian hơn nhưng theo em thấy thì sẽ không có tinh thần như khi làm chung với team vì nhiều lúc có một số chỗ mình cần hỏi thì không có ngay đồng đội ngay cạnh để giải đáp được. Cường độ luyện tập thì bọn em sẽ làm theo team 1 tuần/1 lần, còn làm cá nhân thì tùy thời gian biểu của mỗi người mà bọn em làm bài trên Codeforces thôi ạ. 
 
 ### Bạn có kỉ niệm gì ở lần tham gia thi ICPC Regional ở Huế không? 
 
@@ -49,9 +48,8 @@ Kỉ niệm em nhớ nhất chắc là món chè heo quay, em không biết tạ
 
 ### Bạn có thể chia sẻ bí quyết cân bằng giữa việc ăn chơi, việc học trên trường và thi ICPC được không? Trong quá trình cân bằng bạn có gặp trở ngại nào không?
 
-Theo em thì mình không cố cân bằng những việc này thì mình không cần cân bằng, em chỉ đơn giản xem những việc này là hoạt động thường ngày diễn ra tự nhiên thôi ạ. Như em chọn tuần nào train ICPC thì tuần đấy sẽ ít việc để làm trên lớp hơn, những ngày đi chơi thì em quyết định sẽ không học trong ngày hôm đấy để hôm sau học bù nhiều hơn ạ. Công việc trong VNOI thì em sẽ sắp xếp từ trước nên em thấy mọi thứ nó là một phần của cuộc sống em luôn ạ, lúc đấy em thấy mọi việc cân bằng sẽ dễ hơn.
-
 ![](../assets/interviews/2024-hoang-quoc-viet/image2.jpg)
+Theo em thì mình không cố cân bằng những việc này thì mình không cần cân bằng, em chỉ đơn giản xem những việc này là hoạt động thường ngày diễn ra tự nhiên thôi ạ. Như em chọn tuần nào train ICPC thì tuần đấy sẽ ít việc để làm trên lớp hơn, những ngày đi chơi thì em quyết định sẽ không học trong ngày hôm đấy để hôm sau học bù nhiều hơn ạ. Công việc trong VNOI thì em sẽ sắp xếp từ trước nên em thấy mọi thứ nó là một phần của cuộc sống em luôn ạ, lúc đấy em thấy mọi việc cân bằng sẽ dễ hơn.
 
 ### Hiện tại thì Việt đang quản lý team Bedao và xuất bản rất nhiều chuỗi contest vô cùng chất lượng trên VNOJ, không biết quá trình từ một TNV lên ‘trùm’ của team Bedao thì như thế nào?
 
@@ -75,9 +73,8 @@ Việt: Trải nghiệm đáng nhớ chắc là em ‘dí deadline’ các bạn
 
 ### Bạn cảm thấy trong quãng thời gian dẫn dắt team Bedao thì bạn học được những gì?
 
-Em cũng học được cách giao tiếp cũng như diễn đạt cho mọi người, mình không thể giao tiếp mà chỉ mình hiểu được mà cần diễn đạt rõ ràng để các bạn cùng tiếp nhận. Trước đó thì em bị đánh giá là diễn đạt hơi kém nhưng sau quá trình làm ở Bedao một thời gian dài thì em thấy mình tự tin trong giao tiếp hơn rất nhiều. Ngoài ra thì em còn học một kỹ năng nữa, người xưa hay gọi là ‘Binh pháp Tôn Tử’, đấy là kỹ năng nhận xét và đánh giá công việc của người khác. Ta sẽ phải quan sát điểm mạnh và điểm yếu của mỗi người để đặt vào vị trí bạn có thể phát huy được tối đa điểm mạnh của mình, như bạn nào vốn giỏi ra đề thì mình sẽ khuyến khích bạn ra đề nhiều hơn, bạn nào giỏi làm tester thì sẽ không cho bạn ý ra đề nhiều mà cho các bạn ý kiểm tra bài tập nhiều hơn, cũng từ đấy mình phát hiện ra những bạn làm việc trách nhiệm để đề cử lên coordinator. 
-
 ![](../assets/interviews/2024-hoang-quoc-viet/image3.jpg)
+Em cũng học được cách giao tiếp cũng như diễn đạt cho mọi người, mình không thể giao tiếp mà chỉ mình hiểu được mà cần diễn đạt rõ ràng để các bạn cùng tiếp nhận. Trước đó thì em bị đánh giá là diễn đạt hơi kém nhưng sau quá trình làm ở Bedao một thời gian dài thì em thấy mình tự tin trong giao tiếp hơn rất nhiều. Ngoài ra thì em còn học một kỹ năng nữa, người xưa hay gọi là ‘Binh pháp Tôn Tử’, đấy là kỹ năng nhận xét và đánh giá công việc của người khác. Ta sẽ phải quan sát điểm mạnh và điểm yếu của mỗi người để đặt vào vị trí bạn có thể phát huy được tối đa điểm mạnh của mình, như bạn nào vốn giỏi ra đề thì mình sẽ khuyến khích bạn ra đề nhiều hơn, bạn nào giỏi làm tester thì sẽ không cho bạn ý ra đề nhiều mà cho các bạn ý kiểm tra bài tập nhiều hơn, cũng từ đấy mình phát hiện ra những bạn làm việc trách nhiệm để đề cử lên coordinator. 
 
 ### Về tương lai của team Bedao thì bạn có dự tính gì để duy trì Bedao Contest là chuỗi contest chất lượng và uy tín nhất?
 
