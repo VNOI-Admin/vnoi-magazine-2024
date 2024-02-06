@@ -51,6 +51,7 @@
     \input{./credit.latex}
     
     \newpage
+    \ClearShipoutPictureBG
     \setCoverImage{../assets/backcover.png}
     
 \end{document}
