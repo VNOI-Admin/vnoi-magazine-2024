@@ -1,11 +1,12 @@
 ---
-layout: post
+layout: quiz
 meta:
     title: Thách thức lập trình
     summary: >
         Thành công không phải là một đặc quyền và đặc lợi của riêng bất kì một ai. Tất cả chúng ta đều có thể thành công, nhưng không phải tất cả mọi người đều sẽ thành công, vì chỉ có những người thật sự nỗ lực và biết cách đầu tư vào bản thân mình mới có thể thật sự “hóa Rồng”...
 
 ---
+![](../assets/do-vui/image1.jpg)
 Truyền thuyết cho rằng, khi vũ trụ mới hình thành, Ngọc Hoàng đã tạo ra mưa, gió, bão, sấm. Sau đó, do bận rộn với việc tạo ra con người, Ngọc Hoàng đã giao cho rồng, một sinh vật thiên đường, nhiệm vụ bay lượn trên trời và phun nước xuống trái đất để tạo ra mưa. Tuy nhiên, do số lượng rồng trên trời không đủ để tạo ra mưa cho mọi nơi, Ngọc Hoàng đã tổ chức một cuộc thi để chọn lựa các sinh vật trở thành rồng, được gọi là “thi rồng”. Khi lệnh của Ngọc Hoàng được ban xuống, vua Thủy Tề đã thông báo cho tất cả các loài dưới nước tham gia. Chỉ những sinh vật nào đủ sức và tài năng, vượt qua thử thách sẽ biến thành Rồng. 
 
 Các sinh vật phải vượt qua một bài vô cùng hóc búa từ Ngọc Hoàng, bài toán được phát biểu như sau:
