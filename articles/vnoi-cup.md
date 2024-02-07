@@ -33,7 +33,7 @@ Với tiêu chí tìm kiếm các coders tài năng trên khắp cả nước, V
 
 ## Ba vòng loại VNOI Cup 2023
 
-Ngay từ vòng loại đầu tiên, cuộc thi đã diễn ra vô cùng gay cấn và sôi động với 1369 thí sinh, con số kỷ lục trong tất cả các kỳ thi đã từng tổ chức trên hệ thống VNOJ trước đó. Với kinh nghiệm chinh chiến từ nhiều cuộc thi lớn trong và ngoài nước, Trần Xuân Bách (flextivity) đã dành chiến thắng lội ngược dòng ngoạn mục qua việc AC toàn bộ 06 bài ở phút thứ 143, chỉ 07 phút trước khi vòng thi kết thúc. Sau vòng loại thứ nhất này, bên cạnh Trần Xuân Bách, gương mặt xuất sắc góp mặt tại vòng Chung kết chính là Phạm Quốc Hùng (hollwo_pelw). Đáng nói, Trần Xuân Bách và Phạm Quốc Hùng cũng là hai thí sinh từng góp mặt trong Chung kết VNOI Cup 2022. 
+Ngay từ vòng loại đầu tiên, cuộc thi đã diễn ra vô cùng gay cấn và sôi động với 1369 thí sinh, con số kỷ lục trong tất cả các kỳ thi đã từng tổ chức trên hệ thống VNOJ trước đó. Với kinh nghiệm chinh chiến từ nhiều cuộc thi lớn trong và ngoài nước, Trần Xuân Bách (fextivity) đã dành chiến thắng lội ngược dòng ngoạn mục qua việc AC toàn bộ 06 bài ở phút thứ 143, chỉ 07 phút trước khi vòng thi kết thúc. Sau vòng loại thứ nhất này, bên cạnh Trần Xuân Bách, gương mặt xuất sắc góp mặt tại vòng Chung kết chính là Phạm Quốc Hùng (hollwo_pelw). Đáng nói, Trần Xuân Bách và Phạm Quốc Hùng cũng là hai thí sinh từng góp mặt trong Chung kết VNOI Cup 2022. 
 
 Vòng loại thứ hai cũng đầy kịch tính khi thứ hạng trên bảng xếp hạng được thay đổi liên tục. Tại vòng này, hai chủ nhân xuất sắc của tấm vé tham dự vòng Chung kết đã gọi tên Lê Ngọc Bảo Anh (BaoJiaoPisu) và Nguyễn Tấn Sỹ Nguyên (flashmt). Cả hai đã có những màn rượt đuổi điểm số vô cùng căng thẳng và quyết liệt và cùng kết thúc với đồng số điểm 9500/12000. 
 
