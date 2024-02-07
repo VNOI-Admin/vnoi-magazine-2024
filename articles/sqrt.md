@@ -6,13 +6,13 @@ meta:
     authorInfo: Sinh viên năm 1, Trường Đại học Công Nghệ, Đại học Quốc gia Hà Nội
 ---
 
-Chia căn, một kĩ thuật thú vị, thiên biến vạn hóa qua từng bài tập.
+## Lời nói đầu
+*Chia căn, một kĩ thuật thú vị, thiên biến vạn hóa qua từng bài tập.*
 
 Những kĩ thuật, thuật toán vận dụng các tính chất của phép căn thường được gọi chung là chia căn. Bài viết được biên soạn nhằm mang đến cho bạn đọc cái nhìn chi tiết nhất về chia căn và những vấn đề liên quan.
 
 Các kĩ thuật được trình bài sẽ đi kèm một vài bài toán ví dụ, được đưa vào giúp bạn đọc dễ hình dung về ứng dụng của kĩ thuật hơn. Chia căn có thể không phải lời giải tối ưu nhất cho bài toán ví dụ. Cài đặt mẫu được cài đặt bằng ngôn ngữ C++.
 
-# Chia căn
 ## 0. Xử lí truy vấn online và offline
 Bài viết sẽ nhắc tới hai khái niệm này tương đối nhiều, nên xin phép bạn đọc được giải thích hai khái niệm này.
 
@@ -26,7 +26,7 @@ Hai khái niệm thường được sử dụng trong các bài toán xử lí t
 
 Có nhận xét: Nếu số nguyên dương $n$ được tách thành tổng của các số nguyên dương, thì tồn tại không quá $\mathcal{O}(\sqrt n)$ số nguyên dương khác nhau. Vì để cực đại số lượng số khác nhau, ta sẽ chọn những số nhỏ nhất có thể: $1,2,3,...$ Nếu chọn các số nguyên từ $1$ đến $k$, tổng của chúng là $\frac{k(k+1)}{2}$. Vậy nên số lượng giá trị khác nhau không vượt quá $k \le \sqrt{2 \times n}$. Dưới đây là một số bài toán sử dụng tính chất này.
 
-### Bài toán 1: [Codeforces 221D - Little Elephant and Array](https://codeforces.com/problemset/problem/221/D)
+### [Bài toán 1: Codeforces 221D - Little Elephant and Array](https://codeforces.com/problemset/problem/221/D)
 #### Tóm tắt đề bài:
 Cho mảng $a$ gồm $n \le 10^5$ phần tử, giá trị các phần tử $\le n$. Có $m \le 10^5$ truy vấn $(l,r)$, hãy đếm số lượng giá trị $x$ xuất hiện đúng $x$ lần nằm trong đoạn $a_l,a_{l+1},...,a_r$.
 
@@ -67,7 +67,7 @@ Vẫn sử dụng quy hoạch động cái túi: Hàm mục tiêu của ta sẽ 
 
 
 ## 2. Thuật toán Mo
-### Bài toán: [Codeforces 86D - Powerful array](https://codeforces.com/problemset/problem/86/D)
+### [Codeforces 86D - Powerful array](https://codeforces.com/problemset/problem/86/D)
 
 #### Tóm tắt đề bài:
 Cho mảng $a$ gồm $n \le 2 \times 10^5$ phần tử nguyên dương có giá trị $\le 10^6$. Cho $q \le 2 \times 10^5$ truy vấn $l,r$. Xét đoạn con $a_l,a_{l+1},...,a_r$, với $K_s$ là số lần xuất hiện của giá trị $s$ trong đoạn, **sức mạnh** của đoạn con này là tổng của tất cả các tích $K_s \times K_s \times s$. Với mỗi truy vấn, hãy tính sức mạnh của mảng con đã cho.
@@ -130,7 +130,7 @@ bool cmp(const query &a, const query &b){
 - Số lần di chuyển đầu mút phải (từ $r_i$ đến $r_{i+1}$):
   + Nếu $l_i$ và $l_{i+1}$ thuộc cùng một nhóm: Do đầu mút phải được sắp xếp tăng dần nên độ phức tạp khi di chuyển đầu mút phải với các truy vấn có đầu mút trái nằm cùng nhóm là $\mathcal{O}(n)$. Có $\frac{n}{S}$ nhóm, nên tổng độ phức tạp là $\mathcal{O}(\frac{n}{S} \times n)$.
   + Nếu $l_i$ và $l_{i+1}$ khác nhóm: Việc đổi nhóm không xảy ra quá $\frac{n}{S}$ lần nên không có quá $\frac{n}{S}$ lần những truy vấn này xảy ra và độ phức tạp khi di chuyển đầu mút phải là $\mathcal{O}(n)$, nên tổng độ phức tạp là $\mathcal{O} (\frac{n}{S} \times n)$.
-- Độ phức tạp cuối cùng là $\mathcal{O}(n + S \times q + 2 \times \frac{n^2}{S})$. Khi đó độ phức tạp nhỏ nhất khi $S \times q + 2 \times \frac{n^2}{S}$ nhỏ nhất, đồng nghĩa với việc $S \times q = 2 \times \frac{n^2}{S}$ theo [bất đẳng thức AM-GM](https://vi.wikipedia.org/wiki/B%E1%BA%A5t_%C4%91%E1%BA%B3ng_th%E1%BB%A9c_trung_b%C3%ACnh_c%E1%BB%99ng_v%C3%A0_trung_b%C3%ACnh_nh%C3%A2n).
+- Độ phức tạp cuối cùng là $\mathcal{O}(n + S \times q + 2 \times \frac{n^2}{S})$. Khi đó độ phức tạp nhỏ nhất khi $S \times q + 2 \times \frac{n^2}{S}$ nhỏ nhất, đồng nghĩa với việc $S \times q = 2 \times \frac{n^2}{S}$ theo [bất đẳng thức AM-GM](https://en.wikipedia.org/wiki/AM%E2%80%93GM_inequality#).
 - Từ đây ta chọn $S = \sqrt{2 \times \frac{n^2}{q}}$ là tối ưu. Thuật toán có độ phức tạp cuối cùng là $\mathcal{O}(n \times \sqrt q)$.
 
 #### Cài đặt mẫu
@@ -174,7 +174,7 @@ int main(){
 ## 3. Chia block
 Đây là một kĩ thuật cũng thường được sử dụng để xử lí truy vấn trên mảng. Khác với thuật toán Mo, phương pháp chia căn xử lí truy vấn cập nhật và trả lời truy vấn online dễ dàng hơn.
 
-### Bài toán 1: [VNOJ - Point update, range query](https://oj.vnoi.info/problem/sqrt_a)
+### [Bài toán 1: VNOJ - Point update, range query](https://oj.vnoi.info/problem/sqrt_a)
 #### Tóm tắt đề bài:
 Cho mảng $a$ gồm $n$ phần tử nguyên. Cho $q$ truy vấn thuộc một trong hai dạng:
 - `1 i x`: Gán $a_i=x$.
@@ -196,118 +196,16 @@ Chọn một hằng số $S = \sqrt n$, tương tự như thuật toán Mo, ta c
 $$\underbrace{a_0 \; a_1 \ldots a_{S-1}}_{\text{Group 0}} \;\underbrace{a_S \; a_{S+1} \ldots a_{2 \times S-1}}_{\text{Group 1}}\ldots\underbrace{a_{t \times S} \; a_{t \times S+1} \ldots a_{t \times S-1}}_{\text{Group t}} \ldots$$
 
 Ví dụ với dãy $a$ có $n=16$ phần tử, ta chọn $S=4$ và chia thành dãy thành $4$ block.
-<div align="center">
 
-<div style="align: center !important">
-<table style="font-size:large">
-    <tr style="text-align:center">
-        <td colspan="4">21</td>
-        <td colspan="4">17</td>
-        <td colspan="4">20</td>
-        <td colspan="4">13</td>
-    </tr>
-    <tr>
-        <td>5</td>
-        <td>8</td>
-        <td>6</td>
-        <td>3</td>     
-        <td>2</td>
-        <td>7</td>
-        <td>2</td>
-        <td>6</td>     
-        <td>7</td>
-        <td>1</td>
-        <td>7</td>
-        <td>5</td>     
-        <td>6</td>
-        <td>2</td>
-        <td>3</td>
-        <td>2</td>     
-    </tr>
-</table>
-</div>
-</div>
+![](../assets/sqrt/image1.png)
 
 Xử lí truy vấn cập nhật $(i,x)$: Ta chỉ cần thay đổi $a_i$ cũng như tổng của các phần tử trong block chứa $a_i$. Độ phức tạp của thao tác này là $\mathcal{O}(1)$. Ví dụ phần tử mang giá trị $7$ được cập nhật thành $5$, thì tổng của block đó cũng được cập nhật thành $15$.
 
-<center>
-<table style="font-size:large">
-    <tr style="text-align:center">
-        <td colspan="4">21</td>
-        <td colspan="4" style="background-color:gray">15</td>
-        <td colspan="4">20</td>
-        <td colspan="4">13</td>
-    </tr>
-    <tr>
-        <td>5</td>
-        <td>8</td>
-        <td>6</td>
-        <td>3</td>     
-        <td>2</td>
-        <td style="background-color:gray">5</td>
-        <td>2</td>
-        <td>6</td>     
-        <td>7</td>
-        <td>1</td>
-        <td>7</td>
-        <td>5</td>     
-        <td>6</td>
-        <td>2</td>
-        <td>3</td>
-        <td>2</td>     
-    </tr>
-</table>
-</center>
-  
+![](../assets/sqrt/image2.png)
 
 Xử lí truy vấn tính tổng $(l,r)$: Ta tính tổng những block nằm gọn trong đoạn truy vấn và một số phần tử lẻ ra ở hai bên. Như ví dụ, tổng của đoạn truy vấn là $3 + (15) + (20) + 6 + 2 = 46$
 
-<center>
-<table style="font-size:large">
-    <tr style="text-align:center">
-        <td colspan="4">21</td>
-        <td colspan="4" style="background-color:gray">15</td>
-        <td colspan="4" style="background-color:gray">20</td>
-        <td colspan="4">13</td>
-    </tr>
-    <tr>
-        <td>5</td>
-        <td>8</td>
-        <td>6</td>
-        <td style="background-color:gray">3</td>     
-        <td>2</td>
-        <td>5</td>
-        <td>2</td>
-        <td>6</td>     
-        <td>7</td>
-        <td>1</td>
-        <td>7</td>
-        <td>5</td>     
-        <td  style="background-color:gray">6</td>
-        <td  style="background-color:gray">2</td>
-        <td>3</td>
-        <td>2</td>     
-    </tr>
-    <tr>
-        <td  style="border: 0 !important"></td>
-        <td  style="border: 0 !important"></td>
-        <td  style="border: 0 !important"></td>
-        <td style="background-color:black"></td>     
-        <td style="background-color:black"></td>     
-        <td style="background-color:black"></td>     
-        <td style="background-color:black"></td>     
-        <td style="background-color:black"></td>        
-        <td style="background-color:black"></td>     
-        <td style="background-color:black"></td>     
-        <td style="background-color:black"></td>     
-        <td style="background-color:black"></td>         
-        <td style="background-color:black"></td>     
-        <td style="background-color:black"></td>     
-        <td style="border: 0 !important"></td>
-        <td style="border: 0 !important"></td>     
-    </tr>
-</table>
-</center>
+![](../assets/sqrt/image3.png)
 
 Có không quá $\sqrt n$ block, và số lượng phần tử thừa ra hai bên không vượt quá $2 \times \sqrt n$ nên truy vấn tính tổng cùa độ phức tạp $\mathcal{O}(\sqrt n)$.
 
@@ -359,7 +257,7 @@ int sum(int l, int r){
 }
 ```
 
-### Bài toán 2: [MarisaOJ - Yếu vị](https://marisaoj.com/problem/532)
+### [Bài toán 2: MarisaOJ - Yếu vị](https://marisaoj.com/problem/532)
 
 #### Tóm tắt đề bài:
 Cho một mảng $A$ gồm $n$ phần tử nguyên dương. Cho $q$ truy vấn có dạng $(l,r)$, hãy tìm số lần xuất hiện của phần tử xuất hiện nhiều nhất (số yếu vị) trong đoạn $A_l,A_{l+1},...,A_r$. **Các truy vấn phải xử lí online.**
@@ -374,7 +272,6 @@ Với bài toán 1, ta tính tổng của các số trong từng block. Trong c�
 
 Ở bài toán này, ta cũng có thể dễ dàng tìm được giá trị xuất hiện nhiều nhất trong một block cùng số lần xuất hiện của nó. Nhưng liệu có tồn tại cách để kết hợp đáp án các block lại một cách hiệu quả?
 
-----
 Vì vậy, ta sẽ có cách tiếp cận khác.
 
 Định nghĩa $\text{mode}(i,j)$ giá trị xuất hiện nhiều nhất trong các **block** $i,i+1,...,j$. Ta sẽ tính trước toàn bộ $\text{mode}(i,j)$ với $1 \le i < j \le T$.
@@ -402,9 +299,9 @@ Nhìn chung các bài toán sử dụng kĩ thuật chia block đều quy về v
 ## 4. Chia "nặng" và "nhẹ"
 Kĩ thuật chia các "đối tượng", ở đây có thể là các truy vấn, đỉnh, xâu,..., thành hai nhóm "nặng" và "nhẹ" để có cách xử lí phù hợp.
 
-Một nhận xét quan trọng thường được sử dụng trong kĩ thuật này: Nếu ta phân tích số nguyên dương $n$ thành tổng của các số nguyên dương khác (không nhất thiết phải đôi một phân biết), có không quá $\sqrt n$ số có giá trị lớn hơn hoặc bằng $\sqrt n$.
+Một nhận xét quan trọng thường được sử dụng trong kĩ thuật này: Nếu ta phân tích số nguyên dương $n$ thành tổng của các số nguyên dương khác (không nhất thiết phải đôi một phân biệt), có không quá $\sqrt n$ số có giá trị lớn hơn hoặc bằng $\sqrt n$.
 
-### Bài toán 1: [MarisaOJ - Truy vấn cây](https://marisaoj.com/problem/260)
+### [Bài toán 1: MarisaOJ - Truy vấn cây](https://marisaoj.com/problem/260)
 #### Tóm tắt đề bài:
 Cho cây gồm $n$ đỉnh, trên mỗi đỉnh là giá trị $0$. Cho $q$ truy vấn thuộc một trong hai dạng:
 - `1 u d`: Tăng các giá trị trên các đỉnh kề với $u$ thêm $d$.
@@ -433,30 +330,30 @@ Với mỗi truy vấn cập nhật đỉnh nặng $u$, ta sẽ sử dụng mả
 
 Với các truy vấn trả lời giá trị trên đỉnh $u$, ngoài các giá trị đã được cập nhật trực tiếp qua các truy vấn đỉnh nhẹ, cần tính tổng $\text{lazy}_v$ với $v$ là các đỉnh kề của $u$. Dĩ nhiên khi tính tổng $\text{lazy}$, chỉ cần quan tâm đến các đỉnh $v$ nặng, mà có không quá $\sqrt{2 \times n}$ đỉnh nặng nên các truy vấn trả lời có thể xử lí trong độ phức tạp $\mathcal{O}(\sqrt n)$.
 
-### Bài toán 2: [Codechef - KOL15C](https://www.codechef.com/problems/KOL15C)
+### [Bài toán 2: Codeforces 1207F - Remainder Problem](https://codeforces.com/contest/1207/problem/F)
 
 #### Tóm tắt đề bài:
-Cho mảng $a$ gồm $n$ phần tử được đánh chỉ số từ $1$. Ban đầu tất cả các phần tử đều bằng $0$. Cho $q$ truy vấn cập nhật dạng $(a,b)$: Hãy tăng thêm $1$ cho những phần tử có chỉ số dạng $ax + b$ với $x$ là một số nguyên không âm. Hãy in ra mảng sau khi thực hiện hết những truy vấn.
+Cho mảng $a$ gồm $500000$ số nguyên được đánh số từ $1$ đến $500000$. Ban đầu tất cả các phần tử đều là $0$.
 
-Giới hạn:
-- $1 \le n \le 10^5$.
-- $1 \le a, b \le n$.
-- $1 \le q \le 2 \times 10^5$.
+Cho $q \le 5 \times 10^5$ truy vấn thuộc một trong hai dạng:
+- `1 x y`: Tăng $a_x$ lên $y$.
+- `2 x y`: Tính tổng các phần tử trong mảng mà có chỉ số chia $x$ dư $y$.
 
 #### Thuật toán ngây thơ:
-Lần lượt xét các giá trị $x$ không âm $0,1,2,...$ để cập nhật các chỉ số thỏa mãn. Ta cần xét khoảng $\frac{n}{a}$ chỉ số trong mỗi truy vấn. Trường hợp tệ nhất thuật toán cho có độ phức tạp $\mathcal{O}(n \times q)$.
+Với loại truy vấn đầu tiên, chỉ đơn giản phần tử có chỉ số $x$ lên $y$.
 
-Tương tự, ta thấy trường hợp tốt hơn chính là giá trị $a$ đủ lớn để ta không phải xét quá nhiều chỉ số trong một truy vấn.
+Trong truy vấn thứ hai, ta sẽ xét toàn bộ các chỉ số thỏa mãn (khoảng $\frac{500000}{x}$ chỉ số) để tính tổng. Có thể thấy khi $x$ đủ lớn thì truy vấn sẽ chạy tương đối nhanh.
 
 #### Chia "nặng" và "nhẹ":
+Đặt $S = \sqrt {500000}$.
 
 Từ đây phân loại các truy vấn vào hai nhóm:
-- **Nặng** gồm các truy vấn có $a$ lớn hơn $\sqrt n$. Các truy vấn này dễ dàng có thể được xử lí bằng thuật toán ngây thơ ở trên. Độ phức tạp thời gian là $\mathcal{O}(q \times \sqrt n)$.
-- **Nhẹ** gồm các truy vấn còn lại, có $a$ nhỏ hơn hoặc bằng $\sqrt n$.
+- **Nặng** gồm các truy vấn có $x$ lớn hơn $S$. Các truy vấn này dễ dàng có thể được xử lí bằng thuật toán ngây thơ ở trên. Độ phức tạp thời gian là $\mathcal{O}(q \times S)$.
+- **Nhẹ** gồm các truy vấn còn lại, có $x$ nhỏ hơn hoặc bằng $S$.
 
-Để xử lí các truy vấn nhẹ, ta sử dụng kĩ thuật mảng hiệu: Chuẩn bị các mảng hiệu $P[m, a]$ quản lí các chỉ số $i$ sao cho $i \mod a = m$ với $0 \le m < a$ và $1 \le a \le \sqrt n$. Khi gặp truy vấn nhẹ, ta thực hiện thay đổi mảng hiệu $P[b \mod a, a]$. Chứng minh được độ phức tạp không, thời gian cùng là $\mathcal{O}(n \sqrt n)$.
+Để xử lí các truy vấn nhẹ, ta sẽ lưu $\text{sum}(d, m)$ với $1 \le m \le S, 0 \le d < m$ là tổng của những chỉ số chia $m$ dư $d$. Khi thực hiện cập nhật vị trí $i$, với từng $1 \le m' \le m$, ta cập nhật lại $\text{sum}(i \mod m', m')$. Còn khi truy vấn, nếu $x \le S$ thì in ra $\text{sum}(y,x)$.
 
-Thuật toán có độ phức tạp $\mathcal{O}((n + q) \sqrt n)$.
+Thuật toán có độ phức tạp $\mathcal{O}((n + q) \times S)$.
 
 ### Nhận xét:
 Khi chia các đối tượng ra thành "nặng" và "nhẹ", ta sẽ cần hai cách xử lí khác nhau. Thông thường một trong số chúng sẽ là thuật toán ngây thơ. Từ đây ta có hướng suy nghĩ để tìm ra lời giải trong dạng bài tập này: Tìm ra thuật toán vô cùng ngây thơ, trong trường hợp nào thì nó hiệu quả, và trong trường hợp không hiệu quả thì ta cần có cách giải quyết khác là gì?
@@ -464,6 +361,7 @@ Khi chia các đối tượng ra thành "nặng" và "nhẹ", ta sẽ cần hai 
 ### Bài tập:
 - [VNOJ - DeMen100ns và thành phố](https://oj.vnoi.info/problem/sqrt2_e)
 - [MarisaOJ - Đỉnh gần nhất](https://marisaoj.com/problem/264)
+- [Codechef - KOL15C](https://www.codechef.com/problems/KOL15C)
 - [MarisaOJ - Màu thống trị](https://marisaoj.com/problem/281)
 - [MarisaOJ - Đếm xâu 3](https://marisaoj.com/problem/258)
 - [VNOJ - Demen và những truy vấn lẻ](https://oj.vnoi.info/problem/sqrt2_h)
@@ -480,15 +378,13 @@ Cho một bảng hình chữ nhật gồm $n$ ô. Ban đầu các ô trong bản
 
 Ví dụ với bảng sau:
 
-<center>
-<img src="https://hackmd.io/_uploads/rkXF5Ubcp.png">
-</center>
+![](../assets/sqrt/image4.png)
+
 
 Khoảng cách từ ô trắng mang dấu *\** đến ô đen gần nhất là $2$, vì có thể đi sang bên trái hai bước để đến một ô đen. Sau đó tô đen ô này:
 
-<center>
-<img src="https://hackmd.io/_uploads/BJLwoUZ5T.png">
-</center>
+![](../assets/sqrt/image5.png)
+
 
 #### Chia căn truy vấn:
 Ta có $q$ truy vấn, và sẽ chia chúng thành các nhóm $\sqrt n$ truy vấn liên tiếp: $[1, 2,...,\sqrt n], [\sqrt n+1,\sqrt n+2...,2 \times \sqrt n],...$
@@ -499,7 +395,7 @@ Khi xử lí hết một nhóm truy vấn, ta mới thực hiện tô đen nhữ
 
 Ta thực hiện thao tác thứ nhất $\sqrt n$ lần, và với mỗi truy vấn thực hiện thao tác thứ hai, lời giải này có độ phức tạp $\mathcal{O}(n \sqrt n)$.
 
-### Bài toán 2: [VNOJ - Dynamic connectivity](https://oj.vnoi.info/problem/sqrt2_a)
+### [Bài toán 2: VNOJ - Dynamic connectivity](https://oj.vnoi.info/problem/sqrt2_a)
 #### Tóm tắt đề bài:
 Cho đồ thị gồm $n$ đỉnh và $m$ cạnh. Cho $q$ truy vấn thuộc các dạng sau:
 - `1 u v`: Thêm cạnh giữa đỉnh $u$ và $v$.
@@ -535,19 +431,37 @@ Bằng cách chia căn truy vấn, các bài toán đều được giải với 
 - [VNOJ - Line queries](https://oj.vnoi.info/problem/sqrt2_b)
 - [Codeforces 487D - Conveyor Belts](https://codeforces.com/contest/487/problem/D)
 
-# Mở rộng
+## Mở rộng
 ## 0. Chọn hằng số phù hợp
 Như đã nói ở trên, việc lựa chọn hằng số phù hợp sẽ ảnh hưởng rất lớn đến độ phức tạp thời gian, không gian. Ví dụ mỗi truy vấn phải xử lí hai thao tác có độ phức tạp lần lượt là $\mathcal{O}(\frac{n}{S})$ và $\mathcal{O}(\log n \times S)$, chọn $S = \sqrt \frac{n}{\log n}$ sẽ cho ta độ phức tạp của hai thao tác là $\mathcal{O}(\sqrt{n \times \log n}).$
 
 Tuy nhiên không phải hằng số trên lí thuyết này sẽ cho ra thời gian chạy tốt nhất. Lấy ví dụ bài toán [Codeforces 86D - Powerful array](https://codeforces.com/problemset/problem/86/D) được trình bày ở phần thuật toán Mo. Trên lí thuyết việc lựa chọn $S = \sqrt{2 \times \frac{n^2}{q}}$ cho ra độ phức tạp thời gian tốt nhất. Để kiểm chứng, người viết đã sử dụng cùng một code và thử một số hằng số $S$ khác nhau, nộp bài sử dụng C++17:
 
-| $S$                             | Thời gian |
-|---------------------------------|-----------|
-| $\sqrt \frac{n^2}{q}$           | 4086 ms   |
-| $\sqrt{2 \times \frac{n^2}{q}}$ | 3618 ms   |
-| $\sqrt{3 \times \frac{n^2}{q}}$ | 3462 ms   |
-| $2 \times \sqrt \frac{n^2}{q}$  | 3118 ms   |
-| $\sqrt{5 \times \frac{n^2}{q}}$ | 2620 ms   |
+$$
+\begin{array}{|l|l|}
+\hline
+S & Time\\ 
+\hline
+& \\ 
+\sqrt \frac{n^2}{q}   & 4086 ms  \\
+
+\hline
+& \\ 
+\sqrt{2 \times \frac{n^2}{q}} & 3618 ms\\
+
+\hline
+& \\ 
+\sqrt{3 \times \frac{n^2}{q}}  & 3462 ms \\
+
+\hline
+& \\ 
+2 \times \sqrt \frac{n^2}{q} & 3118 ms \\
+
+\hline
+& \\ 
+\sqrt{5 \times \frac{n^2}{q}} & 2620 ms \\
+\hline
+\end{array}$$
 
 Có thể thấy việc chọn $S=\sqrt{5 \times \frac{n^2}{q}}$ khiến code chạy nhanh hơn đáng kể. Thời gian chạy của code phụ thuộc vào nhiều yếu tố nên khá khó tính được chính xác hằng số $S$ phù hợp.
 
@@ -556,7 +470,7 @@ Thay vào đó, ta có thể sinh một số test và chạy thử nghiệm vớ
 ## 1. Thuật toán Mo có truy vấn cập nhật
 Như ta đã biết thuật toán Mo bình thường như trình bày ở trên sẽ không hỗ trợ truy vấn cập nhật. Nhưng có thể điều chỉnh lại thuật toán một chút để có thể xử lí được truy vấn cập nhật.
 
-### Bài toán: [VNOJ - Point Update Range Query](https://oj.vnoi.info/problem/sqrt_a)
+### [Bài toán: VNOJ - Point Update Range Query](https://oj.vnoi.info/problem/sqrt_a)
 Cho mảng $a$ gồm $n$ phần tử nguyên. Cho $q$ truy vấn thuộc một trong hai dạng:
 - `1 i x`: Gán $a_i=x$.
 - `2 l r`: Tính tổng các phần tử  $a_l,a_{l+1},...,a_r$.
@@ -600,7 +514,7 @@ bool cmp(const query &a, const query &b){
 ```
 
 Phân tích độ phức tạp thuật toán:
-- Độ phức tạp của việc di chuyển đầu mút trái và phải, như phân tích ở phần [thuật toán Mo](#2-Thuật-toán-Mo) ở trên, là $\mathcal{O}(n + S \times q + 2 \times \frac{n^2}{S})$.
+- Độ phức tạp của việc di chuyển đầu mút trái và phải, như phân tích ở phần **thuật toán Mo** ở trên, là $\mathcal{O}(n + S \times q + 2 \times \frac{n^2}{S})$.
 - Với cách sắp xếp như trên, ta xét những  truy vấn có đầu mút trái nằm trong cùng một nhóm, đồng thời đầu mút phải cũng nằm cùng một nhóm, chúng có thứ tự được sắp xếp tăng dần. Vậy nên xử lí các truy vấn trong cũng một nhóm này sẽ có độ phức tạp $\mathcal{O}(q)$. Tổng độ phức tạp là $\mathcal{O}(q \times (\frac{n}{S})^2)$.
 - Nếu chọn $S = n^{\frac{2}{3}}$, ta thu được thuật toán có độ phức tạp $\mathcal{O}(q \times n^{\frac{2}{3}})$.
 
@@ -692,7 +606,7 @@ signed main(){
 
 ## 2. Thuật toán Mo trên cây
 
-### Bài toán: [SPOJ COT2 - Count on a tree 2](https://www.spoj.com/problems/COT2/)
+### [Bài toán: SPOJ COT2 - Count on a tree 2](https://www.spoj.com/problems/COT2/)
 
 Cho một cây có $n$ đỉnh. Trên mỗi đỉnh $u$ gán giá trị $a_u$. Cho $q$ truy vấn có dạng $(u,v)$, hãy đếm số lượng giá trị khác nhau nằm trên đường đi từ đỉnh $u$ đến đỉnh $v$.
 
@@ -701,10 +615,7 @@ Trước khi đến với thuật toán Mo trên cây, bạn đọc cần nắm 
 
 Để phục vụ cho phần trình bày thuật toán bên dưới, ta vẫn nhắc lại một số định nghĩa.
 
-<center>
-<img src="https://hackmd.io/_uploads/HkeXhnuqT.png">
-<i>Nguồn VNOI Wiki</i>
-</center>
+![Nguồn VNOI Wiki](../assets/sqrt/image6.png)
 
 Với $\text{ST}_u$ là thời điểm bắt đầu duyệt DFS cây con gốc $u$ và $\text{EN}_u$ là thời điểm hoàn thành duyệt cây con gốc $u$. Ta có thứ tự:
 $$\text{ST}_1 = 1 ;\ \text{EN}_1 = 10$$
@@ -759,7 +670,6 @@ Từ đây có thể thấy rằng, nếu xét đoạn $[\text{ST}_u, \text{ST}_
 
 - Kết hợp hai trường hợp, ta sẽ có được đoạn cần xét là $[\text{EN}_u, \text{ST}_v]$, trên thứ tự $\text{E}$ thì đỉnh $x$ xuất hiện một lần ở vị trí $\text{EN}_x$ trong trường hợp 2.1, và ở $\text{ST}_x$ trong trường hợp 2.2. Với đỉnh $d$, dễ thấy $\text{ST}_d < \text{EN}_u < \text{ST}_v < \text{EN}_d$ nên đỉnh $d$ không xuất hiện lần nào trong đoạn này, vì vậy cần xét riêng đỉnh $d$.
 
----
 Bây giờ ta đã ánh xạ được các truy vấn $(u,v)$ về một đoạn liên tiếp trên $\text{E}$. Những đỉnh trên đường đi từ $u$ đến $v$ sẽ xuất hiện **một** lần trong đoạn này. Khi cài đặt thuật toán Mo, lúc thêm/xóa các đỉnh, ta dễ dàng có thể kiểm soát số lượng của các đỉnh để biết đỉnh nào đang nằm trên đường đi.
 
 ### Bài tập
@@ -770,7 +680,7 @@ Bây giờ ta đã ánh xạ được các truy vấn $(u,v)$ về một đoạn
 Các bài toán sử dụng thuật toán Mo thường được kết hợp với các cấu trúc dữ liệu. Việc lựa chọn cấu trúc dữ liệu phù hợp sẽ ảnh hưởng rất nhiều đến độ phức tạp cuối cùng của lời giải.
 
 ### Bài toán
-Cho mảng $a$ gồm $n$ phần tử. Cho $q$ truy vấn dạng $(l,r)$, hãy tìm MEX của $a_l,a_{l+1},...,a_r$. Có thể trả lời các truy vấn offline.
+Cho mảng $a$ gồm $n$ phần tử. Cho $q$ truy vấn dạng $(l,r)$, hãy tìm MEX (minimal excluded elements) của $a_l,a_{l+1},...,a_r$. Có thể trả lời các truy vấn offline.
 
 Giới hạn:
 - $1 \le n \le 10^5$.
@@ -779,11 +689,7 @@ Giới hạn:
 ### Thuật toán Mo
 Ta sẽ lưu một tập hợp (có thể cài dặt bằng `std::set`) những giá trị hiện đang **không tồn tại** trong đoạn đang xét. Đồng thời sẽ sử dụng thêm một mảng đếm để đếm số lượng của mỗi giá trị để thêm xóa tập hợp cho phù hợp.
 
-<center>
-<img src="https://codeforces.com/predownloaded/6f/0c/6f0c27b758e3c337768027e110dbed7602a37f80.png">
-
-<i style="font-size:small">Nguồn: Codeforces</i>
-</center>
+![Nguồn Codeforces](../assets/sqrt/image7.png)
 
 Do sử dụng `std::set` nên thuật toán có độ phức tạp $\mathcal{O}(n \times \sqrt q \times \log n)$, tương đối tệ. Phân tích kĩ hơn:
 - Thêm một phần tử: Độ phức tạp $\mathcal{O}(\log n)$, thực hiện $\mathcal{O}(n \times \sqrt q)$ lần.
@@ -805,22 +711,22 @@ Vậy thuật toán mới có độ phức tạp $\mathcal{O}(n \times \sqrt q +
 - [MarisaOJ - Truy vấn đoạn](https://marisaoj.com/problem/504)
 - [Codeforces 940F - Machine Learning](https://codeforces.com/problemset/problem/940/F): Bài toán áp dụng cả thuật toán Mo có truy vấn cập nhật.
 
-# Danh sách bài tập
+## Danh sách bài tập
 - [VNOJ - Educational SQRT Contest 1](https://oj.vnoi.info/contest/sqrt)
 - [VNOJ - Educational SQRT Contest 2](https://oj.vnoi.info/contest/sqrt2)
 - [MarisaOJ - Chia căn](https://marisaoj.com/module/44)
 - [USACO - Square Root Decomposition](https://usaco.guide/plat/sqrt)
 
-# Đọc thêm
+## Bài đọc thêm
 - [Codeforces - An alternative sorting order for Mo's algorithm](https://codeforces.com/blog/entry/61203): Một cách sắp xếp các truy vấn trong thuật toán Mo để tối ưu hóa thời gian.
 - [https://codeforces.com/blog/entry/68271](https://codeforces.com/blog/entry/68271): Một cách cài đặt thuật toán Mo trên cây khác.
 - [CP Algorithm - Sqrt tree](https://cp-algorithms.com/data_structures/sqrt-tree.html).
 
-# Lời bạt
+## Lời bạt
 Bài viết tới đây xin được kết thúc. Qua các kĩ thuật chia căn phổ biến (và cũng như không phổ biến) được trình bày ở bên trên, có thể thấy có rất nhiều kĩ thuật, thuật toán khác nhau được áp dụng cùng để giải những bài tập chia căn.
 Người viết đã cố gắng trình bày chi tiết nhất về những kĩ thuật chia căn phổ biến (cũng như không phổ biến). Hi vọng những độc giả lần đầu tiếp cận với kĩ thuật này học thêm được những kiến thức bổ ích. Và cũng hi vọng những độc giả đã quen với chia căn có thêm những góc nhìn mới đầy thú vị về kĩ thuật này!
 
-# Tham khảo
+## Tham khảo
 - [VNOI Wiki - Chia căn (sqrt decomposition) và ứng dụng: Phần 1](https://vnoi.info/wiki/algo/data-structures/sqrt-decomposition.md)
 - [Competitive Programmer’s Handbook](https://cses.fi/book/book.pdf)
 - [Codeforces - Mo's Algorithm (with update and without update, now you can understand both](https://codeforces.com/blog/entry/72690)
