@@ -24,7 +24,7 @@ Sử dụng hai con trỏ "Rùa" và "Thỏ" cùng xuất phát. Mỗi bước, 
 
 
 **Ta có mã giả của thuật toán như sau:**
-```javascript
+```python
 function floyd(f, x0):
     tortoise = f(x0)
     hare = f(f(x0))
@@ -192,7 +192,7 @@ Vẫn ý tưởng sử dụng hai con trỏ, nhưng ta sẽ tìm $\text{power}$ 
 - Cho Thỏ chạy từ $x_{2^i}$ đến $x_{2^{i+1}-1}$ xem có tồn tại giá trị bằng Rùa không. Nếu tồn tại thì kết thúc thuật toán.
 
 **Mã giả bước tìm chu trình:**     
-```javascript
+```python
 // CP- Algorithms
 function brent(f, x0):
     tortoise = x0
