@@ -146,4 +146,4 @@ Em vẫn chưa tìm hiểu nên chưa rõ lắm. Nhưng anh Bách (Trần Xuân 
 
 Mỗi lần đi thi chỉ nên cố gắng hết sức mình, còn kết quả đến đâu thì không quan trọng. Quan trọng là quá trình mình ôn luyện, học tập cùng nhau.
 
-### Cảm ơn marvinthang đã nhận lời tham gia phỏng vấn cho tạp chí VNOI! Tết đã sắp đến rồi, và sau Tết thì cũng là Vòng 2, nên chúc bạn năm nay đổi màu được huy chương! Chúc bạn được vàng IOI năm nay! 
+*Cảm ơn marvinthang đã nhận lời tham gia phỏng vấn cho tạp chí VNOI! Tết đã sắp đến rồi, và sau Tết thì cũng là Vòng 2, nên chúc bạn năm nay đổi màu được huy chương! Chúc bạn được vàng IOI năm nay!*
