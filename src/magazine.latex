@@ -33,6 +33,7 @@
 
     \input{./articles/tortoise_and_hare.latex}
     \input{./articles/vtree.latex}
+    \input{./articles/sqrt.latex}
 
     \input{./interviews/2024-hoang-quoc-viet.latex}
     \input{./interviews/2024-nguyen-duc-thang.latex}
