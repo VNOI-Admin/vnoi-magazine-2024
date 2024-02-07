@@ -1,14 +1,9 @@
 ---
 layout: post
 meta:
-    title: VNOI CUP 2023 - THỬ THÁCH BẢN LĨNH, KHÁM PHÁ TÀI NĂNG
+    title: VNOI CUP 2023 - Thử thách bản lĩnh, khám phá tài năng
     summary: >
-        Năm 2023 là năm thứ hai VNOI Cup được tổ chức. Tiếp nối sự thành công
-        của mùa đầu tiên, VNOI Cup 2023 khởi động với mục đích tìm kiếm những
-        tài năng lập trình trẻ Việt Nam. Trải qua ba vòng loại đầy cam go và
-        vòng Chung kết vô cùng gay cấn, chủ nhân của chiếc cup vô địch VNOI Cup
-        2023 danh giá đã lộ diện. Hãy cùng điểm lại chặng đường tìm ra những
-        gương mặt xuất sắc trong cuộc thi này nhé!
+        Năm 2023 là năm thứ hai VNOI Cup được tổ chức. Tiếp nối sự thành công của mùa đầu tiên, VNOI Cup 2023 khởi động với mục đích tìm kiếm những tài năng lập trình trẻ Việt Nam. Trải qua ba vòng loại đầy cam go và vòng Chung kết vô cùng gay cấn, chủ nhân của chiếc cup vô địch VNOI Cup 2023 danh giá đã lộ diện. Hãy cùng điểm lại chặng đường tìm ra những gương mặt xuất sắc trong cuộc thi này nhé!
 ---
 
 ## Đôi nét về VNOI Cup 2023
@@ -17,14 +12,15 @@ VNOI Cup 2023 là cuộc thi dành cho các cá nhân đang là học sinh, sinh
 
 Chặng đua bao gồm 03 vòng loại online diễn ra trên nền tảng VNOJ vào các ngày 13/05, 27/05 và 10/06; thông qua đó chọn ra 12 thí sinh xuất sắc nhất thi đấu Chung kết vào ngày 21, 22/07 tại trường THPT Chuyên Hạ Long (Quảng Ninh).
 
-Bên cạnh những giải thưởng lên tới hàng chục triệu đồng tại vòng Chung kết, các bạn đạt thành tích xuất sắc ở tại các vòng loại còn có cơ hội nhận được 150 áo VNOI Cup 2023 được thiết kế độc quyền cho kỳ thi. 
+Bên cạnh những giải thưởng lên tới hàng chục triệu đồng tại vòng Chung kết, các bạn đạt thành tích xuất sắc ở tại các vòng loại còn có cơ hội nhận được 150 áo VNOI Cup 2023 được thiết kế độc quyền cho kì thi. 
 
-![Lộ trình tổ chức VNOI CUP 2023](../assets/vnoi-cup/image1.jpg)
+![VNOI CUP 2023](../assets/vnoi-cup/image1.jpg)
+
+Với tiêu chí tìm kiếm các coders tài năng trên khắp cả nước, VNOI CUP 2023 chờ đón những cá nhân có đam mê và năng lực để cùng nhau tạo nên một cuộc thi lập trình đầy sôi động và ý nghĩa. Cuộc thi đề cao tính cạnh tranh đến từ bộ đề, chính vì vậy để chuẩn bị những vòng thi chất lượng và đầy tính cạnh tranh, rất cần đến sự chuẩn bị miệt mài và tỉ mỉ của đội ngũ ra đề có trình độ chuyên môn cao.
 
 ## Ban ra đề VNOI Cup 2023
     
-Để chuẩn bị những vòng thi chất lượng và đầy tính cạnh tranh, rất cần đến sự chuẩn bị miệt mài và tỉ mỉ của đội ngũ ra đề có trình độ chuyên môn cao. Và dưới đây chính là những “gương mặt vàng” đằng sau sự thành công của các vòng thi của VNOI Cup 2023 vừa qua:
-
+![Thống kê thành tích ban ra đề VNOI CUP 2023](../assets/vnoi-cup/image4.png)
 - Đặng Đoàn Đức Trung: Trưởng ban ra đề VNOI CUP 2023 - ICPC World Finalist 2023, 2022, 2021, 2020, Max 2783 Codeforces;
 - Trần Quang Lộc: trưởng ban ra đề ICPC Asia HCMC 2022, Coordinator Codeforces, Max 2546 Codeforces;
 - Nguyễn Đinh Quang Minh: ICPC World Finalist 2018, 2021, Max 2726 Codeforces;
@@ -34,8 +30,6 @@ Bên cạnh những giải thưởng lên tới hàng chục triệu đồng t�
 - Nguyễn Tuấn Tài: Max 2221 Codeforces, giải Ba HSGQG 2022;
 - Nguyễn Hoàng Vũ: HCB IOI 2021, Max 2204 Codeforces;
 - Phạm Xuân Trung: VNOI CUP 2022 Finalist, giải Nhất HSGQG 2022, Max 2259 Codeforces.
-
-![Thống kê thành tích ban ra đề VNOI CUP 2023](../assets/vnoi-cup/image2.png)
 
 ## Ba vòng loại VNOI Cup 2023
 
@@ -55,16 +49,16 @@ Bên cạnh 10 thí sinh được chọn từ các vòng loại của cuộc thi
 
 Ngoài ra, Vòng Chung kết còn có sự góp mặt của các thí sinh đến từ Bảng mở rộng - bảng đấu dành cho mọi thí sinh mong muốn có cơ hội cọ sát trực tiếp tại địa điểm thi của các thí sinh chính thức
 
-![Các thí sinh Bảng mở rộng VNOI CUP](../assets/vnoi-cup/image4.png)
+![Các thí sinh Bảng mở rộng VNOI CUP](../assets/vnoi-cup/image6.jpg)
 
 Vòng Chung kết đã diễn ra cực kỳ gay cấn và cực kỳ quyết liệt, khi cục diện bảng xếp hạng bắt đầu thay đổi vào những khoảng thời gian cuối của vòng thi. Chung cuộc, ba vị trí đầu tiên của vòng Chung kết VNOI Cup 2023 đã thuộc về ba cái tên mới:
 
--  Nguyễn Đức Thắng (17 tuổi) - là chủ nhân của chiếc cup vô địch VNOI Cup mùa thứ hai, cùng với phần thưởng trị giá 20 triệu VNĐ.
+- Nguyễn Đức Thắng (17 tuổi) - là chủ nhân của chiếc cup vô địch VNOI Cup mùa thứ hai, cùng với phần thưởng trị giá 20 triệu VNĐ.
 - Lê Hoàng Nam (17 tuổi) - giành cup bạc VNOI Cup 2023, cùng với phần thưởng trị giá 15 triệu VNĐ.
 - Lê Ngọc Bảo Anh (18 tuổi) - giành cup đồng VNOI Cup 2023, cùng với phần thưởng trị giá 10 triệu VNĐ.
 
 ![Bảng xếp hạng chính thức của VNOI CUP 2023](../assets/vnoi-cup/image5.png)
 
-![Ban tổ chức và thí sinh tham dự Chung kết VNOI CUP 2023](../assets/vnoi-cup/image6.jpg)
-
 Có thể nói, VNOI Cup 2023 quy tụ đông đảo các thí sinh với profile rất “khủng” ở nhiều thế hệ khác nhau, từ những đàn anh kỳ cựu nhưng vẫn còn rất nhiều nhiệt huyết đối với lập trình thi đấu, đến những bạn trẻ là những trụ cột tương lai của nền tin học nước nhà. Đây chính là dịp để thế hệ coder trẻ có thể giao lưu, cọ xát và học hỏi kinh nghiệm quý báu từ những tiền bối đi trước, những coder đã có kinh nghiệm dày dặn trong mảng lập trình thi đấu lẫn lĩnh vực công nghệ. Như vậy, VNOI Cup 2023 đã trôi qua và để lại nhiều dấu ấn khó quên, cùng nhau hẹn gặp lại tại VNOI Cup 2024 thật sôi động, bùng cháy và kịch tính hơn nhé!
+
+![Ban tổ chức và thí sinh tham dự Chung kết VNOI CUP 2023](../assets/vnoi-cup/image7.jpg)
