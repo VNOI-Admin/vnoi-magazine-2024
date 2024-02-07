@@ -226,7 +226,7 @@ Dãy số: $2, 5, 26, 105, 15, 83, 26, 105, \ldots$ Ở bước $i=2$, ta không
 
 **Code C++ minh họa:**
     
-```cpp=
+```cpp
 // CP-Algorithms
 long long brent(long long n, long long x0, long long c) {
     long long tortoise = x0, g = 1, q = 1;
