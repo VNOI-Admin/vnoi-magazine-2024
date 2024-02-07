@@ -8,7 +8,7 @@ meta:
 *Xin chào Kuroni, cảm ơn bạn đã nhận lời tham gia phỏng vấn tạp chí VNOI 2024, được biết bạn là người rất nổi tiếng và sâu sắc, rất mong qua buổi phỏng vấn này có thể đem đến cho độc giả sâu hơn cái nhìn về bạn và những trải nghiệm của bạn trong hành trình đến với Lập trình thi đấu.
  Kuroni là một trong những người hiếm hoi đạt được thành công trên nhiều lĩnh vực. Hiện tại bạn là người giữ mức rating cao nhất Việt Nam và là một người làm đề vô cùng nổi tiếng trên Codeforces, bảo chứng cho những bộ đề hay trên trang web này. Ngoài ra bạn cũng đạt được học bổng toàn phần bậc Tiến sĩ về Toán kinh tế ở trường đại học bên Mỹ. Bên cạnh việc học, bạn là một gamer rất khủng với việc tham dự OSU World Cup nữa. Qua buổi phỏng vấn lần này, bọn mình hi vọng bạn có thể chia sẻ đến cho độc giả những kinh nghiệm cũng như bí quyết để bạn có thể toàn diện trong nhiều lĩnh vực như thế.*
  
-### Bạn có xuất phát điểm cấp 2 là học sinh chuyên Toán, sau đó lên cấp 3 bạn học ở PTNK. Nổi bật nhất bạn đã từng tham gia Entropy (kì thi ‘Đường lên đỉnh Olympia’ của PTNK), không biết lý do gì đã chuyển bạn từ Toán sang Tin, mà lại không chuyển từ Toán sang một con đường thú vị không kém là thi Olympia?
+### Bạn có xuất phát điểm cấp 2 là học sinh chuyên Toán, sau đó lên cấp 3 bạn học ở trường Phổ Thông Năng Khiếu. Nổi bật nhất bạn đã từng tham gia Entropy (kì thi ‘Đường lên đỉnh Olympia’ của trường PTNK), không biết lý do gì đã chuyển bạn từ Toán sang Tin, mà lại không chuyển từ Toán sang một con đường thú vị không kém là thi Olympia?
 
 ![](../assets/interviews/2024-dang-doan-duc-trung/image4.jpg)
 
