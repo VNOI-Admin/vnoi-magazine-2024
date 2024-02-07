@@ -208,4 +208,4 @@ Bàn phím cơ thì mình nghĩ rằng nó phải nhạy và ít tiếng ồn. B
 Mình có thể dùng một cái Red Switch, hay dùng bàn phím của máy xách tay – hành trình ngắn và âm thanh nhỏ hơn. Mình cảm giác các bàn phím đó gõ đỡ mệt và dễ nghe nhất. 
 
 
-### Cảm ơn thầy đã nhận lời phỏng vấn cùng VNOI! Chúc thầy và gia đình năm mới mạnh khoẻ, hạnh phúc, để tiếp tục sự nghiệp trồng người của mình!
+*Cảm ơn thầy đã nhận lời phỏng vấn cùng VNOI! Chúc thầy và gia đình năm mới mạnh khoẻ, hạnh phúc, để tiếp tục sự nghiệp trồng người của mình!*

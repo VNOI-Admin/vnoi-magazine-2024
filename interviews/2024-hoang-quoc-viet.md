@@ -88,4 +88,4 @@ Em có thể tiết lộ là em đang ấp ủ chuyện xem xét các bạn TNV 
 
 Em hiện đang tham gia khá nhiều các workshop liên quan đến định hướng nghề nghiệp như blockchain và software engineering. Em cũng muốn thử sức ở lĩnh vực nào liên quan nhiều đến tài chính một chút tại em thấy tư duy tài chính cũng khá hay, giúp bản thân suy nghĩ mạch lạc hơn ạ. Ước mơ xa hơn của em là được làm startup, nhưng công ty lý tưởng để vào làm thì em cũng có một số cái tên như Pendle Finance, Dytechlab ạ. Em cũng chưa đi làm nhưng dưới góc nhìn của em thì một công việc lý tưởng phải là nơi em thật sự đam mê, luôn sẵn sàng cống hiến hay thức đêm nếu có nhiệm vụ quan trọng. Đấy sẽ là nơi em ở được là một phần của công ty chứ không phải làm cho xong việc rồi nghỉ.
 
-### Cảm ơn bạn đã nhận lời và tham gia phỏng vấn ngày hôm nay. Chúc bạn một năm mới nhiều sức khỏe, ngày càng phát triển Bedao và sớm kiếm được thực tập ở các công ty lớn!
+*Cảm ơn bạn đã nhận lời và tham gia phỏng vấn ngày hôm nay. Chúc bạn một năm mới nhiều sức khỏe, ngày càng phát triển Bedao và sớm kiếm được thực tập ở các công ty lớn!*
