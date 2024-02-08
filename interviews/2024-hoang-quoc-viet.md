@@ -7,11 +7,11 @@ meta:
 
 ### Chào tất cả các bạn, hôm nay mình rất là vinh dự khi được phỏng vấn bạn Hoàng Quốc Việt, ‘trùm’ của một team nhiều thành viên nhất trong VNOI - team Bedao. Bạn có thể giới thiệu sơ lược về bản thân được không?
 
-Xin chào mọi người, em là Hoàng Quốc Việt, nếu mọi người để ý thì tên của em trùng với tên đường ở ngoài Hà Nội. Hiện em đang học ở Trường Đại học Công nghệ, ĐHQGHN (UET) và cũng đã gắn bó với VNOI từ kỳ TNV gen 2. Sở thích của em thì ngoài chơi game như nhiều bạn khác thì em còn rất thích đá bóng nữa ạ. Ngoài ra, em cũng chơi nhiều game ạ, ai rủ em chơi gì thì em chơi nấy. Do em đang ở cùng bạn Vũ (Nguyễn Hoàng Vũ - IOI 2021) nên em hay chơi Liên Minh với bạn ý, trước đây khi ở cùng với các bạn khác thì em chơi Valorant
+Xin chào mọi người, em là Hoàng Quốc Việt, nếu mọi người để ý thì tên của em trùng với tên đường ở ngoài Hà Nội. Hiện em đang học ở Trường Đại học Công nghệ, ĐHQGHN (UET) và cũng đã gắn bó với VNOI từ kỳ TNV gen 2. Sở thích của em thì ngoài chơi game như nhiều bạn khác thì em còn rất thích đá bóng nữa ạ. Ngoài ra, em cũng chơi nhiều game ạ, ai rủ em chơi gì thì em chơi nấy. Do em đang ở cùng bạn Vũ (Nguyễn Hoàng Vũ - IOI 2021) nên em hay chơi Liên Minh với bạn ý, trước đây khi ở cùng với các bạn khác thì em chơi Valorant.
 
 ### Vậy còn về sở thích đá bóng thì bạn có hay đi đá bóng thường xuyên không?
 
-Em đi đá bóng khá thường xuyên ạ, thường thì 1-2 tuần em đá 1 lần. Em đá thì hay ‘lên công về thở’ nên đá tiền đạo thôi ạ.  Tuy làm tiền đạo nhưng em cũng không hay ghi bàn lắm, cơ mà em cũng thường chọn vị trí để mở ra nhiều cơ hội cho đồng đội có những đường chuyền thuận lợi ạ
+Em đi đá bóng khá thường xuyên ạ, thường thì 1-2 tuần em đá 1 lần. Em đá thì hay ‘lên công về thở’ nên đá tiền đạo. Tuy làm tiền đạo nhưng em cũng không hay ghi bàn lắm, cơ mà em cũng thường chọn vị trí để mở ra nhiều cơ hội cho đồng đội có những đường chuyền thuận lợi ạ.
 
 ### Bạn là một trong số những bạn không xuất phát từ những thành phố hay tỉnh lớn nhưng lại có hoạt động trong CP vô cùng ấn tượng như giải Nhì HSGQG. Bạn có thể chia sẻ hành trình thi HSGQG của bạn nhân dịp Bộ Giáo Dục vừa công bố kết quả kỳ thi HSGQG năm học 2023 - 2024 được không?
 
@@ -23,19 +23,15 @@ Năm nay thì tỉnh Hưng Yên cũng tự hào khi có một giải Nhì ạ, v
 
 ### Trong hành trình đến với VOI như thế, bạn thường luyện tập trên những nền tảng nào để nâng cao khả năng code trâu của mình?
 
-Hồi đấy trừ làm những bài dễ ra thì em làm cũng khá nhiều bài Codeforces, nếu tính cả bài dễ thì từ trước đến giờ em làm cũng phải khoảng gần 2000 bài. Sau khi VNOJ có thêm nhiều nội dung mới thì em có chuyển sang làm, điển hình như Bedao Contest. Hồi đấy em làm thì cảm thấy đề Bedao khá là hay, thậm chí đến bây giờ em Lead team Bedao rồi vẫn thấy đề lúc nào cũng hay ạ.
+Hồi đấy trừ làm những bài dễ ra thì em làm cũng khá nhiều bài Codeforces, nếu tính cả bài dễ thì từ trước đến giờ em làm cũng phải khoảng gần 2000 bài. Sau khi VNOJ có thêm nhiều nội dung mới thì em có chuyển sang làm, ví dụ như Bedao Contest, các dự án sinh test kì thi chính thức.
 
 ### Năm lớp 12 bạn được giải Nhì như thế thì có phải chuẩn bị để thi tốt nghiệp không hay được vào thẳng Vòng 2 (TST)? 
 
 Đợt đấy lấy top 32 thì em khoảng top 40-50 nên em không vào được Vòng 2. Sau khi thi xong thì em quay sang thi tốt nghiệp, để cho dễ thì em học khối KHXH nên từ lớp Toán em được chuyển sang lớp Văn để học cùng các bạn nên là lúc đấy em còn muốn thi tốt nghiệp hơn cả TST. Ngoài ra, do thời gian học đội tuyển thì em tiếp xúc hầu hết là con trai, nên khi chuyển xuống lớp Văn học thì cũng bù đắp cho quãng thời gian đó thôi ạ. Thật ra có một số câu chuyện mà khi học đội tuyển em cũng không biết được, nên khi về lại lớp học thì em cũng có cơ hội kết nối lại với các bạn cùng lớp và làm quen thêm được nhiều bạn mới, em nghĩ đấy cũng là trải nghiệm khá là khác so với thi TST. 
 
-### Được biết thì bạn Việt có điểm khác so với những bạn trong VNOI, đấy là tuy bạn rất khủng nhưng lại có rất nhiều người yêu. Liệu Việt có thể chia sẻ cách để làm quen, mở rộng và duy trì các mối quan hệ được không?
-
-Kinh nghiệm của em thì cứ là chính mình thôi là được ạ, tại nếu người ta thích mình thì người ta sẽ cảm mến chính bản thân mình chứ không cần phải tỏ ra mình là người khác ạ. Khi đã có được thiện cảm của người ta thì mọi chuyện lúc đấy sẽ diễn ra tự nhiên thôi ạ.Người ta cũng có câu là kể cả con gái tỏ ra chủ động thì người ta cũng không bao giờ chủ động nên mình là con trai thì lúc nào cũng phải chủ động trước ạ.
-
 ### Bạn có thể chia sẻ quá trình nhập học đại học của bạn được không? Gia đình bạn có ủng hộ những quyết định của bạn không?
 
-Sau thi tốt nghiệp thì em cũng được tuyển thẳng vào UET do có giải QG nên sau đó em có chọn ngành CNTT (CN1) ạ. Theo em được nghe thì ngành này được ít người biết đến so với ngành Khoa học máy tính của UET, do nghe qua học CNTT thì người ta tưởng là đi cài win dạo, nhưng mà theo em quan sát được thì có rất nhiều người khủng vào ngành này nên em cũng vào luôn. Về trường thì nhiều người khi hỏi UET thì họ không biết là trường nào, họ còn hỏi lại có phải là Học viện Bưu chính Viễn thông (PTIT) không nên em thấy trường rất ít được nhiều người biết tới. Nhưng em may mắn là có mẹ hoàn toàn ủng hộ em, nên mọi quyết định em đều tự tìm hiểu còn gia đình chỉ đứng sau ủng hộ em thôi ạ. Việc em chọn UET mà không chọn những trường khác như Bách Khoa Hà Nội (HUST) thì chắc chắn do sợ môn đại cương rồi ạ. Nhưng mà đấy cũng không phải lý do chính mà là em vào UET để thi ICPC do em được biết trường rất đầu tư vào ICPC ạ, nên nhiều bạn mạnh vào trường cũng giúp em có thể thoải mái lập team hơn, ngay trước khi vào UET là em đã có team rồi ạ
+Sau thi tốt nghiệp thì em cũng được tuyển thẳng vào UET do có giải QG nên sau đó em có chọn ngành CNTT (CN1) ạ. Theo em được nghe thì ngành này được ít người biết đến so với ngành Khoa học máy tính của UET, do nghe qua học CNTT thì người ta tưởng là đi cài win dạo, nhưng mà theo em quan sát được thì có rất nhiều người khủng vào ngành này nên em cũng vào luôn. Về trường thì nhiều người khi hỏi UET thì họ không biết là trường nào, họ còn hỏi lại có phải là Học viện Bưu chính Viễn thông (PTIT) không nên em thấy trường rất ít được nhiều người biết tới. Nhưng em may mắn là có mẹ hoàn toàn ủng hộ em, nên mọi quyết định em đều tự tìm hiểu còn gia đình chỉ đứng sau ủng hộ em thôi ạ. Việc em chọn UET mà không chọn những trường khác như Bách Khoa Hà Nội (HUST) thì chắc chắn do sợ môn đại cương rồi. Nhưng mà đấy cũng không phải lý do chính mà là em vào UET để thi ICPC do em được biết trường rất đầu tư vào ICPC, nên nhiều bạn mạnh vào trường cũng giúp em có thể thoải mái lập team hơn, ngay trước khi vào UET là em đã có team rồi ạ.
 
 ### Kỳ thi ở Huế là năm thứ 2 bạn thi ICPC, bạn có thể kể về hành trình luyện tập và thi ICPC của bạn trong 2 năm qua được không?
 
@@ -44,12 +40,12 @@ Năm nhất thì bọn em làm bài nhiều hơn thì lại không được thi 
 
 ### Bạn có kỉ niệm gì ở lần tham gia thi ICPC Regional ở Huế không? 
 
-Kỉ niệm em nhớ nhất chắc là món chè heo quay, em không biết tại sao có món đấy tồn tại nhưng em thấy ăn cũng được ạ. Để tưởng tượng thì món đấy như lấy bột canh trộn với đường xong cho thêm bánh như há cảo vào trong chè để ăn cùng ạ. Ngoài ra ở Huế thì em thấy nhiều cảnh đẹp, con người cũng thân thiện, hơi xui một chút mấy hôm thi thì trúng mấy hôm trời mưa thôi ạ. 
+Kỉ niệm em nhớ nhất chắc là món chè heo quay, em không biết tại sao có món đấy tồn tại nhưng em thấy ăn cũng được. Để tưởng tượng thì món đấy như lấy bột canh trộn với đường xong cho thêm bánh như há cảo vào trong chè để ăn cùng. Ngoài ra ở Huế thì em thấy nhiều cảnh đẹp, con người cũng thân thiện, hơi xui một chút mấy hôm thi thì trúng mấy hôm trời mưa thôi ạ.
 
 ### Bạn có thể chia sẻ bí quyết cân bằng giữa việc ăn chơi, việc học trên trường và thi ICPC được không? Trong quá trình cân bằng bạn có gặp trở ngại nào không?
 
 ![](../assets/interviews/2024-hoang-quoc-viet/image2.jpg)
-Theo em thì mình không cố cân bằng những việc này thì mình không cần cân bằng, em chỉ đơn giản xem những việc này là hoạt động thường ngày diễn ra tự nhiên thôi ạ. Như em chọn tuần nào train ICPC thì tuần đấy sẽ ít việc để làm trên lớp hơn, những ngày đi chơi thì em quyết định sẽ không học trong ngày hôm đấy để hôm sau học bù nhiều hơn ạ. Công việc trong VNOI thì em sẽ sắp xếp từ trước nên em thấy mọi thứ nó là một phần của cuộc sống em luôn ạ, lúc đấy em thấy mọi việc cân bằng sẽ dễ hơn.
+Theo em thì mình không cố cân bằng những việc này thì mình không cần cân bằng, em chỉ đơn giản xem những việc này là hoạt động thường ngày diễn ra tự nhiên thôi ạ. Như em chọn tuần nào train ICPC thì tuần đấy sẽ ít việc để làm trên lớp hơn, những ngày đi chơi thì em quyết định sẽ không học trong ngày hôm đấy để hôm sau học bù nhiều hơn. Công việc trong VNOI thì em sẽ sắp xếp từ trước nên em thấy mọi thứ nó là một phần của cuộc sống em luôn, lúc đấy em thấy mọi việc cân bằng sẽ dễ hơn.
 
 ### Hiện tại thì Việt đang quản lý team Bedao và xuất bản rất nhiều chuỗi contest vô cùng chất lượng trên VNOJ, không biết quá trình từ một TNV lên ‘trùm’ của team Bedao thì như thế nào?
 
@@ -57,7 +53,7 @@ Theo em thì mình không cố cân bằng những việc này thì mình không
 
 ### Mình nghĩ việc duy trì trách nhiệm và luôn chủ động trong công việc là khá khó, theo bạn làm cách nào để duy trì tinh thần này?
 
-Trước hết thì việc tham gia vào CLB phải thực sự là đam mê của mình chứ không chỉ tham gia và nhận việc. Khi có tinh thần đó thì mình sẽ xem những công việc và hoạt động đấy trở nên thân quen hơn, nhiều thứ trong đó trở thành một phần của cuộc sống và mọi người trong CLB như gia đình của mình vậy. Từ đó em có thể đóng góp hết tài năng cũng như trí lực của mình nên em sẽ có thể chủ động hơn để đảm nhận những vai trò khác nhau trong công việc.
+Trước hết thì việc tham gia vào câu lạc bộ phải thực sự là đam mê của mình chứ không chỉ tham gia và nhận việc. Khi có tinh thần đó thì mình sẽ xem những công việc và hoạt động đấy trở nên thân quen hơn, nhiều thứ trong đó trở thành một phần của cuộc sống và mọi người trong CLB như gia đình của mình vậy. Từ đó em có thể đóng góp hết tài năng cũng như trí lực của mình nên em sẽ có thể chủ động hơn để đảm nhận những vai trò khác nhau trong công việc.
 
 ### Là một người vô cùng nhiệt huyết và tận tâm với công việc, bạn có thể giới thiệu qua những công việc trong team Bedao được không? Có bao giờ bạn gặp áp lực về chất lượng contest bị mọi người phản ánh không?
 
@@ -65,11 +61,11 @@ Em thấy có một quan điểm khá đúng là khi càng đảm nhận những
 
 ### Với quãng thời gian đóng góp nhiều như vậy, theo bạn điều gì xứng đáng để bạn nhận lại sau khi đóng góp rất nhiều cho cộng đồng?
 
-Việt: Điều em thấy xứng đáng nhất là số lượng thí sinh quan tâm đến contest trên VNOJ ngày càng tăng, hiện tại các contest duy trì ổn định ở mức 500-700 người, trước đó thì con số này đôi khi chỉ là khoảng 100-200 thôi. Ngoài ra thì các bạn coordinator ngày càng độc lập và trưởng thành hơn trong các quyết định của mình, theo em thấy thì việc đóng góp cho team Bedao là một mối quan hệ win-win, mình cho đi cộng đồng những contest chất lượng và đổi lại là những kỹ năng trước đó mình chưa bao giờ có. Sau khi cân nhắc như vậy thì em thấy công sức của mình rất là xứng đáng khi có thể đưa bản thân và mọi người cùng phát triển.
+Điều em thấy xứng đáng nhất là số lượng thí sinh quan tâm đến contest trên VNOJ ngày càng tăng, hiện tại các contest duy trì ổn định ở mức 500-700 người, trước đó thì con số này đôi khi chỉ là khoảng 100-200 thôi. Ngoài ra thì các bạn coordinator ngày càng độc lập và trưởng thành hơn trong các quyết định của mình, theo em thấy thì việc đóng góp cho team Bedao là một mối quan hệ win-win, mình cho đi cộng đồng những contest chất lượng và đổi lại là những kỹ năng trước đó mình chưa bao giờ có. Sau khi cân nhắc như vậy thì em thấy công sức của mình rất là xứng đáng khi có thể đưa bản thân và mọi người cùng phát triển.
 
 ### Bạn có trải nghiệm thú vị hay đáng nhớ nào khi làm ở vị trí này không?
 
-Việt: Trải nghiệm đáng nhớ chắc là em ‘dí deadline’ các bạn nhiều contest liên tục, đến nỗi mà mỗi ngày một deadline. Theo em thấy ‘dí deadline’ cũng là một nghệ thuật khi mình nhiều lúc phải nhắc khéo các bạn, thay vì báo sắp đến deadline thì em sẽ bảo em tạo xong contest thông báo trên VNOJ rồi. Khi đó các bạn sẽ lên VNOJ kiểm tra và so sánh lại tiến độ công việc của mình với tiến độ chung của mọi người. Nhiều trường hợp em sẽ nhắn tin riêng để chia sẻ công việc với bạn ý, vì thường team Bedao sẽ phân bố các đầu việc hợp lý cho các bạn, không để một bạn đảm nhận nhiều việc quá và một bạn khác thì ít việc quá. Em nghĩ nếu xây dựng môi trường lành mạnh như thế thì các bạn cũng được tạo điều kiện để hoàn thành sớm các công việc. 
+Trải nghiệm đáng nhớ chắc là em ‘dí deadline’ các bạn nhiều contest liên tục, đến nỗi mà mỗi ngày một deadline. Theo em thấy ‘dí deadline’ cũng là một nghệ thuật khi mình nhiều lúc phải nhắc khéo các bạn, thay vì báo sắp đến deadline thì em sẽ bảo em tạo xong contest thông báo trên VNOJ rồi. Khi đó các bạn sẽ lên VNOJ kiểm tra và so sánh lại tiến độ công việc của mình với tiến độ chung của mọi người. Nhiều trường hợp em sẽ nhắn tin riêng để chia sẻ công việc với bạn ý, vì thường team Bedao sẽ phân bố các đầu việc hợp lý cho các bạn, không để một bạn đảm nhận nhiều việc quá và một bạn khác thì ít việc quá. Em nghĩ nếu xây dựng môi trường lành mạnh như thế thì các bạn cũng được tạo điều kiện để hoàn thành sớm các công việc. 
 
 ### Bạn cảm thấy trong quãng thời gian dẫn dắt team Bedao thì bạn học được những gì?
 
@@ -86,6 +82,6 @@ Em có thể tiết lộ là em đang ấp ủ chuyện xem xét các bạn TNV 
 
 ### Đến với phần cuối, bạn có thể chia sẻ về những dự định cho tương lai, về ngành học và nghề nghiệp bạn muốn theo đuổi được không? Có công ty nào bạn mơ ước vào làm không? Theo bạn, một công ty lý tưởng theo bạn cần hội tụ những yếu tố nào? 
 
-Em hiện đang tham gia khá nhiều các workshop liên quan đến định hướng nghề nghiệp như blockchain và software engineering. Em cũng muốn thử sức ở lĩnh vực nào liên quan nhiều đến tài chính một chút tại em thấy tư duy tài chính cũng khá hay, giúp bản thân suy nghĩ mạch lạc hơn ạ. Ước mơ xa hơn của em là được làm startup, nhưng công ty lý tưởng để vào làm thì em cũng có một số cái tên như Pendle Finance, Dytechlab ạ. Em cũng chưa đi làm nhưng dưới góc nhìn của em thì một công việc lý tưởng phải là nơi em thật sự đam mê, luôn sẵn sàng cống hiến hay thức đêm nếu có nhiệm vụ quan trọng. Đấy sẽ là nơi em ở được là một phần của công ty chứ không phải làm cho xong việc rồi nghỉ.
+Em hiện đang tham gia khá nhiều các workshop liên quan đến định hướng nghề nghiệp như blockchain và software engineering. Em cũng muốn thử sức ở lĩnh vực nào liên quan nhiều đến tài chính một chút tại em thấy tư duy tài chính cũng khá hay, giúp bản thân suy nghĩ mạch lạc hơn. Ước mơ xa hơn của em là được làm startup, nhưng công ty lý tưởng để vào làm thì em cũng có một số cái tên như Pendle Finance, Dytechlab ạ. Em cũng chưa đi làm nhưng dưới góc nhìn của em thì một công việc lý tưởng phải là nơi em thật sự đam mê, luôn sẵn sàng cống hiến hay thức đêm nếu có nhiệm vụ quan trọng. Đấy sẽ là nơi em ở được là một phần của công ty chứ không phải làm cho xong việc rồi nghỉ.
 
 *Cảm ơn bạn đã nhận lời và tham gia phỏng vấn ngày hôm nay. Chúc bạn một năm mới nhiều sức khỏe, ngày càng phát triển Bedao và sớm kiếm được thực tập ở các công ty lớn!*
