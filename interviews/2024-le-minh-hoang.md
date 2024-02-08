@@ -139,7 +139,7 @@ Nhưng nói chung, mình không nghĩ rằng học một ngôn ngữ lập trìn
 Mình code theo kiểu truyền thống. Vì thật sự, ngay cả những đặc tả trong C\++17, C\++20 thì mình cũng chưa biết hết đâu. Mình code theo kiểu: trông nó quen thuộc thì viết thôi. Thỉnh thoảng nổi hứng lên viết những lệnh trông ngầu ngầu một tí, chứ nó không phải là chuyện thường xuyên. Một khi mà mình viết một lệnh mà bản thân mình thấy đã khó nhìn, thì khi debug (sửa lỗi) nó sẽ mệt lắm.
 
 ### Còn về IDE, thì bây giờ thầy vẫn dùng gì? Thầy thấy các bạn trẻ bây giờ hay dùng VS Code, Sublime Text thì thầy cảm thấy thế nào?
-Với C++ thì thầy vẫn dùng Codeblocks. Mình nghĩ là Codeblocks nó dở thật, hệ soạn thảo tích hợp nó hỗ trợ kém quá! Nếu có điều kiện thì nên dùng những phần mềm chuyên nghiệp, kết hợp debugger (trình sửa lỗi), unit test (kiểm thử cục bộ), version manager (trình quản lý phiên bản), v.v, các thứ. 
+Với C++ thì thầy vẫn dùng Codeblocks. Mình nghĩ là Codeblocks nó dở thật, hệ soạn thảo tích hợp nó hỗ trợ kém quá! Nếu có điều kiện thì nên dùng những phần mềm chuyên nghiệp, kết hợp debugger, unit test, version manager v.v, các thứ. 
 
 Tuy nhiên mình lại thấy có rất nhiều bạn code thẳng bằng giao diện trên trang web nào đấy: Mở web, code thẳng vào đấy rồi nộp bài luôn. Mà mình lại chẳng thấy cách làm này được lợi ích gì cả. Nếu có lỗi thì nó gỡ kiểu gì? 
 
@@ -208,7 +208,7 @@ Bây giờ thì mình cũng dự định viết lại vài chuyên đề, nhưng
 Cũng từ chuyện đấy, mình viết sách. Các chuyên đề đó ban đầu chỉ để dạy thôi, nhưng sau đó thì thấy trong nước dùng khá phổ biến. Mình nhận ra rằng môn Tin cần nhất là tài liệu – một học sinh sẽ không cần thầy, tự học vẫn được nếu như tài liệu đủ tốt, đưa ra một lộ trình rõ ràng để tự học. 
 Về sau này, có các bài viết trên VNOI các thứ ấy, nhưng mình vẫn cảm thấy thiếu một cuốn sách để hệ thống lại đầy đủ. Chứ từng topic một, từng chuyên đề thì sẽ có bài riêng; nhưng lắp ghép nó vào trong một bối cảnh chung – dạy cái này vào lúc nào, thì vẫn chưa có tài liệu nào như vậy. Mình cũng đang kì vọng nhưng mà vẫn chưa xong được.
 
-### Vậy là thầy dự định sắp viết phần Giải thuật và lập trình mới?
+### Vậy là thầy dự định sắp viết phần Giải thuật và Lập trình mới?
 
 Thật ra quyển cũ có rất nhiều điểm mình không ưng ý, vì có những thứ mình đặt vào vị trí không hợp lí lắm trong chương trình. Ngoài ra, sách còn thiếu rất nhiều thứ so với tiêu chuẩn hiện tại cho kì thi Học sinh giỏi Quốc gia. Đúng là mình chưa hoàn toàn ưng ý vì mình đang viết giữa chừng ở bên này mà. Bây giờ thì cũng phải cố. Khi mình cố viết, thì coi như là mình có việc để làm. Chứ nếu đi dạy suốt, quanh đi quẩn lại các bài đã chuẩn bị trước thì cảm hứng nó không được tươi mới như lần dạy đầu tiên. 
 
