@@ -53,7 +53,7 @@ Theo em thì mình không cố cân bằng những việc này thì mình không
 
 ### Mình nghĩ việc duy trì trách nhiệm và luôn chủ động trong công việc là khá khó, theo bạn làm cách nào để duy trì tinh thần này?
 
-Trước hết thì việc tham gia vào CLB phải thực sự là đam mê của mình chứ không chỉ tham gia và nhận việc. Khi có tinh thần đó thì mình sẽ xem những công việc và hoạt động đấy trở nên thân quen hơn, nhiều thứ trong đó trở thành một phần của cuộc sống và mọi người trong CLB như gia đình của mình vậy. Từ đó em có thể đóng góp hết tài năng cũng như trí lực của mình nên em sẽ có thể chủ động hơn để đảm nhận những vai trò khác nhau trong công việc.
+Trước hết thì việc tham gia vào câu lạc bộ phải thực sự là đam mê của mình chứ không chỉ tham gia và nhận việc. Khi có tinh thần đó thì mình sẽ xem những công việc và hoạt động đấy trở nên thân quen hơn, nhiều thứ trong đó trở thành một phần của cuộc sống và mọi người trong CLB như gia đình của mình vậy. Từ đó em có thể đóng góp hết tài năng cũng như trí lực của mình nên em sẽ có thể chủ động hơn để đảm nhận những vai trò khác nhau trong công việc.
 
 ### Là một người vô cùng nhiệt huyết và tận tâm với công việc, bạn có thể giới thiệu qua những công việc trong team Bedao được không? Có bao giờ bạn gặp áp lực về chất lượng contest bị mọi người phản ánh không?
 
