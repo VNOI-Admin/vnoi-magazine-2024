@@ -11,7 +11,7 @@ Truyền thuyết cho rằng, khi vũ trụ mới hình thành, Ngọc Hoàng đ
 
 Các sinh vật phải vượt qua một bài vô cùng hóc búa từ Ngọc Hoàng, bài toán được phát biểu như sau:
 
->Cho một dãy số n số nguyên dương $a_1, a_2,\ldots, a_n$. Với mỗi số nguyên dương a_i, thí sinh cần đếm xem có bao nhiêu nghiệm nguyên của phương trình $x + y >+ \gcd(x, y) = a_i$
+>Cho một dãy số n số nguyên dương $a_1, a_2,\ldots, a_n$. Với mỗi số nguyên dương $a_i$, thí sinh cần đếm xem có bao nhiêu nghiệm nguyên của phương trình $x + y >+ \gcd(x, y) = a_i$
 
 Các con vật khác đều bó tay chịu trận. Khi đến lượt Cá Chép tham gia, gió thổi mạnh và mây đen kéo đến. Cá Chép đã vượt qua bài thi và đi vào cửa Vũ Môn. Sau khi biến thành Rồng, Cá Chép phun nước tạo ra gió và mưa, giúp muôn loài thoát khỏi hạn hán và làm cho sự sống trở lại.
 
