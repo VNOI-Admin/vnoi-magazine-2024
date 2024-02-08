@@ -116,23 +116,23 @@ A: Chắc là socola hoặc các loại bánh tương tự. Tụi mình không c
 ![Thí sinh Song Đồng Gia Phúc, khối thi Chuyên Tin](../assets/icpc-olp/image9.jpg)
 “Mình đánh giá rất cao về chất lượng lẫn độ khó của đề thi năm nay, việc chia subtask của các bài toán là chìa khóa giúp mình có những hướng đi đúng đắn. Mình biết rằng cuộc thi năm nay sẽ quy tụ rất nhiều thí sinh xuất sắc nên mình chỉ có một mục tiêu nho nhỏ là đạt được giải số”. 
 
-### Lê Ngọc Bảo Anh - Trường Đại học Bách khoa, Đại học Đà Nẵng (khối Siêu Cup)
+### Lê Ngọc Bảo Anh - Trường Đại học Bách khoa, Đại học Đà Nẵng 
 ![Thí sinh Lê Ngọc Bảo Anh, khối thi Siêu Cup](../assets/icpc-olp/image8.jpg)
 “Đến với cuộc thi lần này mình không đặt nặng kết quả, chỉ mong đạt được kết quả cao nhất. Đối với mình, máy ảo của kỳ thi rất xịn và tốt, không gặp bất kỳ trục trặc gì; theo thang điểm 10 thì mình đánh giá 8 điểm vì có phần khác một chút so với máy ảo đã được đăng lên trước đó.”
 
-### Đặng Quốc Cường - Trường Đại học Công nghệ Thông tin, Đại học Quốc gia Thành phố Hồ Chí Minh (ICPC)
+### Đặng Quốc Cường - Trường Đại học Công nghệ Thông tin, Đại học Quốc gia Thành phố Hồ Chí Minh 
 ![Thí sinh Đặng Quốc Cường, khối thi ICPC](../assets/icpc-olp/image12.jpg)
 “Mình là sinh viên năm nhất nên không đặt nặng vấn đề thành tích, tham gia để trải nghiệm và học hỏi kinh nghiệm là chính. Mình thấy rằng kỳ thi được đầu tư rất là công phu và mọi thứ được chuẩn bị rất kỹ lưỡng.”
 
-### Phan Khắc Duy Long - Trường Đại học Công nghệ Thành phố Hồ Chí Minh (ICPC)
+### Phan Khắc Duy Long - Trường Đại học Công nghệ Thành phố Hồ Chí Minh 
 ![Thí sinh Phan Khắc Duy Long, khối thi ICPC](../assets/icpc-olp/image11.jpg)
 “Đây là lần đầu tiên mình được thử sức ở kỳ thi này nên mình cảm thấy đề tương đối khó và có phần khó hơn xíu so với các năm. Đây cũng là lần đầu mình được tiếp xúc với máy ảo thi nhưng cũng dễ làm quen. Mình thấy rằng máy chấm tương đối nhanh và ổn định.”
 
-### Lê Minh Hoàng - Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Thành phố Hồ Chí Minh (khối Siêu Cup)
-![Thí sinh Lê Minh Hoàng, khối thi Siêu Cup](../assets/icpc-olp/image13.png)
+### Lê Minh Hoàng - Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Thành phố Hồ Chí Minh 
+![Thí sinh Lê Minh Hoàng, khối thi ICPC](../assets/icpc-olp/image13.png)
 “Mình thấy rằng đề thi và các test không có bất kỳ vấn đề gì, máy thi hoạt động tốt. Về máy ảo, năm ngoái mình lần đầu tiếp xúc nên có phần bỡ ngỡ, còn năm nay mình đã làm quen và dùng tốt hơn; lúc đầu mình hơi gặp khó khăn trong việc kết nối Internet nhưng đã được các anh chị hỗ trợ.”
 
-### Đào Thụy Tuyết Nhung - Trường Đại học Sài Gòn (khối Không Chuyên)
+### Đào Thụy Tuyết Nhung - Trường Đại học Sài Gòn 
 ![Thí sinh Đào Thụy Tuyết Nhung, khối thi Không Chuyên](../assets/icpc-olp/image7.jpg)
 “Đến với kỳ thi lần này, mình hy vọng sẽ học hỏi được thêm nhiều kiến thức và có thêm nhiều trải nghiệm. Mình không đặt nặng thành tích vì bản thân khác chuyên ngành Công nghệ thông tin. Mình thấy rằng máy ảo rất tiện và không gặp bất kỳ trục trặc nào, mình đánh giá 10/10 điểm.” 
 

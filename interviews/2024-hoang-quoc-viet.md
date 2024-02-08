@@ -29,7 +29,7 @@ Hồi đấy trừ làm những bài dễ ra thì em làm cũng khá nhiều bà
 
 Đợt đấy lấy top 32 thì em khoảng top 40-50 nên em không vào được Vòng 2. Sau khi thi xong thì em quay sang thi tốt nghiệp, để cho dễ thì em học khối KHXH nên từ lớp Toán em được chuyển sang lớp Văn để học cùng các bạn nên là lúc đấy em còn muốn thi tốt nghiệp hơn cả TST. Ngoài ra, do thời gian học đội tuyển thì em tiếp xúc hầu hết là con trai, nên khi chuyển xuống lớp Văn học thì cũng bù đắp cho quãng thời gian đó thôi ạ. Thật ra có một số câu chuyện mà khi học đội tuyển em cũng không biết được, nên khi về lại lớp học thì em cũng có cơ hội kết nối lại với các bạn cùng lớp và làm quen thêm được nhiều bạn mới, em nghĩ đấy cũng là trải nghiệm khá là khác so với thi TST. 
 
-### Được biết thì bạn Việt có điểm khác so với những bạn trong VNOI,.đấy là tuy bạn rất khủng nhưng lại có rất nhiều người yêu. Liệu Việt có thể chia sẻ cách để làm quen, mở rộng và duy trì các mối quan hệ được không?
+### Được biết thì bạn Việt có điểm khác so với những bạn trong VNOI, đấy là tuy bạn rất khủng nhưng lại có rất nhiều người yêu. Liệu Việt có thể chia sẻ cách để làm quen, mở rộng và duy trì các mối quan hệ được không?
 
 Kinh nghiệm của em thì cứ là chính mình thôi là được ạ, tại nếu người ta thích mình thì người ta sẽ cảm mến chính bản thân mình chứ không cần phải tỏ ra mình là người khác ạ. Khi đã có được thiện cảm của người ta thì mọi chuyện lúc đấy sẽ diễn ra tự nhiên thôi ạ.Người ta cũng có câu là kể cả con gái tỏ ra chủ động thì người ta cũng không bao giờ chủ động nên mình là con trai thì lúc nào cũng phải chủ động trước ạ.
 
