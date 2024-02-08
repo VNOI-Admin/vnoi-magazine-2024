@@ -131,7 +131,7 @@ Một phần do duyên, một phần do giai đoạn nổi loạn của mình đ
 
 Trong CP thì các bạn có thể biết ‘Convex Hull Trick’ hay ‘Alien Trick’, là một trong những áp dụng rất cao của ‘Convex Optimization’ trong CP. Mình nhớ có dịp mình đọc một thuật toán luồng cực kì hay mà được áp dụng cho 1 bài toán kinh tế và mình cảm thấy là ‘Oh não to quá!’, chính khoảnh khắc đấy mình quyết định là mình phải suy xét xem bản thân xem có hợp nghiên cứu hay không, tại vì trước đây điểm mạnh của mình là code khỏe nhưng thực sự mình lại thích nghĩ bài hơn. Mình nhận ra hướng nghiên cứu là một nghề cho phép mình nghĩ bài mà có thể kiếm ra tiền và cho phép bản thân có thể thử. Sau đó mình cũng liên lạc nhiều hơn với thầy và cùng thầy nghiên cứu, rồi mọi thứ diễn ra rất suôn sẻ và sau khoảng 1 năm thì thầy với mình có chung bài nghiên cứu. Hiện tại thì mình cũng đang làm với 1 thầy khác, tuy nhiên câu chuyện đó lại rất buồn cười nên mình sẽ kể sau. 
 
-Còn về lý do mình lại không theo hướng đi làm công ty dù mình có intern Meta thì mình cảm thấy trong lúc intern Facebook cũng khá là hay nhưng lại không hay bằng việc mình theo nghiên cứu, như mình nói mình thích ngồi nghĩ bài hơn là ngồi code. Ở Meta thì việc intern của mình không phải là dễ, hầu hết thời gian là mình phải ngồi thiết kế các hệ thống khác nhau và nó không phải cái mình thích nghĩ, như mình nói là mình thích ngồi nghĩ các vấn đề phức tạp hơn mà không nhất thiết phải code nó ra. Tất nhiên mình biết đi con đường học cao học có 1 cái trở ngại rất là lớn đó là mình sẽ cực kì nghèo trong vòng 6 năm tới nhưng sau khi cân đo các điểm mạnh và điểm yếu thì mình quyết định là thà vừa đủ sống trong vòng 6 năm tới nhưng được theo đuổi con đường mình đam mê hơn là code và bị ‘burnout’ sau khoảng 4 năm nữa.
+Còn về lý do mình lại không theo hướng đi làm công ty dù mình có intern Meta thì mình cảm thấy trong lúc intern Facebook cũng khá là hay nhưng lại không hay bằng việc mình theo nghiên cứu, như mình nói mình thích ngồi nghĩ bài hơn là ngồi code. Ở Meta thì việc intern của mình không phải là dễ, hầu hết thời gian là mình phải ngồi thiết kế các hệ thống khác nhau và nó không phải cái mình thích nghĩ, như mình nói là mình thích ngồi nghĩ các vấn đề phức tạp hơn mà không nhất thiết phải code nó ra. Tất nhiên mình biết đi con đường học cao học có 1 cái trở ngại rất là lớn đó là mình sẽ cực kì nghèo trong vòng 6 năm tới nhưng sau khi cân đo các điểm mạnh và điểm yếu thì mình quyết định là thà vừa đủ sống trong vòng 6 năm tới nhưng được theo đuổi con đường mình đam mê hơn là code và bị burnout sau khoảng 4 năm nữa.
 
 *Mình cũng cảm thấy đúng, trong trường hợp này thì đâu đó chọn công việc mình thích nhưng ít tiền hơn là chọn công việc mình không thích nhưng nhiều tiền. Mặc dù bạn Kuroni có thể đi làm ở các công ty Quant Trading để kiếm thật nhiều tiền. Việc từ chối làm một công việc rất nhiều tiền để đi học cao học là việc không phải ai cũng làm được, rất hiếm có.*
 
@@ -162,7 +162,11 @@ Thật ra thì một paper đã được xuất bản và một paper thì mình
 
 Cái paper thứ 2 của mình với thầy Alex Psomas là một bài toán khá là dễ thương. Khi mà bạn đi mua điện thoại, cách để bạn biết nó tốt hay không là nhìn giá, giá thì thường được định do nhà sản xuất hoặc thị trường đặt, nên về cơ bản thì giá chỉ là ‘noisy sample’. Kiểu như một chiếc điện thoại có hiệu suất được đánh giá là 2 triệu đồng nhưng lại được bán là 2 triệu 500 nghìn đồng, tức nhiều tiền hơn so với hiệu năng thật của điện thoại này. Lúc này, bạn sẽ tham khảo thị trường có n điện thoại với những cái giá khác nhau, tất nhiên bạn sẽ muốn mua điện thoại có cái hiệu năng tốt nhất so với túi tiền hiện tại. Theo xu hướng thì bạn sẽ mua điện thoại đắt nhất mà bạn có thể trả được, nhưng giả sử, trước mắt bạn có 2 cái điện thoại với giá 15 triệu đồng và 14 triệu 999 nghìn đồng, lúc này bạn không thể mua điện thoại 15tr một cách ngẫu nhiên mà phải so sánh thêm. Vậy nên bài toán của mình sẽ cho giá tiền mà nhà sản xuất rao bán của những chiếc điện thoại này và kèm với những ‘noisy sample’ so với giá trị thật mà điện thoại đem lại và mình cần phải tìm một thuật toán mà cho ra chiếc điện thoại có giá tiền niêm yết sát với giá trị thật nhất mà đem lại hiệu năng cao nhất. 
 
+
+![](../assets/interviews/2024-dang-doan-duc-trung/image15.jpg)
+
 Mình cảm thấy bài toán này rất là hay mà vẫn chưa có paper nào nghiên cứu thật là kĩ về vấn đề này nên mình với thầy đã nghiên cứu về vấn đề này. Trong bài toán này thì mình cũng đã tìm được một thuật toán rất là hay để giải quyết, mình có thể biểu diễn ‘noisy value’ bằng phương sai của số tiền niêm yết so với giá trị thật, lúc này mình sẽ không quan tâm các điện thoại có phương sai to và ở những ở điện thoại còn lại mình sẽ chỉ chọn những cái có giá tiền cao nhất vì đương nhiên những điện thoại có phương sai to sẽ không liên quan quá nhiều đến giá trị thật của chiếc điện thoại đem lại, chính vì thế những điện thoại có phương sai nhỏ khả năng sẽ phản ảnh chất lượng tốt nhất. Thuật toán này nghe có vẻ đúng nhưng mình không chỉ đề xuất ra nó mà còn chứng minh nó tốt luôn (cười)
+
 
 *Con đường chứng minh thuật toán ‘nghe nó đúng’ đến ‘đúng hẳn’ là một con đường rất là dài.*
 
@@ -173,15 +177,12 @@ Mình cảm thấy bài toán này rất là hay mà vẫn chưa có paper nào 
 
 Đầu tiên để có sức bền thì mình nghĩ bạn phải có đam mê trước đã. Mình nghĩ điều quan trọng để duy trì công việc ở cường độ cao là phải có đam mê, giữ được đam mê đó bằng việc trải nghiệm nhiều khía cạnh khác nhau trong cuộc sống. Mình không chỉ dành cả ngày của mình với việc nghiên cứu mà mình cũng có một lối sống sinh hoạt cũng khá là tốt, ngay từ hôm qua mình đăng trên Twitter là mình vừa đi một concert. 
 
-
-![](../assets/interviews/2024-dang-doan-duc-trung/image15.jpg)
-
 Việc chuyển giữa các hoạt động khác nhau như thế giúp cho mình không chán bất cứ hoạt động nào cả mà có thể cho mình thích tất cả mọi thứ cùng lúc được. Tất nhiên mình cũng không phải người đi concert quá là nhiều, nhưng nếu mình đi 1-2 lần trong nhiều tháng thì mình cảm thấy tinh thần của mình tốt hơn rất là nhiều. Bên cạnh đó mình còn duy trì tinh thần của mình qua việc đi chơi với bạn bè, rủ các bạn nấu ăn, có thể các bạn không biết chứ mình nấu ăn rất là ngon, đăng Twitter là lúc nào cũng nhiều like cực kì luôn (cười)
 
 
 *Nếu các bạn không biết thì Kuroni là người thường xuyên đăng ảnh đồ ăn lúc đêm muộn trên kênh chat Discord của VNOI. Đúng là một tội ác*
 
-Đúng rồi, thế nên việc mình làm nhiều thứ song song với việc nghiên cứu khiến mình không bao giờ thấy chán cả, mình không phải lúc nào cũng chỉ làm một việc duy nhất trong một thời điểm và mình liên tục thay đổi các hoạt động, thế nên mình thấy đấy cũng là bí kíp để mình không bị ‘burnout’ trong việc nghiên cứu. 
+Đúng rồi, thế nên việc mình làm nhiều thứ song song với việc nghiên cứu khiến mình không bao giờ thấy chán cả, mình không phải lúc nào cũng chỉ làm một việc duy nhất trong một thời điểm và mình liên tục thay đổi các hoạt động, thế nên mình thấy đấy cũng là bí kíp để mình không bị burnout trong việc nghiên cứu. 
 
 Bên cạnh đó mình còn duy trì việc tập thể dục, mình cảm thấy việc đi tập thể dục khá là quan trọng. Hồi xưa ba mẹ mình nói thì mình chả bao giờ nghe đâu, mãi khi mình chứng kiến trong quãng thời gian dịch Covid mình thê thảm như thế nào thì mình mới bắt đầu đi bộ, đánh cầu lông tuy mình cũng chả phải là người đánh cầu lồng hay lắm, nhưng sau khi chơi thì mình cảm thấy yêu đời hơn rất là nhiều.
 
