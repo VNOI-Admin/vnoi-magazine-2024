@@ -4,7 +4,7 @@ import io
 import math
 import re
 import sys
-from typing import Any, Iterable, NamedTuple, cast
+from typing import Any, NamedTuple, cast
 
 import marko
 import marko.block
@@ -262,9 +262,16 @@ class MarkoLatexRenderer(LatexRenderer):
         # lines.append(f'\\begin{{tabularx}}{{\\linewidth}}{{ {alignment} }}')
         lines.append(f'\\begin{{tabular}}{{ {alignment} }}')
         lines.append(r'\hline')
-        for row in rendered_content:
+        
+        def add_row(row: list[str]):
             rendered_row = ' & '.join(row)
             lines.append('  ' + rendered_row + r' \tabularnewline \hline')
+
+        add_row(rendered_content[0])
+        lines.append(r'\hline')
+        for row in rendered_content[1:]:
+            add_row(row)
+
         # lines.append('\\end{tabularx}')
         lines.append('\\end{tabular}')
         lines.append('\\end{center}')
@@ -281,10 +288,10 @@ class MarkoLatexRenderer(LatexRenderer):
             max(len(content[i][j]) for i in range(n)) for j in range(m)
         ]
 
-        lg_max_len = list(map(math.log, col_max_len))
+        lg_max_len = list(map(lambda x: math.log(x) ** 2, col_max_len))
         sum_lg_max_len = sum(lg_max_len)
 
-        fixed_total_size = 0.8
+        fixed_total_size = 0.95
 
         def map_alignment(alignment: str | None, pos: int):
             ratio = lg_max_len[pos] / sum_lg_max_len
@@ -292,11 +299,11 @@ class MarkoLatexRenderer(LatexRenderer):
             if alignment == 'left':
                 return size
             elif alignment == 'right':
-                return '>{\\begin{flushright}' + size + '<\\end{flushrignt}'
+                return r'>{\raggedleft\arraybackslash}' + size
             else:
                 if alignment != 'center' and alignment is not None:
                     print(f'Warning: Unknown alignment {alignment}. Fall back to "center".')
-                return '>{\\centering}' + size
+                return r'>{\centering\arraybackslash}' + size
 
         return '|' + '|'.join(
             map_alignment(cell.align, pos) for cell, pos in zip(header_cells, range(m))
