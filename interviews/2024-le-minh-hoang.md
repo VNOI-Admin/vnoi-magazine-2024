@@ -214,9 +214,12 @@ Về sau này, có các bài viết trên VNOI và các nguồn trong và ngoài
 Thật ra quyển cũ có rất nhiều điểm mình không ưng ý, vì có những thứ mình đặt vào vị trí không hợp lí lắm trong chương trình. Ngoài ra, sách còn thiếu rất nhiều thứ so với tiêu chuẩn hiện tại cho kì thi Học sinh giỏi Quốc gia. Đúng là mình chưa hoàn toàn ưng ý vì mình đang viết giữa chừng ở bên này mà. Bây giờ thì cũng phải cố. Khi mình cố viết, thì coi như là mình có việc để làm. Chứ nếu đi dạy suốt, quanh đi quẩn lại các bài đã chuẩn bị trước thì cảm hứng nó không được tươi mới như lần dạy đầu tiên. 
 
 ### Code minh hoạ chắc sẽ được viết bằng C++ đúng không ạ?
+
+![](../assets/interviews/2024-le-minh-hoang/image11.jpg)
+
 Chắc là phải viết bằng C++. Nói chung sẽ rất khó để tổng hợp mọi thứ thuộc mạch cốt lõi của cấu trúc dữ liệu và giải thuật. Những kiến thức trong kì thi, đôi khi là những kiến thức rời rạc, không gắn vào đâu trong cái mạch chính này. Ngay cả câu chuyện về Segment Tree hay Fenwick Tree, khi thi cử, nó là những thứ rất phổ biến, nhưng để nói về vai trò trong mạch chính của khoa học máy tính, thì những thứ ấy là vớ vẩn. Cảm giác của mình, nó chỉ là mẹo cài đặt mà thôi.
 
-Segment Tree thì ít nhất còn có tư tưởng chia để trị, tách tầng, lưu dữ liệu, v.v, còn Fenwick Tree thì đúng là mẹo cài đặt 100%. Thật vậy, Fenwick Tree được nhiều học sinh công nhận là học xong thì chỉ biết là: OK, cài như thế thôi!
+Segment Tree thì ít nhất còn có tư tưởng chia để trị, tách tầng, lưu dữ liệu, v.v, còn Fenwick Tree thì đúng là mẹo cài đặt 100%, công nhận là học xong thì chỉ biết là: OK, cài như thế thôi!
 
 Những sách về thuật toán, đôi khi code cài rất dở, cài theo mô hình rất kém. Nếu mình sao chép chang mô hình của nó ra như vậy, nó sẽ thành một thuật toán chậm. Đúng là code những sách đó rất là vụn.
 
@@ -226,8 +229,6 @@ Chắc phải là ít nhất 1 năm, nên có lẽ vào năm 2025. Cũng phải 
 
 ### Thầy có biết đánh cờ vua không ạ?
 Không, mình chỉ biết chơi cờ tướng
-
-![](../assets/interviews/2024-le-minh-hoang/image11.jpg)
 
 *Cờ tướng thì bình thường có máy tính hỗ trợ không ạ?*
 
@@ -243,8 +244,6 @@ Mình hơi khác với các bạn, vì mình nhanh chán lắm! Phá đảo xong
 ### Phim thì thầy yêu thích thể loại nào nhất?
 Phim hình sự phá án gì đấy. Vừa xem vừa đoán là cái đoạn mình thích nhất. Phim hài cũng hay nhưng đa số mình xem hết rồi! Còn mấy loại vũ trụ Marvel hay DC thì mình không tham. Mình thấy hình ảnh đẹp thôi chứ nội dung thì chả có gì. 
 
-![](../assets/interviews/2024-le-minh-hoang/image5.jpg)
-
 *Thầy có gợi ý danh sách phim hình sự phá án cho các bạn cày dịp Tết này không?*
 
 Mình thấy cái nào có vụ án mà khó đoán thì nó sẽ hay phết!
@@ -257,10 +256,9 @@ Mấy thể loại sướt mướt, tấu hài lê thê thì mình rút kinh ngh
 
 ### Thể loại nghe nhạc yêu thích của thầy?
 
-Lúc rảnh thì mình có nghe nhạc nhưng chỉ nghe nhạc không lời thôi. Bởi vì khi làm việc đêm, mình thường có hai màn hình. Màn hình đầu thì để phim, màn hình hai để hiện code. Thật ra khi xem phim, tình tiết của phim thường sẽ chậm, nên không cần tập trung xem phim. Chủ yếu là để có một cái tiếng nói bên cạnh giúp mình không buồn ngủ. Làm đêm thì kị nhất việc đi ra uống café sau khi ngáp một cái dài, và mãi chẳng thể tập trung được, lại lăn ra ngủ tiếp.
-
-
 ![](../assets/interviews/2024-le-minh-hoang/image13.png)
+
+Lúc rảnh thì mình có nghe nhạc nhưng chỉ nghe nhạc không lời thôi. Bởi vì khi làm việc đêm, mình thường có hai màn hình. Màn hình đầu thì để phim, màn hình hai để hiện code. Thật ra khi xem phim, tình tiết của phim thường sẽ chậm, nên không cần tập trung xem phim. Chủ yếu là để có một cái tiếng nói bên cạnh giúp mình không buồn ngủ. Làm đêm thì kị nhất việc đi ra uống café sau khi ngáp một cái dài, và mãi chẳng thể tập trung được, lại lăn ra ngủ tiếp.
 
 Nghe nhạc thì mình nghe tuỳ lúc, thường là trước khi đi ngủ. Chứ nghe một thể loại nhạc trong khoảng thời gian dài vài tiếng đồng hồ, nó rất là nhức đầu. Khi làm việc, nhất là làm việc một mình trong thời gian dài, nên để trong phòng có một ít tiếng động. Nếu trong phòng có TV, cứ bật lên nghe thời sự, nghe tới đâu cũng được. Phải có một tí tiếng ồn thì mới làm được việc, vì yên tĩnh tuyệt đối thì chỉ muốn ngủ thôi!
 
