@@ -208,7 +208,7 @@ $\implies$ *Ta không cần gọi $\gcd(u, N)$ mỗi bước Thỏ chạy mà g�
 - Sau cùng, ta vẫn cần một lần duyệt $\lambda$ bước để tìm vị trí Thỏ gặp Rùa và sử dụng hàm $\gcd(u,N)$ mỗi bước.
 $\implies$ *Cả thuật toán gọi $\gcd(u, N)$ khoảng $\lambda + \log (\lambda+ \mu) \sim \sqrt[4]N$* lần.
 
-ĐPT của **Thuật toán Brent** vẫn là $O \left( \sqrt[4] N \log N\right)$.
+Độ phức tạp của **Thuật toán Brent** vẫn là $O \left( \sqrt[4] N \log N\right)$.
 Tuy nhiên **Thuật toán Brent** lại có số lần sử dụng $f(x)$ ít hơn **Thuật toán Floyd** rất nhiều nên đã tăng tốc thuật toán tìm chu trình khoảng $36\%$ và thuật toán phân tích số nguyên khoảng $24\%$ - [theo Brent](https://en.wikipedia.org/wiki/Cycle_detection#Brent's_algorithm).
 <br/>
 Bảng dưới đây là minh họa cho **Thuật toán Brent** với $N = 143$, $x_0 = 2$ và $c = 1$.
