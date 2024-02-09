@@ -251,7 +251,12 @@ Nếu ta nhìn về độ phức tạp trên giấy của cả $4$ thuật toán
 
 Nếu ta xét thời gian chạy của cả $4$ thuật toán cho bài trên thì ta có thể thấy các ưu và nhược điểm của cả 4 thuật toán:
 
-![Bảng so sánh các thuật toán](../assets/dp_broken_pf/image5.png)
+ Thuật toán | Thời gian chạy | Nhận xét |
+| ---------- | -------------- | -------- |
+| $O(M*4^N)$ | `TLE` | Khá chậm nhưng tốn khá ít bộ nhớ|
+| $O(M*3^N)$ | $0.17s$ nếu dùng for, $0.83$ khi đệ quy tìm $nextmask$ | Ta thấy ở đây là khoảng cách thời gian giữa việc sử dụng đệ quy và vòng for rất lớn. Đó là vì đệ quy sẽ gây ra hằng số khá cao mặc dù đệ quy trong C++ đã được tối ưu rất nhiều.|
+| $O(N*M*2^N+M*(1+\phi)^N)$           |  $0.14s$ | Sử dụng đệ quy nhưng vẫn nhanh hơn hướng làm $O(M*3^N)$. Nó nhanh hơn là do số lượng trường hợp phải xét giảm thiểu đáng kể với việc nhận lại hằng số từ đệ quy. Bộ nhớ sử dụng cũng kha khá.|
+| $O(N*M*2^N)$ | $0.09s$ | Nhanh nhất và bộ nhớ dùng tương đối ít cũng như có hằng số khá thấp. Có thể tối ưu bộ nhớ và từ đó thời gian chạy hơn nữa những việc đó không cần thiết. |
 
 ## [Bài toán 2:](oj.vnoi.info)
 * Cho một bảng $A$ có kích thước $N \times M$, mỗi ô có một giá trị nguyên. Hãy tìm cách đặt đúng $k$ domino $2\times 1$ không chồng nhau để tổng các giá trị trên các ô được phủ là đạt giá trị cực đại.
