@@ -28,7 +28,7 @@ Bài tập sử dụng DP Broken Profile thường rất khó nên việc hiểu
 Với $N$ bé như $1$, $2$ hay $3$ thì công thức truy hồi rất dễ để tìm ra: 
 * $N=1$: Ta thấy chỉ có duy nhất $1$ cách điền (Nếu như $M$ chẵn). 
 * $N=2$: $dp_m=dp_{m-1}+dp_{m-2}$, hay hàm dp của ta sẽ là số $Fibonacci$ thứ $M$. 
-* $N=3$: Công thức truy hồi khó hơn chút nhưng ta có thể chứng minh được công thức truy hồi của ta sẽ là $dp_m=4*dp_{m-1}-dp_{m-2}$. Công thức đó được chứng minh ở [đây](https://goo.gl/ixTyA5).
+* $N=3$: Công thức truy hồi khó hơn chút nhưng ta có thể chứng minh được công thức truy hồi của ta sẽ là $dp_m=4\cdot dp_{m-1}-dp_{m-2}$. Công thức đó được chứng minh ở [đây](https://goo.gl/ixTyA5).
 
 Khi ta xét trường hợp tổng quát, việc tìm công thức truy hồi chỉ có thể khi dùng Berlekamp-Massey. Nhưng với $N$ nhỏ (nhỏ hơn $10$ như trong bài này), thì ta có thể làm cách nào đơn giản hơn không?
 
@@ -51,7 +51,7 @@ Chứng minh:
     - Nếu bit thứ $k$ của $mask$ là $1$ thì ta không thể làm gì do ô $(i,k)$ đã được lắp đầy.
 * Như thế, trong mọi trường hợp thì ta cũng chỉ có một cách để biến $mask$ thành $nextmask$.
 
-Nếu ta xây dựng $nextmask$ bằng cách xét tất cả các $nextmask$ rồi kiểm tra là $mask$ hiện tại và $nextmask$ có đồng khớp với nhau không thì nó sẽ mất khá lâu. Ta có for $M$ ,for $mask$ và for $nextmask$ nên độ phức tạp sẽ là $O(M*2^N*2^N)$ hay $O(M*4^N)$, không đủ nhanh cho bài này. Việc kiểm tra $mask$ và $nextmask$ có khớp được với nhau hay không trong $O(1)$ các bạn có thể tham khảo ở [đây](https://www.youtube.com/watch?v=0bnMHlFUM_o) tại phút thứ $40$. 
+Nếu ta xây dựng $nextmask$ bằng cách xét tất cả các $nextmask$ rồi kiểm tra là $mask$ hiện tại và $nextmask$ có đồng khớp với nhau không thì nó sẽ mất khá lâu. Ta có for $M$ ,for $mask$ và for $nextmask$ nên độ phức tạp sẽ là $O(M\cdot 2^N\cdot 2^N)$ hay $O(M\cdot 4^N)$, không đủ nhanh cho bài này. Việc kiểm tra $mask$ và $nextmask$ có khớp được với nhau hay không trong $O(1)$ các bạn có thể tham khảo ở [đây](https://www.youtube.com/watch?v=0bnMHlFUM_o) tại phút thứ $40$. 
 
 Tham khảo code mẫu thuật $O(M*N^4)$:
 ```cpp
@@ -83,7 +83,7 @@ int main(){
 }
 ```
 
-Có một tối ưu là thay vì xét tất cả các $nextmask$ thì ta chỉ xét các mask con của phần bù của $mask$ hiện tại. Nó sẽ tối ưu độ phức tạp từ $O(M*4^N)$ thành $O(M*3^N)$. Nếu ta chỉ xét các submask bằng đệ quy thì ta sẽ gặp một trở ngại là hằng số rất cao nên khó có thể áp dụng cho bài khác. Vì thế, ta có thể sử dụng một trick biến đổi bit để xét các submask bằng vòng for ở [đây](https://cp-algorithms.com/algebra/all-submasks.html#iterating-through-all-masks-with-their-submasks-complexity-o3n). Như thế, code của ta vừa được tối ưu hơn và đủ nhanh để ac bài này.
+Có một tối ưu là thay vì xét tất cả các $nextmask$ thì ta chỉ xét các mask con của phần bù của $mask$ hiện tại. Nó sẽ tối ưu độ phức tạp từ $O(M\cdot 4^N)$ thành $O(M\cdot 3^N)$. Nếu ta chỉ xét các submask bằng đệ quy thì ta sẽ gặp một trở ngại là hằng số rất cao nên khó có thể áp dụng cho bài khác. Vì thế, ta có thể sử dụng một trick biến đổi bit để xét các submask bằng vòng for ở [đây](https://cp-algorithms.com/algebra/all-submasks.html#iterating-through-all-masks-with-their-submasks-complexity-o3n). Như thế, code của ta vừa được tối ưu hơn và đủ nhanh để ac bài này.
 
 Tham khảo code mẫu:
 
@@ -178,13 +178,13 @@ int main(){
 }
 ```
 
-Ta nhận thấy, việc xét các $mask$ và $nextmask$ đã tốn ít nhất thời gian chạy là $O(N*M*2^N)$. Nhưng code ở trên còn phần đệ quy nữa, vậy thời gian chạy của việc đệ quy là gì? 
+Ta nhận thấy, việc xét các $mask$ và $nextmask$ đã tốn ít nhất thời gian chạy là $O(N\cdot M\cdot 2^N)$. Nhưng code ở trên còn phần đệ quy nữa, vậy thời gian chạy của việc đệ quy là gì? 
 
 Gọi $totalcall(i)$ là số lần gọi đệ quy với một $mask$ có $i$ số $0$ liên tiếp. Ta thấy là $totalcall(1)=totalcall(2)=1$. Còn với $n>2$ thì $totalcall(n)=totalcall(n-1)+totalcall(n-2)$. Ta dễ dàng thấy là hàm $totalcall$ là hàm fibonacci. Vì thế, với một $mask$ có $i$ số $0$ thì ta sẽ có cận trên là $F_i$ với $F_i$ là số fibonacci thứ $i$. 
 
-Ta thấy là có tất cả $\binom{n}{k}$ $mask$ có $k$ số $0$ với $mask$ $n$ bit. Vì thế, cận trên của số lần gọi đệ quy của ta sẽ là $m*\sum_{k=0}^n \binom{n}{k}*F_k$ mà hàm $Fibonacci$ có tính chất là có mối quan hệ chặt chẽ với tỉ lệ vàng, hay,  $F_k \approx \phi^k$. Sử dụng nhị thức Newton, ta tính được  cận trên của số lần gọi đệ quy sẽ là $m*\sum_{k=0}^n \binom{n}{k}*\phi^k=m*(1+\phi)^n$. Hay độ phức tạp cuối cùng của chương trình chạy là $O(N*M*2^N+M*(1+\phi)^N)$. 
+Ta thấy là có tất cả $\binom{n}{k}$ $mask$ có $k$ số $0$ với $mask$ $n$ bit. Vì thế, cận trên của số lần gọi đệ quy của ta sẽ là $m\cdot\sum_{k=0}^n \binom{n}{k}\cdot F_k$ mà hàm $Fibonacci$ có tính chất là có mối quan hệ chặt chẽ với tỉ lệ vàng, hay,  $F_k \approx \phi^k$. Sử dụng nhị thức Newton, ta tính được  cận trên của số lần gọi đệ quy sẽ là $m\cdot \sum_{k=0}^n \binom{n}{k}\cdot\phi^k=m\cdot(1+\phi)^n$. Hay độ phức tạp cuối cùng của chương trình chạy là $O(N\cdot M\cdot 2^N+M\cdot (1+\phi)^N)$. 
 #### Tối ưu thứ hai
-Ở đây, ta nghĩ đến việc cố gắng khử đệ quy và loại bỏ đi vế $M*(1+\phi)^N$ trong độ phức tạp. Nhưng việc này không hề dễ dàng như ta nghĩ do với mỗi $mask$ để mà tìm $nextmask$ không dùng đệ quy thì không phải việc dễ dàng. Vì thế, thay vì với mỗi $mask$ ta tìm mỗi $nextmask$ để cập nhật thì ta sẽ lấp đầy bảng từ dòng một và từng cột một luôn thay vì phải đề quy để lắp đầy cả cột. Nhưng, nếu ta muốn làm thế thì phải định nghĩa lại công thức quy hoạch động của chúng ta. Gọi $dp_{i,j,mask}$ là số cách lắp đầy $i-1$ cột đầu của bảng, cột thứ $i$ được lắp đầy $j$ dòng và trang thái của $j-1$ dòng đầu cột $i+1$ và $N-j+1$ dòng cuối của cột $i$ khi ghép lại là $mask$. Xem hình bên dưới để hiểu rõ hơn.
+Ở đây, ta nghĩ đến việc cố gắng khử đệ quy và loại bỏ đi vế $M\cdot(1+\phi)^N$ trong độ phức tạp. Nhưng việc này không hề dễ dàng như ta nghĩ do với mỗi $mask$ để mà tìm $nextmask$ không dùng đệ quy thì không phải việc dễ dàng. Vì thế, thay vì với mỗi $mask$ ta tìm mỗi $nextmask$ để cập nhật thì ta sẽ lấp đầy bảng từ dòng một và từng cột một luôn thay vì phải đề quy để lắp đầy cả cột. Nhưng, nếu ta muốn làm thế thì phải định nghĩa lại công thức quy hoạch động của chúng ta. Gọi $dp_{i,j,mask}$ là số cách lắp đầy $i-1$ cột đầu của bảng, cột thứ $i$ được lắp đầy $j$ dòng và trang thái của $j-1$ dòng đầu cột $i+1$ và $N-j+1$ dòng cuối của cột $i$ khi ghép lại là $mask$. Xem hình bên dưới để hiểu rõ hơn.
 
 ![Trạng thái của $dp_{6,3,10110}$ trên bảng $5\times 10$](../assets/dp_broken_pf/image3.png)
 
@@ -247,7 +247,7 @@ int main(){
     cout<<dp[m+1][0][0];
 }
 ```
-Ta dễ dàng nhận thấy là code trên có độ phức tạp là $O(N*M*2^N)$.
+Ta dễ dàng nhận thấy là code trên có độ phức tạp là $O(N\cdot M\cdot 2^N)$.
 
 #### Tối ưu bộ nhớ:
 [USACO](https://usaco.guide/adv/dp-more?lang=cpp#dp-on-broken-profile) có một cách cài đặt có độ phức tạp ngang ngửa ta đang xét và tối ưu bộ nhớ hơn rất nhiều nhưng cách viết hơi khó hiểu nên đọc giả có thể tham khảo thêm. Thay vì DP lên như ta thì USACO DP ngược từ đó có thể tối ưu bộ nhớ. Định nghĩa hàm quy hoạch động của ta và của USACO y chang nhau. 
@@ -259,14 +259,14 @@ Nếu ta xét thời gian chạy của cả $4$ thuật toán cho bài trên th�
 
  Thuật toán | Thời gian chạy | Nhận xét |
 | ---------- | -------------- | -------- |
-| $O(M*4^N)$ | `TLE` | Khá chậm nhưng tốn khá ít bộ nhớ|
-| $O(M*3^N)$ | $0.17s$ nếu dùng for, $0.83$ khi đệ quy tìm $nextmask$ | Ta thấy ở đây là khoảng cách thời gian giữa việc sử dụng đệ quy và vòng for rất lớn. Đó là vì đệ quy sẽ gây ra hằng số khá cao mặc dù đệ quy trong C++ đã được tối ưu rất nhiều.|
-| $O(N*M*2^N+M*(1+\phi)^N)$           |  $0.14s$ | Sử dụng đệ quy nhưng vẫn nhanh hơn hướng làm $O(M*3^N)$. Nó nhanh hơn là do số lượng trường hợp phải xét giảm thiểu đáng kể với việc nhận lại hằng số từ đệ quy. Bộ nhớ sử dụng cũng kha khá.|
-| $O(N*M*2^N)$ | $0.09s$ | Nhanh nhất và bộ nhớ dùng tương đối ít cũng như có hằng số khá thấp. Có thể tối ưu bộ nhớ và từ đó thời gian chạy hơn nữa những việc đó không cần thiết. |
+| $O(M\cdot 4^N)$ | `TLE` | Khá chậm nhưng tốn khá ít bộ nhớ|
+| $O(M\cdot 3^N)$ | $0.17s$ nếu dùng for, $0.83$ khi đệ quy tìm $nextmask$ | Ta thấy ở đây là khoảng cách thời gian giữa việc sử dụng đệ quy và vòng for rất lớn. Đó là vì đệ quy sẽ gây ra hằng số khá cao mặc dù đệ quy trong C++ đã được tối ưu rất nhiều.|
+| $O(N\cdot M\cdot  2^N+M\cdot (1+\phi)^N)$           |  $0.14s$ | Sử dụng đệ quy nhưng vẫn nhanh hơn hướng làm $O(M*3^N)$. Nó nhanh hơn là do số lượng trường hợp phải xét giảm thiểu đáng kể với việc nhận lại hằng số từ đệ quy. Bộ nhớ sử dụng cũng kha khá.|
+| $O(N\cdot M\cdot  2^N)$ | $0.09s$ | Nhanh nhất và bộ nhớ dùng tương đối ít cũng như có hằng số khá thấp. Có thể tối ưu bộ nhớ và từ đó thời gian chạy hơn nữa những việc đó không cần thiết. |
 
 ## [Bài toán 2: Domino](https://oj.vnoi.info/problem/bananabread_domino)
 * Cho một bảng $A$ có kích thước $N \times M$, mỗi ô có một giá trị nguyên. Hãy tìm cách đặt đúng $k$ domino $2\times 1$ không chồng nhau để tổng các giá trị trên các ô được phủ là đạt giá trị cực đại.
-    - $N\le 4,M\le 1000,K\le \frac{N*M}{2}$
+    - $N\le 4,M\le 1000,K\le \frac{N\cdot M}{2}$
     - Subtask:
         - $20\%$: $M\le5$
         - $40\%$: $N\le3$
@@ -274,13 +274,13 @@ Nếu ta xét thời gian chạy của cả $4$ thuật toán cho bài trên th�
 
 ### Phân tích:
 #### Subtask 1: 
-Ta thấy là ở đây có nhiều nhất là $20$ ô nên ta có thể dễ dàng xét tất cả các trạng thái của cả $20$ ô và kiểm tra xem trạng thái như thế có hợp lệ hay không rồi lấy trường hợp tốt nhất. Độ phức tạp của thuật toán trên là $O(2^{N*M}*N*M)$.
+Ta thấy là ở đây có nhiều nhất là $20$ ô nên ta có thể dễ dàng xét tất cả các trạng thái của cả $20$ ô và kiểm tra xem trạng thái như thế có hợp lệ hay không rồi lấy trường hợp tốt nhất. Độ phức tạp của thuật toán trên là $O(2^{N\cdot M}\cdot N\cdot M)$.
 #### Subtask 2: 
 Lúc này, bài toán của ta đã thỏa được cả $4$ điểm nhận diện của DP Broken Profile. Nhưng, khác với bài toán $1$, ở đây ta chỉ cần điền đủ $k$ domino chứ không cần điểm hết cả bảng. Vì thế, ta phải nhìn lại $4$ hướng làm của ta. Nếu ta làm theo hướng thứ nhất thì ta sẽ gọi $dp_{take,i,mask}$ là đã đặt $take$ viên domino, xét đến hết $i-1$ cột và cột thứ $i$ có dạng là $mask$. Ta xét hai trường hợp:
 * Nếu ta đặt domino dọc thì $mask$ sẽ không ảnh hưởng đến $nextmask$ nên ta sẽ đặt tùy ý và chỉ cập nhật có $mask$. Công thức quy hoạch động của ta sẽ là $dp_{take+1,i,mask1}=max(dp_{take+1,i,mask1},dp_{take,i,mask}+A_{i,j}+A_{i+1,j}$ Nếu ta đặt domino dọc ở ô $(i,j)$ và ô $(i+1,j)$.
 * Nếu ta đặt domino ngang thì $mask$ và $nextmask$ chắc chắn không được trùng nhau bit nào hay ta có viết là $mask\&nextmask=0$. Hơn nữa, thay vì đặt mỗi lần một viên domino thì ta có thể đặt nhiều viên cùng lúc. Vì thế, công thức quy hoạch động của ta sẽ là $dp_{take+placed,i+1,nextmask}=max(dp_{take+placed,i+1,nextmask},dp_{take,i,mask}+S)$ Với $placed$ là số viên domino đã được đặt và $S$ là tổng các ô được đặt domino.
 
-Nếu ta tính sơ độ phức tạp thì nó sẽ là $O(K*M*4^N*N)$ và sẽ là $O(K*M*4^N+2^N*N)$ nếu ta tính trước $S$. Nếu ta thử các giới hạn thì nó đủ nhanh để vượt qua subtask này.
+Nếu ta tính sơ độ phức tạp thì nó sẽ là $O(K\cdot M\cdot 4^N\cdot N)$ và sẽ là $O(K\cdot M\cdot 4^N+2^N\cdot N)$ nếu ta tính trước $S$. Nếu ta thử các giới hạn thì nó đủ nhanh để vượt qua subtask này.
 #### Subtask 3:
 Ở subtask này, nếu ta làm theo hướng thứ ba thì không đủ nhanh. Ta thấy là sự chênh lệch giữa số $nextmask$ có thể đồng bộ với $mask$ và số $nextmask$ có thể là không đủ lớn để ta đánh đổi và sử dụng đệ quy. Thêm với việc là $N$ ở đây tương đối bé nên số lần gọi đệ quy và hằng số của nó có khi sẽ tệ hơn hướng làm vừa được nói. Vì thế, hướng làm thứ $3$ có thể đủ nhanh để có thể ăn hết sub 3 nhưng chắc chắn không đủ nhanh để có thể $AC$ bài.
 
@@ -288,7 +288,7 @@ Vì thế, ta phải lam theo hướng thứ tư. Ta sẽ gọi công thức quy
 
 Lưu ý, nếu ta lưu cả 4 chiều thành một mảng toàn cục thì sẽ không đủ bộ nhớ để lưu. Vì thế, ta phải tối ưu một chiều. Ta nhận thấy là tùy theo cách cài đặt thì ta có thể tối ưu chiều $K$ hoặc chiều $M$ do ta có thể cài đặt sao mà ta chỉ xử lý $take$ và $take+1$ tại một thời điểm hoặc $j$ và $j+1$ tại cùng một thời điểm. Nên ta có thể tối ưu một chiều thành $2$ và tối ưu bộ nhớ. Cài đặt bên dưới sẽ tối ưu chiều $M$.
 
-Tham khảo code mẫu $O(K*M*N*2^N)$:
+Tham khảo code mẫu $O(K\cdot M\cdot N\cdot 2^N)$:
 
 ```cpp
 #include<bits/stdc++.h>
@@ -373,7 +373,7 @@ Vừa rồi ta đã đi nghiên cứu và áp dụng những hướng tiếp c�
 
 |     | Hướng tiếp cận "trâu"  | Hướng tiếp cận đệ quy  | Hướng tiếp cận tối ưu nhất|
 | --- | --- | ------- | ---------- |
-| Thời gian | $O(N*M*4^N)$ có thể tối ưu thành $O(M*4^N)$ hoặc $O(M*3^N)$ tùy theo bài    |  $O(N*M*2^N+C(N)*M)$. $C(N)$ là số lần gọi đệ quy và sẽ tùy vào mỗi bài nên rất khó để tính chính xác độ phức tạp.       | $O(N*M*2^N)$ |
+| Thời gian | $O(N\cdot M\cdot 4^N)$ có thể tối ưu thành $O(M\cdot 4^N)$ hoặc $O(M\cdot 3^N)$ tùy theo bài    |  $O(N\cdot M\cdot 2^N+C(N)\cdot M)$. $C(N)$ là số lần gọi đệ quy và sẽ tùy vào mỗi bài nên rất khó để tính chính xác độ phức tạp.       | $O(N\cdot M\cdot 2^N)$ |
 | Bộ Nhớ    | Rất ít    | Tương đối nhiều        | Ít  |
 | Nhận xét | Thường rất dễ suy nghĩ ra và làm bàn đạp để làm hai hướng kia.| Tùy theo bài cụ thể, hướng này có thể tốt hơn hoặc tệ hơn hướng làm trâu. Ta thường suy nghĩ tối ưu trâu như này.| Thường sẽ là cách tối ưu nhất và là cách giải của người ra đề. Thời gian chạy nhanh nhất và chỉ hi sinh rất ít bộ nhớ.|
 
