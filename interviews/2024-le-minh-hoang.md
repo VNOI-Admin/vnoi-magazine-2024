@@ -43,7 +43,7 @@ May là chưa có! Mình cũng gặp một số thắc mắc, nhưng cuối cùn
 Thắc mắc nhiều nhất là khi Themis được đưa vào chấm chính thức bằng C\++11. Lúc đấy thì nhiều code C\++98 bị dịch lỗi. Thực ra thì trước khi tham gia bất kì cuộc thi nào, thí sinh phải biết quy tắc, “luật chơi” của kì thi đấy. Nhưng mà ở VOI, thì quy chế của Bộ chỉ nói là C++ thôi, không đề cập phiên bản nào, thế hệ bao nhiêu! Cho nên đôi khi, cần có một thứ phổ biến để giúp thí sinh hiểu rằng “nếu anh chấm ở nhà bằng phần mềm ấy không lỗi, thì tức là đi thi có thể dùng được các lệnh đó!”. Và Themis đã làm được điều ấy. Mình nghĩ Themis đã góp phần hạn chế bớt lỗi trong quá trình thi thật, khi Themis đã được phát hành rộng rãi cho tất cả mọi người đều có thể tiếp cận.
 
 ### Chuyện về những ngày đầu ra đấu trường quốc tế
-![](../assets/interviews/2024-le-minh-hoang/image2.jpg)
+![](../assets/interviews/2024-le-minh-hoang/image2.jpg?width=6cm)
 Tin học là môn học hay, được dự đoán là một phần rất quan trọng trong nền giáo dục tương lai, do đó, năm 1987, Hội nghị UNESCO về giáo dục nêu đề xuất tổ chức kỳ thi tin học quốc tế (IOI) bên cạnh các môn Toán, Lý, Hóa, Sinh. Bulgaria đứng ra đăng cai IOI đầu tiên vào năm 1989. Hồi đấy,  Tin học đã được tiếp nhận tại Việt Nam, nhưng chỉ dạy cho một số sinh viên ở các khoa đặc biệt của trường đại học mà thôi. Ông Trần Hồng Quân (Bộ trưởng Bộ Giáo Dục từ năm 1987 đến năm 1997), gọi thầy Đàm (Nhà giáo nhân dân Hồ Sĩ Đàm) lên và bảo: “Tôi cũng chả biết môn này là môn gì, nhưng mà thấy bảo môn này quan trọng lắm! Về nhóm cái đội đi thi Quốc tế đi!”. Thi thì, có thể giải ở những năm đầu không quan trọng đâu, chủ yếu để biết người ta học thế nào để mình học theo.
 
 Thầy Đàm về kêu mãi 4 đứa theo chỉ tiêu tối đa đi thi quốc tế, nhưng gọi được có 3 người thôi. Ba người ấy học cấp tốc trong khoảng độ từ 3-4 tháng, về thì có huy chương Đồng. Xong rồi ngay từ những năm sau thì Việt Nam mình đã có Vàng, có Bạc. Đỉnh cao đến năm 1999 Việt Nam đứng #1 toàn đoàn. Bây giờ Việt Nam còn thiếu đúng chức vô địch IOI.
@@ -88,7 +88,7 @@ Mình nghĩ rằng gần đây các bạn cũng có mặt giỏi hơn, nhưng c�
 Mình thấy rất nhiều bạn như thế, kể cả là sinh viên. Tất nhiên thì những bài ở mức độ nhập môn ở đâu cũng có, ai cũng dạy như thế cả nên chắc chắn là tìm trên mạng sẽ có được code, và học thuộc rồi đi thi thì sẽ làm được thôi! Nhưng cái quan trọng là khi mình làm những bài đấy, thì mình phải tự làm, phải trải nghiệm những sai lầm, để biết cách sửa lỗi sai ấy và trưởng thành hơn. Nhiều bạn hiện tại hoàn toàn không có khả năng tự sửa chữa lỗi sai ấy, vì code đúng hết rồi thì lấy đâu mà sửa nữa! Thậm chí là chuyện chép code của nhau cũng thế, thay vì tự mình tư duy như hồi xưa, việc đầu tiên các bạn làm là search và chép code. Điều này làm cho tư duy của các bạn bị kém độ nhạy đi. Kiến thức học sinh bây giờ có thể được học nhiều hơn trước, nhưng độ nhạy bén trong suy nghĩ để vận dụng các kiến thức ấy không bằng các thế hệ xưa.
 
 
-![](../assets/interviews/2024-le-minh-hoang/image4.jpg)
+![](../assets/interviews/2024-le-minh-hoang/image4.jpg?width=10cm)
 
 Ngay cả trong việc học C++, các bạn tập sử dụng các hàm trong thư viện sớm quá! Nếu ngay từ đầu mà đã nhảy vào dùng set, map, v.v, thì người ta sẽ không hiểu cái nguyên lý của các cấu trúc dữ liệu đó. Mà đôi khi, đích đến của việc học không phải là để cài bài tập, học là để hiểu nguyên lý! Đấy mới là cái bổ ích, là giá trị cốt lõi của khoa học máy tính. Thật ra để làm những thứ mà chỉ đơn thuần dùng set, map thì chả có phần mềm nào đòi hỏi bạn tự code bằng tay đâu!
 
@@ -102,7 +102,7 @@ Nó không phải là chỉ có các bạn học chương trình Tin học phổ
 
 Vấn đề của cách học này còn dính dáng tới chuyện về học toán nữa cơ. Cách học toán của các bạn hiện tại vẫn theo kiểu gần như tương tự: ngay cái lúc mà bạn học toán ở cấp cơ sở, thì các bạn đã phụ thuộc vào sách bài tập, lớp học thêm, các hệ thống AI, v.v, làm tư duy toán của các bạn khá là nông. Thậm chí là, nếu mình đọc thử đề thi toán các trường chuyên, hầu như là toàn các bài rất khó, thì các bạn giải tốt, nhưng đến những cái toán vô cùng cơ bản, thì chưa chắc các bạn đã nhớ và vận dụng tốt. Phải nói rằng người thầy dạy phải khéo lắm thì mới cảm thấy các bạn đang làm bài tốt, nhưng rất có thể đó là giá trị ảo dẫn tới đánh giá sai: tưởng các bạn giỏi vì làm được bài khó nên liên tục nâng cao mà không biết rằng các bạn đang mất cơ bản. 
 
-![](../assets/interviews/2024-le-minh-hoang/image12.jpg)
+![](../assets/interviews/2024-le-minh-hoang/image12.jpg?width=10cm)
 
 Như đã nói, ChatGPT nó làm mọi người lười suy nghĩ hơn, và điều này rất nguy hiểm. Mình dạy những bài toán cơ bản: tìm kiếm nhị phân, sàng số nguyên tố,... Mình không phải chỉ dạy đơn thuần thuật toán đấy – nó chỉ là một phần rất nhỏ thôi, vì cái tư tưởng thuật toán và cách thức triển khai chương trình mới quan trọng, và qua việc mô phỏng đúng một thuật toán thì người học mới thấy được cái hay và phát triển tư duy giải quyết vấn đề. Ví dụ với sàng số nguyên tố, ngày xưa, ông tác giả dùng cái que, chọc một vài lỗ lên lá để sàng. Ta phải mô phỏng lại quá trình đấy, để các bạn thấy được cái hay của thuật toán, và tư duy của các bạn sẽ phát triển khác đi.
 
@@ -126,7 +126,7 @@ Có một đoạn nữa, khi mà chuyển sang dạy C++, mình biết C++, như
 ### Theo thầy thì so C++ với Python, Python có dễ học hơn C++ nhiều không?
 Nói về ngôn ngữ lập trình, mình thấy ngôn ngữ nào cũng phải bỏ công học tất cả mọi cấu trúc điều khiển và đặc tả của ngôn ngữ đó. Mình không nghĩ là có ngôn ngữ nào dễ hơn hẳn cái kia. Còn nếu mà nói khó làm chủ, thì mình nghĩ rằng C++ là một trong những ngôn ngữ khó. C++ có quá nhiều kí hiệu, và càng về sau thì ngày càng mở rộng ngôn ngữ ra làm cho code rối rắm hơn, nổi bật là lambda function và các cách viết tắt thông dụng khác nữa. Lẽ ra thì C++ nên làm theo hướng thêm đặc tả nếu cần thôi, chứ ngôn ngữ đang chạy ổn thì cứ giữ nguyên một khoảng thời gian. C++ cứ 5 năm lại lên một đời, làm cho người ta chạy theo lâu lâu cũng thấy mệt.
 
-![](../assets/interviews/2024-le-minh-hoang/image9.jpg)
+![](../assets/interviews/2024-le-minh-hoang/image9.jpg?width=10cm)
 
 Còn riêng về Python, thì mình không nghĩ đây là một ngôn ngữ dễ. Nó dễ theo cái nghĩa: nó viết những chương trình đầu tiên rất dễ. Ví dụ, nhập vào một số rồi in ra cái gì đó, nhập hai số in ra tổng, … rất dễ, chỉ cần gõ lệnh trực tiếp rồi chạy từng lệnh một, thay vì gõ cả chương trình rồi biên dịch, sửa lỗi cú pháp, v.v. Và người ta có cảm giác rằng nó dễ vì sống chết gì nó cũng chạy, chỉ là tới dòng mà mình viết sai thì nó dừng lại thế thôi. Vậy nên mình cũng chẳng hiểu căn cứ vào đâu để người ta nói Python dễ học. Có lẽ người ta cho rằng nó dễ học vì chép code trên mạng có nhiều.
 
@@ -165,7 +165,7 @@ Cũng phải thừa nhận có những người năng khiếu lập trình bẩm
 Mỗi người một vẻ, không giống nhau tí nào. Nhưng có thể phân loại những bạn học toán tốt từ bé. Các bạn có thể hơi loạng choạng về mặt kĩ thuật lập trình, nhưng khi mà bạn đã khắc phục được, thì tư duy quản lí chương trình và triển khai thuật toán sẽ rất sáng sủa và tiến bộ nhanh. Loại thứ hai là những bạn ngược lại – kĩ thuật lập trình tương đối tốt và chịu khó tư duy sâu. Thứ 3 là loại mà giỏi bẩm sinh ở tầm... khủng, trước giờ không được học nhiều nhưng khi đam mê rồi thì tự học 100%, vai trò của thầy rất là ít.
 
 
-![](../assets/interviews/2024-le-minh-hoang/image8.jpg)
+![](../assets/interviews/2024-le-minh-hoang/image8.jpg?width=5.5cm)
 
 Mình nghĩ là ở mức độ thi Quốc gia, cứ chăm chỉ luyện tập thì chắc chắn sẽ được giải. Đôi khi, chỉ cần chăm chỉ luyện tập, kiên trì, tiến bộ, tự nhận dạng lỗi sai của mình, tránh lặp đi lặp lại một lỗi nhiều lần thôi là đủ, không cần tư chất gì đặc biệt.
 
@@ -184,7 +184,7 @@ Còn để đạt giải Quốc gia, thì kĩ thuật là cái quan trọng nh�
 ### Trong suốt những năm thầy đi dạy đội Quốc gia, thầy có ấn tượng nào về một năm, hay một học sinh nào đó hay không?
 Thật ra các bạn đi thi Quốc tế, ai cũng có cái giỏi riêng của họ cả. Kết quả có thể có những bạn được huy chương Vàng, Bạc, Đồng khác nhau do đề thi có thể không khai thác vào điểm mạnh của họ, nên kết quả khác nhau cũng dễ hiểu.
 
-![](../assets/interviews/2024-le-minh-hoang/image10.jpg)
+![](../assets/interviews/2024-le-minh-hoang/image10.jpg?width=6cm)
 
 Như ngày xưa, vào năm 2011, mình đi sang Thái Lan với Linh (Nguyễn Vương Linh - IOI 2011). Linh có khả năng nghĩ rất nhanh nhưng nói thật thì Linh code không nhanh lắm đâu. Tuy vậy, Linh luôn ở trong trạng thái tự tin rằng mình sẽ đạt được kết quả khả quan. Năm đấy mình đi với cả Linh, Tuệ (Lê Khắc Minh Tuệ - IOI 2011), Nguyên (Nguyễn Tấn Sỹ Nguyên - IOI 2011) và Yến (Nguyễn Hoàng Yến - IOI 2011). Yến năm đấy đi thi, sợ nhất là vấn đề “run”. Trong lúc ôn luyện đội tuyển, Yến đã đi qua một thời gian căng thẳng dài. Đi thi thì Yến vẫn run, nhưng may là được huy chương. 
 
@@ -215,7 +215,7 @@ Thật ra quyển cũ có rất nhiều điểm mình không ưng ý, vì có nh
 
 ### Code minh hoạ chắc sẽ được viết bằng C++ đúng không ạ?
 
-![](../assets/interviews/2024-le-minh-hoang/image11.jpg)
+![](../assets/interviews/2024-le-minh-hoang/image11.jpg?width=6cm&wrapfigLineheight=15)
 
 Chắc là phải viết bằng C++. Nói chung sẽ rất khó để tổng hợp mọi thứ thuộc mạch cốt lõi của cấu trúc dữ liệu và giải thuật. Những kiến thức trong kì thi, đôi khi là những kiến thức rời rạc, không gắn vào đâu trong cái mạch chính này. Ngay cả câu chuyện về Segment Tree hay Fenwick Tree, khi thi cử, nó là những thứ rất phổ biến, nhưng để nói về vai trò trong mạch chính của khoa học máy tính, thì những thứ ấy là vớ vẩn. Cảm giác của mình, nó chỉ là mẹo cài đặt mà thôi.
 
@@ -256,8 +256,7 @@ Mấy thể loại sướt mướt, tấu hài lê thê thì mình rút kinh ngh
 
 ### Thể loại nghe nhạc yêu thích của thầy?
 
-![](../assets/interviews/2024-le-minh-hoang/image13.png)
-
+![](../assets/interviews/2024-le-minh-hoang/image13.png?width=8cm)
 Lúc rảnh thì mình có nghe nhạc nhưng chỉ nghe nhạc không lời thôi. Bởi vì khi làm việc đêm, mình thường có hai màn hình. Màn hình đầu thì để phim, màn hình hai để hiện code. Thật ra khi xem phim, tình tiết của phim thường sẽ chậm, nên không cần tập trung xem phim. Chủ yếu là để có một cái tiếng nói bên cạnh giúp mình không buồn ngủ. Làm đêm thì kị nhất việc đi ra uống café sau khi ngáp một cái dài, và mãi chẳng thể tập trung được, lại lăn ra ngủ tiếp.
 
 Nghe nhạc thì mình nghe tuỳ lúc, thường là trước khi đi ngủ. Chứ nghe một thể loại nhạc trong khoảng thời gian dài vài tiếng đồng hồ, nó rất là nhức đầu. Khi làm việc, nhất là làm việc một mình trong thời gian dài, nên để trong phòng có một ít tiếng động. Nếu trong phòng có TV, cứ bật lên nghe thời sự, nghe tới đâu cũng được. Phải có một tí tiếng ồn thì mới làm được việc, vì yên tĩnh tuyệt đối thì chỉ muốn ngủ thôi!
