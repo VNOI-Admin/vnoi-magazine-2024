@@ -48,6 +48,9 @@ jobs:
       - name: cat TOC
         run: cat src/*.toc
 
+      - name: cat inteviews
+        run: cat src/interviews/2024-hoang-quoc-viet.latex
+
       - name: Generate PDF second pass (for TOC)
         run: make render-pdf
 
