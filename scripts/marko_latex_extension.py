@@ -1,10 +1,11 @@
 # pyright: strict
 
-from typing import (TypeVar, Any, NamedTuple, cast)
+from typing import (Any, NamedTuple, cast, Iterable)
 from marko.ext.latex_renderer import LatexRenderer
 import marko
 import marko.block
 import marko.inline
+import marko.ext.gfm as MarkoGFM
 from marko import (inline, block, MarkoExtension)
 from marko.source import (Source)
 import re
@@ -243,6 +244,45 @@ class MarkoLatexRenderer(LatexRenderer):
         self.added_shorthand.add(element.meaning.id)
         return f'\\shorthand{{{element.keyword}}}{{{element.meaning.value}}}'
     
+    def render_table(self, element: MarkoGFM.elements.Table):
+        head, *body = element.children
+        casted_head = cast(MarkoGFM.elements.TableRow, head)
+        header_cells = cast(list[MarkoGFM.elements.TableCell], casted_head.children)
+        
+        alignment = self._render_table_alignment(header_cells)
+        lines: list[str] = []
+        lines.append('\\begin{center}')
+        # lines.append(f'\\begin{{tabularx}}{{\\linewidth}}{{ {alignment} }}')
+        lines.append(f'\\begin{{tabular}}{{ {alignment} }}')
+        lines.append(r'\hline')
+        lines.append('  ' + self.render(head))
+        for row in body:
+            lines.append('  ' + self.render(row))
+        # lines.append('\\end{tabularx}')
+        lines.append('\\end{tabular}')
+        lines.append('\\end{center}')
+
+        return '\n'.join(lines)
+
+    def render_table_row(self, element: MarkoGFM.elements.TableRow):
+        return ' & '.join(map(self.render, element.children)) + r' \tabularnewline \hline'
+
+    def _render_table_alignment(self, header_cells: list[MarkoGFM.elements.TableCell]):
+        size = f'p{{{1 / (len(header_cells) + 1)}\\linewidth}}'
+        def map_alignment(alignment: str | None):
+            if alignment == 'left':
+                return size
+            elif alignment == 'right':
+                return '>{\\begin{flushright}' + size + '<\\end{flushrignt}'
+            else:
+                if alignment != 'center' and alignment is not None:
+                    print(f'Warning: Unknown alignment {alignment}. Fall back to "center".')
+                return '>{\\centering}' + size
+        return '|' + '|'.join(map(lambda cell: map_alignment(cell.align) or 'c', header_cells)) + '|'
+
+    def render_table_cell(self, element: MarkoGFM.elements.TableCell):
+        return self.render_children(element).replace("|", "\\|")
+    
     @staticmethod
     def _escape_latex(text: str) -> str:
         # print('escaping', text)
@@ -283,7 +323,10 @@ def make_extension():
                 Emoji,
                 FrontMatter,
                 InterviewQA,
-                Shorthand
+                Shorthand,
+                MarkoGFM.elements.Table,
+                MarkoGFM.elements.TableRow,
+                MarkoGFM.elements.TableCell,
             ],
         renderer_mixins = [MarkoLatexRenderer]
     )
