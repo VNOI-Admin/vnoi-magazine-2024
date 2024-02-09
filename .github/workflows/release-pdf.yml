@@ -45,6 +45,9 @@ jobs:
       - name: Generate PDF first pass
         run: make render-pdf
 
+      - name: cat TOC
+        run: cat src/*.toc
+
       - name: Generate PDF second pass (for TOC)
         run: make render-pdf
 
