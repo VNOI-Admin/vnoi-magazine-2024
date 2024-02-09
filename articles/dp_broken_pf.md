@@ -253,7 +253,7 @@ Nếu ta xét thời gian chạy của cả $4$ thuật toán cho bài trên th�
 
 ![Bảng so sánh các thuật toán](../assets/dp_broken_pf/image5.png)
 
-## [Bài toán 2:](oj.vnoi.info)
+## [Bài toán 2: Domino](https://oj.vnoi.info/problem/bananabread_domino)
 * Cho một bảng $A$ có kích thước $N \times M$, mỗi ô có một giá trị nguyên. Hãy tìm cách đặt đúng $k$ domino $2\times 1$ không chồng nhau để tổng các giá trị trên các ô được phủ là đạt giá trị cực đại.
     - $N\le 4,M\le 1000,K\le \frac{N*M}{2}$
     - Subtask:

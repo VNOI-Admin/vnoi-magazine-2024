@@ -44,7 +44,7 @@ Còn đối với phần thi Olympic Tin học Sinh viên, chủ nhân của ng�
 
 Ngoài những giải thưởng kể trên, ban tổ chức kỳ thi còn trao thêm những giải thưởng dành cho các bạn nữ sinh xuất sắc ở các khối thi. Cụ thể, bạn Phạm Thị Hoài Thu (Đại học Bách khoa Hà Nội) ở khối Chuyên Tin và bạn Phạm Thị Hà Thư (Trường Đại học Kinh tế Quốc dân) ở khối Không Chuyên đã xuất sắc giành được giải thưởng này khi giành được giải Nhất ở khối thi của mình.
 
-## Cảm xúc của thí sinh sau kì thi
+## Cảm xúc của thí sinh sau kỳ thi
 ### NewTrend - Đại học Quốc Gia Seoul (Hàn Quốc)
 ![Đội thi NewTrend, thuộc Đại học Quốc Gia Seoul (Hàn Quốc)](../assets/icpc-olp/image6.jpg)
 

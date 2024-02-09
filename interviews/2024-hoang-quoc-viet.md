@@ -53,7 +53,7 @@ Theo em thì mình không cố cân bằng những việc này thì mình không
 
 ### Mình nghĩ việc duy trì trách nhiệm và luôn chủ động trong công việc là khá khó, theo bạn làm cách nào để duy trì tinh thần này?
 
-Trước hết thì việc tham gia vào câu lạc bộ phải thực sự là đam mê của mình chứ không chỉ tham gia và nhận việc. Khi có tinh thần đó thì mình sẽ xem những công việc và hoạt động đấy trở nên thân quen hơn, nhiều thứ trong đó trở thành một phần của cuộc sống và mọi người trong CLB như gia đình của mình vậy. Từ đó em có thể đóng góp hết tài năng cũng như trí lực của mình nên em sẽ có thể chủ động hơn để đảm nhận những vai trò khác nhau trong công việc.
+Trước hết thì việc tham gia vào CLB phải thực sự là đam mê của mình chứ không chỉ tham gia và nhận việc. Khi có tinh thần đó thì mình sẽ xem những công việc và hoạt động đấy trở nên thân quen hơn, nhiều thứ trong đó trở thành một phần của cuộc sống và mọi người trong CLB như gia đình của mình vậy. Từ đó em có thể đóng góp hết tài năng cũng như trí lực của mình nên em sẽ có thể chủ động hơn để đảm nhận những vai trò khác nhau trong công việc.
 
 ### Là một người vô cùng nhiệt huyết và tận tâm với công việc, bạn có thể giới thiệu qua những công việc trong team Bedao được không? Có bao giờ bạn gặp áp lực về chất lượng contest bị mọi người phản ánh không?
 
@@ -78,10 +78,10 @@ Em thấy ở bất cứ môi trường thi cử nào thì sự công bằng nê
 
 ### Bạn có những dự định nào dành cho Bedao mà ngay cả các bạn trong VNOI cũng không biết không?
 
-Em có thể tiết lộ là em đang ấp ủ chuyện xem xét các bạn TNV nhiệt huyết lên làm coordinator một vài contest để các bạn thể hiện khả năng quản lý của mình. Điều này nó hơi chuyên môn một chút nên em cũng không chia sẻ nhiều.
+Em có thể tiết lộ là em đang ấp ủ chuyện xem xét các bạn tình nguyện viên nhiệt huyết lên làm Coordinator một vài contest để các bạn thể hiện khả năng quản lý của mình. Điều này nó hơi chuyên môn một chút nên em cũng không chia sẻ nhiều.
 
 ### Đến với phần cuối, bạn có thể chia sẻ về những dự định cho tương lai, về ngành học và nghề nghiệp bạn muốn theo đuổi được không? Có công ty nào bạn mơ ước vào làm không? Theo bạn, một công ty lý tưởng theo bạn cần hội tụ những yếu tố nào? 
 
-Em hiện đang tham gia khá nhiều các workshop liên quan đến định hướng nghề nghiệp như blockchain và software engineering. Em cũng muốn thử sức ở lĩnh vực nào liên quan nhiều đến tài chính một chút tại em thấy tư duy tài chính cũng khá hay, giúp bản thân suy nghĩ mạch lạc hơn. Ước mơ xa hơn của em là được làm startup, nhưng công ty lý tưởng để vào làm thì em cũng có một số cái tên như Pendle Finance, Dytechlab ạ. Em cũng chưa đi làm nhưng dưới góc nhìn của em thì một công việc lý tưởng phải là nơi em thật sự đam mê, luôn sẵn sàng cống hiến hay thức đêm nếu có nhiệm vụ quan trọng. Đấy sẽ là nơi em ở được là một phần của công ty chứ không phải làm cho xong việc rồi nghỉ.
+Em hiện đang tham gia khá nhiều các workshop liên quan đến định hướng nghề nghiệp như Blockchain và Software Engineering. Em cũng muốn thử sức ở lĩnh vực nào liên quan nhiều đến tài chính một chút tại em thấy tư duy tài chính cũng khá hay, giúp bản thân suy nghĩ mạch lạc hơn. Ước mơ xa hơn của em là được làm startup, nhưng công ty lý tưởng để vào làm thì em cũng có một số cái tên như Pendle Finance, Dytechlab. Em cũng chưa đi làm nhưng dưới góc nhìn của em thì một công việc lý tưởng phải là nơi em thật sự đam mê, luôn sẵn sàng cống hiến hay thức đêm nếu có nhiệm vụ quan trọng. Đấy sẽ là nơi em ở được là một phần của công ty chứ không phải làm cho xong việc rồi nghỉ.
 
 *Cảm ơn bạn đã nhận lời và tham gia phỏng vấn ngày hôm nay. Chúc bạn một năm mới nhiều sức khỏe, ngày càng phát triển Bedao và sớm kiếm được thực tập ở các công ty lớn!*
