@@ -63,11 +63,11 @@ Lúc đấy có hai điểm mình chú ý, mình rất hãnh diện vì Mike nh�
 
 Lý do mình ngưng làm contest có lẽ là do bị burnout thôi, lúc đấy mình bí ý tưởng và trong quãng thời gian đó mình tổ chức các contest liên tục nên đến một lúc bị bí ý tưởng thì cũng là dĩ nhiên. Việc mình chuyển hướng sang làm contest cho cộng đồng Việt Nam vì phần lớn mình được mời làm Coordinator cho VNOI CUP 2023. Khoảnh khắc mình được mời làm vai trò đó là mình đã bí ý tưởng được 2 năm rồi nên mình cũng khá tự ti, nhưng sau đó mình ngạc nhiên là khi đảm nhận một vị trí quan trọng như vậy thì mình có cảm hứng và ý tưởng tạo đề lại. Mình cảm ơn VNOI nhiều vì đã tạo động lực cho mình quay lại việc tổ chức các contest. Tiết lộ một chút thì mình đang cùng bạn mofk (Nguyễn Đinh Quang Minh - max rating CF 2726) làm một contest Div 1 trên Codeforces. Nếu điều này thành hiện thực thì Kuroni x Mofk Cup sẽ được làm trên Codeforces chứ không phải là VNOJ (cười).
 
-![](../assets/interviews/2024-dang-doan-duc-trung/image7.png)
-
 *Dành cho các bạn chưa biết thì đề VNOI CUP 2023 được đánh giá là một bộ đề chất lượng và cực kỳ hay, rất nhiều bạn thích và tín nhiệm với bạn Kuroni là trưởng ban ra đề*
 
 ### Sau khi học cấp 3 và chuyển sang Mỹ, thời gian đầu bạn có gặp trở ngại gì không?
+
+![](../assets/interviews/2024-dang-doan-duc-trung/image7.png)
 
 Mình cảm thấy may mắn khi hòa nhập được văn hóa ở Mỹ. Lúc đấy mình đang trong giai đoạn nổi loạn nữa nên suy nghĩ của mình là luôn thích được đi khám phá và không muốn ở nhà. Một ấn tượng của mình trong thời gian đầu ở đây là mình được thầy Ninghui Li - thầy coach ICPC ở Purdue để ý, do là vì trên Codeforces mình có đổi thông tin trường học của mình thành Purdue. Vì vậy ngay từ tuần thứ hai của năm nhất mình đã được thầy dẫn dắt và làm trợ giảng cho một số lớp học của thầy. Từ đó mình cũng được kết nối với rất nhiều bạn đam mê CP ở Purdue. Trong số đó có một cái tên cũng khá nổi tiếng với cộng đồng Codeforces là bạn Monogon (max rating CF 2705). 
 
