@@ -146,8 +146,8 @@ class MarkoLatexRenderer(LatexRenderer):
         """
         Override to get the artile name from the H1 heading.
         """
-        children = self.render_children(element)
         if element.level == 1:
+            children = self.render_children(element)
             self.article_name = children
             return ""
 
