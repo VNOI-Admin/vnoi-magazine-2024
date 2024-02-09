@@ -21,7 +21,7 @@ Với tiêu chí tìm kiếm các coders tài năng trên khắp cả nước, V
 ## Ban ra đề VNOI Cup 2023
     
 ![Thống kê thành tích ban ra đề VNOI CUP 2023](../assets/vnoi-cup/image4.png)
-- Đặng Đoàn Đức Trung: Trưởng ban ra đề VNOI CUP 2023 - ICPC World Finalist 2023, 2022, 2021, 2020, Max 2783 Codeforces;
+- Đặng Đoàn Đức Trung: Trưởng ban ra đề VNOI CUP 2023 - ICPC World Finalist 2023, 2022, 2021, 2020, Max 2871 Codeforces;
 - Trần Quang Lộc: trưởng ban ra đề ICPC Asia HCMC 2022, Coordinator Codeforces, Max 2546 Codeforces;
 - Nguyễn Đinh Quang Minh: ICPC World Finalist 2018, 2021, Max 2726 Codeforces;
 - Hồ Ngọc Vĩnh Phát: ICPC World Finalist 2023, 2022, HCB IOI 2021, Max 2345 Codeforces;
