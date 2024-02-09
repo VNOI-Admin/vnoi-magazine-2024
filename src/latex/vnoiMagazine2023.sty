@@ -30,17 +30,19 @@
 \RequirePackage{etoolbox}
 \RequirePackage{wrapfig2}
 \RequirePackage{amsmath}
-\usepackage[makeroom]{cancel}
+\RequirePackage[makeroom]{cancel}
+\RequirePackage[export]{adjustbox} % also loads graphicx
+\RequirePackage{framed}
 
 \newcolumntype{S}{>{\hsize=.5\hsize}X}
 
 \newcommand{\setCoverImage}[1]{\includepdf{#1}}
 
 \newcommand{\defineLocalCommand}{
-    \newcommand{\includeImage}[2]{%
+    \newcommand{\includeImage}[3][width=0.9\linewidth]{%
         \begin{center}
-            \includegraphics[width=0.9\linewidth]{##1} \\
-            \footnotesize{\textit{##2}}
+            \includegraphics[##1]{##2} \\
+            \footnotesize{\textit{##3}}
         \end{center}
     }
     \newcommand{\insertLink}[2]{%
@@ -161,29 +163,18 @@
     \newpage
 }
 
-\newkeyenvironment{interview2}[
-    title=\missingArg{title},
-    interviewer=\missingArg{interviewer},
-]{
-    \defineLocalCommand{}
-
-    \newtoggle{imageSideBool}
-    \newcommand\imageSide[0]{%
-        \iftoggle{imageSideBool}{L}{R}%
-    }
-
+\def\defineIncludeImageForInterviewEnv{
     % redefine includeImage to have floating image
-    \renewcommand{\includeImage}[2]{%
-        \setlength\intextsep{-0.4ex}
-        \begin{wrapfigure}{\imageSide}{0.4\textwidth}
-            % \vspace{-\intextsep}
-            \centering
-            \includegraphics[width=\linewidth]{##1}
-            % check if ##2 is empty
-            \ifblank{##2}{}{%
-                \footnotesize{\textit{##2}}%
-            }
-            % \vspace{-\intextsep}
+    \renewkeycommand{\includeImage}[
+        width=0.4\textwidth,
+        wrapfigLineheight=0,
+    ][2]{%
+        \begin{wrapfigure}[\commandkey{wrapfigLineheight}]{\imageSide}{\commandkey{width}}
+            \vspace{-\baselineskip}%
+                \centering%
+                \includegraphics[width=\linewidth]{##1}%
+                % check if ##2 is empty
+                \ifblank{##2}{}{\footnotesize{\textit{##2}}}%
         \end{wrapfigure}
         \iftoggle{imageSideBool}{
             \togglefalse{imageSideBool}
@@ -192,25 +183,41 @@
         }
     }
 
+}
+
+\newkeyenvironment{interview2}[
+    title=\missingArg{title},
+    interviewer=\missingArg{interviewer},
+]{
+    \defineLocalCommand{}
+    \newtoggle{imageSideBool}
+    \newcommand\imageSide[0]{%
+        \iftoggle{imageSideBool}{L}{R}%
+    }
+
     \pagestyle{fancy}
+    \edef\title{\commandkey{title}}
    
     % \ifodd\value{page}\null\newpage\fi%
    
     \fancyhead{}
-    \lhead{\commandkey{title}}
+    \lhead{\title}
    
     ~\thispagestyle{empty}
     % \autoSetBackground
     \setbackgroundEverypage{../assets/page-bg.png}
    
     \vfill
-    \customPart{\commandkey{title}}
+    \customPart{\title}
     \noindent Interviewer: \commandkey{interviewer}
     \vfill
    
     \newpage
    
     \everymath={\displaystyle}
+
+    \defineIncludeImageForInterviewEnv{}
+
 }{
     \newpage
 }
