@@ -30,7 +30,7 @@ Em xuất phát vốn là dân học Toán, nên thi vào chuyên Toán cũng l�
 
 ### Ở cấp 3 thì bạn tiếp xúc với môn Tin từ lúc nào? 
 
-![](../assets/interviews/2024-nguyen-duc-thang/image8.jpg)
+![](../assets/interviews/2024-nguyen-duc-thang/image8.jpg?width=6cm&wrapfigLineheight=19)
 Khoảng hồi hè trước khi vào cấp 3, cô Thái dạy trường em có nghĩ ra ý tưởng và mở một lớp dạy C++ miễn phí cho các bạn học sinh mới vào trường, chủ yếu là để đào tạo vào ĐTQG sau này. 
 Ban đầu cũng không ai biết và để ý em bởi em không có gì nổi trội. Nhưng sau khi học được một thời gian thì có vẻ em bứt lên. Thực ra thì Tết năm đó, em cũng có tìm hiểu một chút qua về C++ nên tiếp thu nhanh hơn. Vả lại, em lúc ấy cũng rất đam mê với việc code, em code suốt cả hè luôn. Đến giờ em vẫn không hiểu sao hồi đó mình code nhiều thế.
 
@@ -54,14 +54,13 @@ Lúc mới vào thì em chỉ học các thuật toán cơ bản như Segment Tr
 
 Em nhớ là trong vòng vài tháng ạ. Em lên trình khá nhiều, vì các bài được tiếp xúc khác hẳn hồi ôn thi VOI, với nhiều kiến thức, dạng bài mới. Có nhiều bài thiên về suy nghĩ, sau khi đã ra ý tưởng thì việc cài đặt lại khá đơn giản. Mặc dù thế mạnh của em là code những bài nặng về cài đặt, nhưng em vẫn rất hứng thú với các dạng bài nghĩ nhiều. Hồi em học thì anh Thái, thầy Đông thường cho các bài code ngắn, ngược lại thì có anh Hoàng luôn cho những bài cần "tay to" thực sự.
 
-### Có một số người học Vòng 2 rất quyết liệt, bài nào các thầy đưa ra cũng code để AC bằng được. Tiếp cận của bạn cho vVòng 2 là gì? 
+### Có một số người học Vòng 2 rất quyết liệt, bài nào các thầy đưa ra cũng code để AC bằng được. Tiếp cận của bạn cho Vòng 2 là gì? 
 
 Thật ra thì cô Thái cho em đi ôn riêng với các thầy, các anh khá nhiều nên em dành phần lớn thời gian để giải bài từ những buổi đó ạ, còn bài các thầy cho ở Vòng 2 thì em có cố gắng làm nhưng những bài em không làm được thì thôi ạ. Vào vòng 2, em chỉ cố gắng để có được nhiều điểm nhất có thể và không đi quá sâu vào bài nào. Việc có được một thứ hạng cao như vậy thật sự cũng là một bất ngờ với em vì mỗi thí sinh đều có ít nhất 1 bài xanh, em thì bài nào cũng màu đỏ thôi..
 
 ### Trước khi thi Vòng 2, bạn có cảm thấy hồi hộp không? Sau đó cả hai ngày thi của bạn diễn ra như thế nào?
 
-![](../assets/interviews/2024-nguyen-duc-thang/image7.jpg)
-
+![](../assets/interviews/2024-nguyen-duc-thang/image7.jpg?width=9cm&wrapfigLineheight=8)
 Em cảm thấy khá là bình tĩnh, vì mục tiêu của em ban đầu chỉ là vào APIO để miễn tốt nghiệp, chứ không thiết tha gì IOI cho lắm. Mà nếu lớp 11 có lỡ không may trượt vòng 2, thì lớp 12 vẫn thi lại VOI được ạ. Em thấy bản thân làm hai ngày ở mức khá bình thường. Ngoài ra, điểm của em cũng khá đều, còn mọi người thì hay có 1-2 bài điểm có để gánh các bài còn lại. 
 
 ### Vậy chiến thuật của bạn có phải là tập trung cắn tất cả các subtask thay vì chỉ tập trung là một bài không?
@@ -80,7 +79,7 @@ Em nhớ nhất kỉ niệm... trốn học ạ. Phòng em có 3 người: em, a
 
 ### Kỳ thi IOI 2023 được tổ chức ở Hungary, là một năm hiếm hoi trong những năm gần đây các thí sinh đi thi có thể giao lưu và gặp mặt nhau tại một nước. Cảm giác của bạn khi lần đầu tiên được đi Hungary là như thế nào?
 
-![](../assets/interviews/2024-nguyen-duc-thang/image3.jpg)
+![](../assets/interviews/2024-nguyen-duc-thang/image3.jpg?wrapfigLineheight=11)
 
 Ở Hungary, các toà nhà có kết cấu từ ngày xưa, có nhiều hoa văn khá độc lạ. Em thấy Hungary đẹp, nhưng cũng chưa phát triển lắm, vì em để ý thấy vẫn còn nhiều khu đất trống. Cảm giác hệt như ở vùng nông thôn vậy. Đợt tụi em đi thi IOI, hội du học sinh Việt Nam ở Hungary hỗ trợ rất nhiều. Ngoài ra còn có hội người Việt Nam ở Hungary tài trợ ở một số mặt nữa ạ. Em vui vì họ rất nhiệt tình, nhưng cũng hơi thắc mắc vì bay gần nửa vòng Trái Đất cuối cùng lại thưởng thức gà luộc, phở bò..., chả khác gì ở nhà cả! Em cũng rất thích Hungary vì đó là quê nhà của số 8 mới ở Anfield (sân nhà của đội bóng Liverpool) - Szoboszlai.
 
@@ -89,8 +88,7 @@ Em nhớ nhất kỉ niệm... trốn học ạ. Phòng em có 3 người: em, a
 Đối với em, một khi đã đủ khả năng trở thành một trong bốn đại diện của Việt Nam tham dự IOI, thì làm bài thế nào đi nữa cũng đủ khả năng có giải, trừ khi hôm đó phong độ tệ lắm thôi. Nếu thế thật thì em cũng hi vọng sẽ được huy chương Bạc. Ngày thi đầu tiên, em làm bài suýt nữa thì xuống Đồng. Ngày thi thứ hai thì khá xanh. Đề IOI năm ngoái khi làm lại thì thật sự rất hay, nhưng các subtask thì không được thuận lợi lắm. Ví dụ như bài 1 năm ngoái, em nghĩ được subtask đường thẳng ra được thuật tham lam khá giống sol chuẩn. Tuy nhiên đến subtask $n \leq 3000$, tương ứng với $83$ điểm, code chuẩn chỉ vài dòng, nhưng phải dùng Quy hoạch động, khác hẳn với hướng trước đó nên không nghĩ ra thế nào. Em đành an phận với $52$ điểm. Bài $3$, em rút ra được nhận xét như mọi người, nhưng khi code trâu và kiểm tra lại thì code bug, làm em nghĩ nhận xét đó sai. Em tưởng bài đấy khó, vậy là chỉ trâu đúng subtask 1 rồi bỏ. Khi ra khỏi phòng thi, ai cũng được ít nhất $50~60$ điểm, chỉ em được $14$ điểm. Nếu bài đó không bug, kèm thêm bài 1 nữa thì em có thể sẽ lên được Vàng. 
 
 ### Sau khi thi thì cảm giác của bạn như thế nào? Vui vì được huy chương bạc hay tiếc vì không thể đạt được vàng? 
-
-![](../assets/interviews/2024-nguyen-duc-thang/image2.jpg)
+![](../assets/interviews/2024-nguyen-duc-thang/image2.jpg?width=10.5cm&wrapfigLineheight=12)
 
 Được Huy chương Bạc cũng gọi là hoàn thành mục tiêu của mình rồi, nên em cũng không tiếc nuối nhiều. Khi về lại quê nhà, bố mẹ tổ chức tiệc mừng HCB của em với hàng xóm, có cả các thầy cô cùng tới chia vui nữa ạ. Đạt được Huy chương Bạc cũng đồng nghĩa với việc được huy chương lao động hạng $3$. Nếu không có gì thay đổi so với những năm trước, em sẽ được gặp Chủ tịch nước, nhưng năm nay chỉ được gặp Phó chủ tịch nên em cũng hơi tiếc nuối đôi chút.
 
@@ -101,8 +99,7 @@ Em khá là vui, hạnh phúc, và tự hào. Nếu tính tới hiện tại, th
 
 ### Với tâm thế là một người đã có huy chương rồi, thì bạn có kì vọng gì cho Vòng 2 năm nay không? 
 
-![](../assets/interviews/2024-nguyen-duc-thang/image4.jpg)
-
+![](../assets/interviews/2024-nguyen-duc-thang/image4.jpg?width=8cm&wrapfigLineheight=11)
 Chắc chắn là khác năm ngoái rồi ạ. Mọi người sẽ kì vọng năm nay em có vàng IOI. Em nghĩ là năm nay được đại diện Việt Nam đi thi IOI đã là thành công rồi. Năm nay có khá nhiều bạn giỏi nên em không biết mình có thể vào được top 6 (top để được tính huy chương APIO) hay không nữa. Từ khi thi IOI năm ngoái về, em đi chơi khá là nhiều, chỉ từ sau vòng 1 năm nay thì em mới tập trung hoàn toàn lại vào code ạ.
 
 ### Mình thấy hầu hết các bạn khi chuẩn bị cho IOI đều luyện tập trên Codeforces rất nhiều nhưng bạn thì ngược lại, không cày Codeforces nhiều lắm. Lí do tại sao bạn lại làm thế? Khi không tham gia các contest trên Codeforces thì bạn có hay làm lại các bài trên đó không? 
@@ -141,9 +138,8 @@ Em nghĩ nếu kiếm được đội thì em sẽ tham gia ICPC. Hơn nữa, n�
 
 Em sẽ thiên về đi làm nhiều hơn, vì em không giỏi nghiên cứu nhiều lắm. Tuy nhiên trong tương lai, nếu có một chủ đề mà em đủ đam mê thì em có thể sẽ suy nghĩ lại.
 
-### Với tình hình công việc hiện tại, thì bạn có thích một lĩnh vực nhất định nào chưa? (AI, ứng dụng, web, điện thoại, ...) 
-
 ![](../assets/interviews/2024-nguyen-duc-thang/image5.jpg)
+### Với tình hình công việc hiện tại, thì bạn có thích một lĩnh vực nhất định nào chưa? (AI, ứng dụng, web, điện thoại, ...) 
 
 Em vẫn chưa tìm hiểu nên chưa rõ lắm. Nhưng anh Bách (Trần Xuân Bách - IOI 2023) có rủ em học AI xem thử thế nào, nên em có ý định thử. Còn những lĩnh vực khác, em sẽ thử nghiệm nhiều hơn ở Đại học.
 

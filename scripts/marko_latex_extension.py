@@ -15,6 +15,7 @@ from format_cpp import format_cpp
 from marko import MarkoExtension, block, inline
 from marko.ext.latex_renderer import LatexRenderer
 from marko.source import Source
+from urllib.parse import urlparse, parse_qs
 
 # https://github.com/python/typeshed/issues/3049
 if isinstance(sys.stdin, io.TextIOWrapper) and sys.version_info >= (3, 7):
@@ -198,8 +199,14 @@ class MarkoLatexRenderer(LatexRenderer):
             
     def render_image(self, element: marko.inline.Image):
         children = self.render_children(element)
+        parsed_url = urlparse(element.dest)
+        options = ''
+
+        if parsed_url.query != '':
+            qs = parse_qs(parsed_url.query)
+            options = '[\n' + ',\n'.join(f'  {key}={",".join(value)}' for key, value in qs.items()) + '\n]'
         
-        return f"\\includeImage{{ {element.dest} }}{{ {children} }}"
+        return f"\\includeImage{options}{{ {parsed_url.path} }}{{ {children} }}"
         
     def render_custom_footnote(self, element: CustomFootnote):
         return f"\\footnote{{ {element.content} }}"
