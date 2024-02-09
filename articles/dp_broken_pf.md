@@ -251,7 +251,12 @@ Nếu ta nhìn về độ phức tạp trên giấy của cả $4$ thuật toán
 
 Nếu ta xét thời gian chạy của cả $4$ thuật toán cho bài trên thì ta có thể thấy các ưu và nhược điểm của cả 4 thuật toán:
 
-![Bảng so sánh các thuật toán](../assets/dp_broken_pf/image5.png)
+ Thuật toán | Thời gian chạy | Nhận xét |
+| ---------- | -------------- | -------- |
+| $O(M*4^N)$ | `TLE` | Khá chậm nhưng tốn khá ít bộ nhớ|
+| $O(M*3^N)$ | $0.17s$ nếu dùng for, $0.83$ khi đệ quy tìm $nextmask$ | Ta thấy ở đây là khoảng cách thời gian giữa việc sử dụng đệ quy và vòng for rất lớn. Đó là vì đệ quy sẽ gây ra hằng số khá cao mặc dù đệ quy trong C++ đã được tối ưu rất nhiều.|
+| $O(N*M*2^N+M*(1+\phi)^N)$           |  $0.14s$ | Sử dụng đệ quy nhưng vẫn nhanh hơn hướng làm $O(M*3^N)$. Nó nhanh hơn là do số lượng trường hợp phải xét giảm thiểu đáng kể với việc nhận lại hằng số từ đệ quy. Bộ nhớ sử dụng cũng kha khá.|
+| $O(N*M*2^N)$ | $0.09s$ | Nhanh nhất và bộ nhớ dùng tương đối ít cũng như có hằng số khá thấp. Có thể tối ưu bộ nhớ và từ đó thời gian chạy hơn nữa những việc đó không cần thiết. |
 
 ## [Bài toán 2: Domino](https://oj.vnoi.info/problem/bananabread_domino)
 * Cho một bảng $A$ có kích thước $N \times M$, mỗi ô có một giá trị nguyên. Hãy tìm cách đặt đúng $k$ domino $2\times 1$ không chồng nhau để tổng các giá trị trên các ô được phủ là đạt giá trị cực đại.
@@ -340,7 +345,11 @@ int main(){
 
 Vừa rồi ta đã đi nghiên cứu và áp dụng những hướng tiếp cận khi làm bài toán DP Broken Profile:
 
-![Bảng so sánh những hướng tiếp cận](../assets/dp_broken_pf/image6.png)
+|     | Hướng tiếp cận "trâu"  | Hướng tiếp cận đệ quy  | Hướng tiếp cận tối ưu nhất|
+| --- | --- | ------- | ---------- |
+| Thời gian | $O(N*M*4^N)$ có thể tối ưu thành $O(M*4^N)$ hoặc $O(M*3^N)$ tùy theo bài    |  $O(N*M*2^N+C(N)*M)$. $C(N)$ là số lần gọi đệ quy và sẽ tùy vào mỗi bài nên rất khó để tính chính xác độ phức tạp.       | $O(N*M*2^N)$ |
+| Bộ Nhớ    | Rất ít    | Tương đối nhiều        | Ít  |
+| Nhận xét | Thường rất dễ suy nghĩ ra và làm bàn đạp để làm hai hướng kia.| Tùy theo bài cụ thể, hướng này có thể tốt hơn hoặc tệ hơn hướng làm trâu. Ta thường suy nghĩ tối ưu trâu như này.| Thường sẽ là cách tối ưu nhất và là cách giải của người ra đề. Thời gian chạy nhanh nhất và chỉ hi sinh rất ít bộ nhớ.|
 
 Ta thấy rằng mặc dù bài toán DP Broken Profile khá khó nhưng nó cũng chỉ xoay quanh một vài hướng tiếp cận cụ thể. Hơn nữa, tuỳ theo bài và dạng bài thì mỗi hướng sẽ có ưu điểm riêng như hướng tiệp cận thứ ba rất nhanh trong bài toán mở đầu bài nhưng lại không tốt trong bài toán áp dụng do điểm yếu là hằng số khá cao. Ngược lại, hướng tiếp cận đầu tiên trên lý thuyết khá chậm nhưng bài toán áp dụng cho thấy là sự đánh đổi thời gian và không gian của hướng tiếp cận này phù hợp cho bài thứ hai. Vì thế, mỗi người cần cân nhắc về các ưu và nhược điểm của mỗi tiếp cận và áp dụng hợp lý cho mỗi bài.
 

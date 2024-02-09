@@ -1,17 +1,20 @@
 # pyright: strict
 
-from typing import (TypeVar, Any, NamedTuple, cast)
-from marko.ext.latex_renderer import LatexRenderer
+import io
+import math
+import re
+import sys
+from typing import Any, NamedTuple, cast
+
 import marko
 import marko.block
+import marko.ext.gfm as MarkoGFM
 import marko.inline
-from marko import (inline, block, MarkoExtension)
-from marko.source import (Source)
-import re
 import yaml
-import sys
-import io
 from format_cpp import format_cpp
+from marko import MarkoExtension, block, inline
+from marko.ext.latex_renderer import LatexRenderer
+from marko.source import Source
 
 # https://github.com/python/typeshed/issues/3049
 if isinstance(sys.stdin, io.TextIOWrapper) and sys.version_info >= (3, 7):
@@ -243,6 +246,72 @@ class MarkoLatexRenderer(LatexRenderer):
         self.added_shorthand.add(element.meaning.id)
         return f'\\shorthand{{{element.keyword}}}{{{element.meaning.value}}}'
     
+    def render_table(self, element: MarkoGFM.elements.Table):
+        casted_children = cast(list[MarkoGFM.elements.TableRow], element.children)
+        all_cells = [[cast(MarkoGFM.elements.TableCell, cell) for cell in row.children] for row in casted_children]
+
+        rendered_content = [
+            [self.render(cell) for cell in row] for row in all_cells
+        ]
+
+        header_cells = all_cells[0]
+        
+        alignment = self._render_table_alignment(header_cells, rendered_content)
+        lines: list[str] = []
+        lines.append('\\begin{center}')
+        # lines.append(f'\\begin{{tabularx}}{{\\linewidth}}{{ {alignment} }}')
+        lines.append(f'\\begin{{tabular}}{{ {alignment} }}')
+        lines.append(r'\hline')
+        
+        def add_row(row: list[str]):
+            rendered_row = ' & '.join(row)
+            lines.append('  ' + rendered_row + r' \tabularnewline \hline')
+
+        add_row(rendered_content[0])
+        lines.append(r'\hline')
+        for row in rendered_content[1:]:
+            add_row(row)
+
+        # lines.append('\\end{tabularx}')
+        lines.append('\\end{tabular}')
+        lines.append('\\end{center}')
+
+        return '\n'.join(lines)
+
+    def render_table_row(self, element: MarkoGFM.elements.TableRow):
+        return ' & '.join(map(self.render, element.children)) + r' \tabularnewline \hline'
+
+    def _render_table_alignment(self, header_cells: list[MarkoGFM.elements.TableCell], content: list[list[str]]):
+        n = len(content)
+        m = len(content[0])
+        col_max_len = [
+            max(len(content[i][j]) for i in range(n)) for j in range(m)
+        ]
+
+        lg_max_len = list(map(lambda x: math.log(x) ** 2, col_max_len))
+        sum_lg_max_len = sum(lg_max_len)
+
+        fixed_total_size = 0.95
+
+        def map_alignment(alignment: str | None, pos: int):
+            ratio = lg_max_len[pos] / sum_lg_max_len
+            size = fr'p{{{ratio * fixed_total_size:.2f}\linewidth}}'
+            if alignment == 'left':
+                return size
+            elif alignment == 'right':
+                return r'>{\raggedleft\arraybackslash}' + size
+            else:
+                if alignment != 'center' and alignment is not None:
+                    print(f'Warning: Unknown alignment {alignment}. Fall back to "center".')
+                return r'>{\centering\arraybackslash}' + size
+
+        return '|' + '|'.join(
+            map_alignment(cell.align, pos) for cell, pos in zip(header_cells, range(m))
+          ) + '|'
+
+    def render_table_cell(self, element: MarkoGFM.elements.TableCell):
+        return self.render_children(element)
+    
     @staticmethod
     def _escape_latex(text: str) -> str:
         # print('escaping', text)
@@ -283,7 +352,10 @@ def make_extension():
                 Emoji,
                 FrontMatter,
                 InterviewQA,
-                Shorthand
+                Shorthand,
+                MarkoGFM.elements.Table,
+                MarkoGFM.elements.TableRow,
+                MarkoGFM.elements.TableCell,
             ],
         renderer_mixins = [MarkoLatexRenderer]
     )
