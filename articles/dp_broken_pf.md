@@ -340,7 +340,11 @@ int main(){
 
 Vừa rồi ta đã đi nghiên cứu và áp dụng những hướng tiếp cận khi làm bài toán DP Broken Profile:
 
-![Bảng so sánh những hướng tiếp cận](../assets/dp_broken_pf/image6.png)
+|     | Hướng tiếp cận "trâu"  | Hướng tiếp cận đệ quy  | Hướng tiếp cận tối ưu nhất|
+| --- | --- | ------- | ---------- |
+| Thời gian | $O(N*M*4^N)$ có thể tối ưu thành $O(M*4^N)$ hoặc $O(M*3^N)$ tùy theo bài    |  $O(N*M*2^N+C(N)*M)$. $C(N)$ là số lần gọi đệ quy và sẽ tùy vào mỗi bài nên rất khó để tính chính xác độ phức tạp.       | $O(N*M*2^N)$ |
+| Bộ Nhớ    | Rất ít    | Tương đối nhiều        | Ít  |
+| Nhận xét | Thường rất dễ suy nghĩ ra và làm bàn đạp để làm hai hướng kia.| Tùy theo bài cụ thể, hướng này có thể tốt hơn hoặc tệ hơn hướng làm trâu. Ta thường suy nghĩ tối ưu trâu như này.| Thường sẽ là cách tối ưu nhất và là cách giải của người ra đề. Thời gian chạy nhanh nhất và chỉ hi sinh rất ít bộ nhớ.|
 
 Ta thấy rằng mặc dù bài toán DP Broken Profile khá khó nhưng nó cũng chỉ xoay quanh một vài hướng tiếp cận cụ thể. Hơn nữa, tuỳ theo bài và dạng bài thì mỗi hướng sẽ có ưu điểm riêng như hướng tiệp cận thứ ba rất nhanh trong bài toán mở đầu bài nhưng lại không tốt trong bài toán áp dụng do điểm yếu là hằng số khá cao. Ngược lại, hướng tiếp cận đầu tiên trên lý thuyết khá chậm nhưng bài toán áp dụng cho thấy là sự đánh đổi thời gian và không gian của hướng tiếp cận này phù hợp cho bài thứ hai. Vì thế, mỗi người cần cân nhắc về các ưu và nhược điểm của mỗi tiếp cận và áp dụng hợp lý cho mỗi bài.
 
