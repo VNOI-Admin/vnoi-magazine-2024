@@ -196,21 +196,21 @@
     }
 
     \pagestyle{fancy}
-    \edef\title{\commandkey{title}}
    
     % \ifodd\value{page}\null\newpage\fi%
    
     \fancyhead{}
-    \lhead{\title}
    
     ~\thispagestyle{empty}
     % \autoSetBackground
     \setbackgroundEverypage{../assets/page-bg.png}
    
     \vfill
-    \customPart{\title}
+    \customPart{\commandkey{title}}
     \noindent Interviewer: \commandkey{interviewer}
     \vfill
+    \edef\title{\commandkey{title}}
+    \lhead{\title}
    
     \newpage
    
