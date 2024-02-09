@@ -72,15 +72,13 @@ int main(){
     ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(0);
     cin>>n>>m;
     dp[1][0]=1;
-    for(int i=1;i<=m;i++){
-        for(int mask=0;mask<(1<<n);mask++){
-            for(int nextmask=0;nextmask<(1<<n);nextmask++){
-                if(good(mask,nextmask)){
-                    (dp[i+1][nextmask]+=dp[i][mask])%=mod;
-                }
-            }
+    for(int i=1;i<=m;i++)
+    for(int mask=0;mask<(1<<n);mask++)
+    for(int nextmask=0;nextmask<(1<<n);nextmask++)
+        if(good(mask,nextmask)){
+            (dp[i+1][nextmask]+=dp[i][mask])%=mod;
         }
-    }
+
     cout<<dp[m+1][0];
 }
 ```
@@ -112,7 +110,9 @@ int main(){
                 dp[i+1][0]+=dp[i][mask];
                 dp[i+1][0]%=mod;
             }
-            int nmask=((1<<n)-1)^mask; //phan bu cua mask
+
+            //phan bu cua mask
+            int nmask=((1<<n)-1)^mask;
             for(int nextmask = nmask; nextmask > 0; nextmask = (nextmask - 1) & nmask){
                 if(good(mask,nextmask)){
                     dp[i+1][nextmask]+=dp[i][mask];
@@ -155,24 +155,25 @@ void up(int j,int i,int mask,int nextmask){
 		return;
     }
     if(on(mask,j)){
-        up(j+1,i,mask,nextmask); //Neu bit thu j da duoc bat
+        //Neu bit thu j da duoc bat
+        up(j+1,i,mask,nextmask);
     }
     else{
         if(j+1<n&&!on(mask,j+1)){
-            up(j+2,i,mask,nextmask); //TH2
+            //TH2
+            up(j+2,i,mask,nextmask);
         }
-        up(j+1,i,mask,(nextmask|(1<<j))); //TH1
+        //TH1
+        up(j+1,i,mask,(nextmask|(1<<j)));
     }
 }
 int main(){
     ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(0);
     cin>>n>>m;
     dp[1][0]=1;
-    for(int i=1;i<=m;i++){
-        for(int j=0;j<(1<<n);j++){
+    for(int i=1;i<=m;i++)
+        for(int j=0;j<(1<<n);j++)
             up(0,i,j,0);
-        }
-    }
     cout<<dp[m+1][0];
 }
 ```
@@ -222,21 +223,26 @@ int main(){
             for(int mask=0;mask<(1<<n);mask++){
                 if(on(mask,j)){
                     dp[i][j+1][mask^(1<<j)]+=dp[i][j][mask];
-                    dp[i][j+1][mask^(1<<j)]%=mod; //bit thu j bat
+
+                    //bit thu j bat
+                    dp[i][j+1][mask^(1<<j)]%=mod;
                 }
                 else{
                     if(j+1<n&&!on(mask,j+1)){
                         dp[i][j+2][mask]+=dp[i][j][mask];
-                        dp[i][j+2][mask]%=mod; //dat domino doc
+
+                        //dat domino doc
+                        dp[i][j+2][mask]%=mod;
                     }
                     dp[i][j+1][mask^(1<<j)]+=dp[i][j][mask];
-                    dp[i][j+1][mask^(1<<j)]%=mod; //dat domino ngang
+
+                    //dat domino ngang
+                    dp[i][j+1][mask^(1<<j)]%=mod;
                 }
             }
         }
-        for(int mask=0;mask<(1<<n);mask++){
+        for(int mask=0;mask<(1<<n);mask++)
             dp[i+1][0][mask]=dp[i][n][mask];
-        }
     }
     cout<<dp[m+1][0][0];
 }
@@ -313,28 +319,48 @@ int main(){
                     if(dp[take][i][mask][j&1]<=INF) continue;
                     if(!on(mask,i)){
                         if(take+1<=k){
-                            if(j+1<=m) dp[take+1][i+1][mask^(1<<i)][j&1]=max(dp[take+1][i+1][mask^(1<<i)][j&1],dp[take][i][mask][j&1]+arr[i][j]+arr[i][j+1]); //dat domino ngang
+                            if(j+1<=m) {
+                                // dat domino ngang
+                                dp[take+1][i+1][mask^(1<<i)][j&1]=max(
+                                    dp[take+1][i+1][mask^(1<<i)][j&1],
+                                    dp[take][i][mask][j&1]+arr[i][j]+arr[i][j+1]
+                                );
+                            }
                             if(!on(mask,i+1)&&i+1<n){
-                                dp[take+1][i+2][mask][j&1]=max(dp[take+1][i+2][mask][j&1],dp[take][i][mask][j&1]+arr[i][j]+arr[i+1][j]); //dat domino doc
+                                // dat domino doc
+                                dp[take+1][i+2][mask][j&1]=max(
+                                    dp[take+1][i+2][mask][j&1],
+                                    dp[take][i][mask][j&1]+arr[i][j]+arr[i+1][j]
+                                );
                             }
                         }
-                        dp[take][i+1][mask][j&1]=max(dp[take][i+1][mask][j&1],dp[take][i][mask][j&1]); //khong dat domino
+
+                        // khong dat domino
+                        dp[take][i+1][mask][j&1]=max(
+                            dp[take][i+1][mask][j&1],
+                            dp[take][i][mask][j&1]
+                        );
                     }
                     else{
-                        dp[take][i+1][mask^(1<<i)][j&1]=max(dp[take][i+1][mask^(1<<i)][j&1],dp[take][i][mask][j&1]); //khong dat domino
+                        // khong dat domino
+                        dp[take][i+1][mask^(1<<i)][j&1]=max(
+                            dp[take][i+1][mask^(1<<i)][j&1],
+                            dp[take][i][mask][j&1]
+                        );
                     }
                 }
             }
+
             for(int mask=0;mask<(1<<n);mask++){
                 dp[take][0][mask][(j+1)&1]=dp[take][n][mask][j&1];
             }
         }
-        for(int take=0;take<=k;take++){
-            for(int mask=0;mask<(1<<n);mask++){
-                for(int i=0;i<n;i++){
-                    dp[take][i][mask][j&1]=INF; //toi uu bo nho
-                }
-            }
+
+        for(int take=0;take<=k;take++)
+        for(int mask=0;mask<(1<<n);mask++)
+        for(int i=0;i<n;i++){
+            // toi uu bo nho
+            dp[take][i][mask][j&1]=INF;
         }
     }
     cout<<dp[k][0][0][(m+1)&1];

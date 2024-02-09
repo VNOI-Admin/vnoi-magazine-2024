@@ -294,6 +294,7 @@ bool checkMillerRabin(ll x, ll md, ll s, int k) {
     }
     return false;
 }
+
 bool isPrime(ll x) {
     if (x == 2 || x == 3 || x == 5 || x == 7) return true;
     if (x % 2 == 0 || x % 3 == 0 || x % 5 == 0 || x % 7 == 0) return false;
