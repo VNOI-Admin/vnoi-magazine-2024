@@ -26,7 +26,7 @@ Hồi đấy mình có một kỹ năng mình vô cùng tự hào là code các 
 
 ### Với vòng TST bạn được rank 4, vậy khi thi APIO đã có khó khăn nào khiến bạn không đủ điểm để đậu đội tuyển IOI?
 
-![](../assets/interviews/2024-dang-doan-duc-trung/image1.jpg)
+![](../assets/interviews/2024-dang-doan-duc-trung/image1.jpg?width=8cm&wrapfigLineheight=10)
 
 Năm đấy mình không đậu cũng là một việc hiển nhiên, một phần vì năm ấy đề cực kỳ khó, anh Thắng (Phạm Đức Thắng - IOI 2018) thi APIO cao nhất đoàn Việt Nam cũng chưa được đến 200 điểm. Đề năm ấy mình đánh giá là khó nghĩ, mà năm mình lớp 11 thì khả năng nghĩ thuật của mình cũng chưa chín muồi nên việc thất bại cũng không phải không ngờ tới được.
 
@@ -47,7 +47,7 @@ Gia đình mình có điều kiện hơn một tí nên từ sớm mình đã đ
 
 Mình học đội tuyển thì trên trường mình cày nhiều chứ về nhà cũng không nhiều lắm, chắc chắn là mình không cày nhiều bằng một số bạn mình biết được như bạn Khoa (Nguyễn Ngọc Đăng Khoa, IOI - 2023), mình nhìn profile Codeforces bạn này là biết mình không thể cày nhiều như bạn này ở hồi đó được (cười).
 
-![](../assets/interviews/2024-dang-doan-duc-trung/image3.jpg)
+![](../assets/interviews/2024-dang-doan-duc-trung/image3.jpg?wrapfigLineheight=9)
 Hồi cấp 3 mình cũng như bao học sinh bình thường khác, mình không thể dành hết thời gian cho CP được mà sẽ có nhiều hoạt động khác nữa. Ngoài CP mình có học thêm SAT và chơi game, nhưng mình khá...lười học SAT, hồi đó mình chỉ đơn giản là lên làm bài của trung tâm giao và về nhà làm thêm các dạng là hết rồi. Mình cảm thấy cách mình phân bố thời gian không hiệu quả bằng các bạn khác nhưng đối với mình thì vừa đủ để cân bằng việc học CP và chuẩn bị hồ sơ du học cùng một lúc. 
 
 ### Lúc bạn chưa qua Mỹ bạn đã vô cùng nổi tiếng trong cộng đồng CP thế giới. Theo bạn điều gì đã làm bạn nổi tiếng như vậy?
@@ -67,7 +67,7 @@ Lý do mình ngưng làm contest có lẽ là do bị burnout thôi, lúc đấy
 
 ### Sau khi học cấp 3 và chuyển sang Mỹ, thời gian đầu bạn có gặp trở ngại gì không?
 
-![](../assets/interviews/2024-dang-doan-duc-trung/image7.png)
+![](../assets/interviews/2024-dang-doan-duc-trung/image7.png?wrapfigLineheight=17)
 
 Mình cảm thấy may mắn khi hòa nhập được văn hóa ở Mỹ. Lúc đấy mình đang trong giai đoạn nổi loạn nữa nên suy nghĩ của mình là luôn thích được đi khám phá và không muốn ở nhà. Một ấn tượng của mình trong thời gian đầu ở đây là mình được thầy Ninghui Li - thầy coach ICPC ở Purdue để ý, do là vì trên Codeforces mình có đổi thông tin trường học của mình thành Purdue. Vì vậy ngay từ tuần thứ hai của năm nhất mình đã được thầy dẫn dắt và làm trợ giảng cho một số lớp học của thầy. Từ đó mình cũng được kết nối với rất nhiều bạn đam mê CP ở Purdue. Trong số đó có một cái tên cũng khá nổi tiếng với cộng đồng Codeforces là bạn Monogon (max rating CF 2705). 
 
@@ -101,7 +101,7 @@ Có một điều mình hối hận là không tái hợp với team sớm hơn 
 
 Mình sẽ ví World Finals năm ấy như APIO thứ hai của mình. Mình cảm thấy đủ thực lực và thời điểm cũng chín muồi nhưng mình lại để vụt mất trong tầm tay, từ sau WF đấy mình cũng làm bài nhiều hơn, tuy không thường xuyên như hồi năm nhất đại học. Nếu các bạn để ý thì mình làm CF thường xuyên lại rồi, cứ 2-3 tháng mình lại thi một contest. Ngoài ra mình tập làm nhiều bài hình trở lại vì team mình đã thiếu đi bạn Monogon, mình đã quen với việc tiếp cận bài hình và nghĩ ra code. 
 
-![](../assets/interviews/2024-dang-doan-duc-trung/image10.jpg)
+![](../assets/interviews/2024-dang-doan-duc-trung/image10.jpg?wrapfigLineheight=18)
 
 Theo mình thấy kĩ năng làm những bài hình là một trong những cái quan trọng nhất mình đã học kể từ sau WF ở Dhaka. Bởi vì thiếu Monogon rồi như thiếu một ‘nhân tố X’ ấy, bạn ấy code hình full-time luôn nên là một sự mất mát rất lớn đối với mình . 
 
@@ -137,7 +137,7 @@ Còn về lý do mình lại không theo hướng đi làm công ty dù mình c�
 
 ### Bạn có thể trình bày hướng nghiên cứu của bạn và tại sao nó quan trọng?
 
-![](../assets/interviews/2024-dang-doan-duc-trung/image12.jpg)
+![](../assets/interviews/2024-dang-doan-duc-trung/image12.jpg?width=13cm)
 
 Mình sẽ nói về nghiên cứu trong quá trình mình học Tiến sĩ. Thật ra nó cũng là quá trình nghiên cứu liên tục từ đại học thôi. Mình đang nghiên cứu về giao thoa giữa kinh tế và thuật toán. Với một bài toán cơ bản như này: giả sử bạn muốn đấu giá 1 món đồ, nhưng cách đấu giá ảnh hưởng rất nhiều đến hành động của người tham gia, tức là nếu bạn đấu giá và chọn người thắng cuối cùng hoặc cái giá cuối cùng không hợp lý thì bắt đầu sẽ có những hành vi gian lận như người tham gia đấu giá bắt đầu đi tìm hiểu, cơ cấu và điều khiển giá thị trường, tất nhiên là người đấu giá không muốn như thế. 
 
@@ -147,9 +147,9 @@ Về cơ bản trong phạm vi bài toán này chính là sự giao thoa giữa 
 
 ### Hẳn các bạn độc giả cũng rất tò mò về cuộc sống của một người theo học Tiến sĩ ở Mỹ, vậy Kuroni có thể chia sẻ về cách bạn viết nghiên cứu và xuất hiện ở các hội nghị được không?
 
-Mình cảm thấy cuộc sống của mình khá thoải mái. Buổi sáng mình sẽ đọc các bài nghiên cứu với 2 mục đích chính. Thứ nhất là để cập nhật kiến thức của mình về những nghiên cứu khác. Thật sự thì những nghiên cứu của mình khá là thuần toán, kiểu áp dụng và mình cũng không code nhiều. Thứ hai là để mình có thể học những cách chứng minh của người ta, xem người ta dùng những kĩ thuật nào để chứng minh. Ví dụ như vừa rồi mình vừa đọc một kỹ thuật rất hay, và đang thử áp dụng vào bài hiện tại của mình. Tất nhiên là mình vừa học hai học kỳ thôi nên cuộc sống của mình cũng chưa có nhiều điều mới, mình cũng tranh thủ để mở rộng các chủ đề có thể theo đuổi qua việc đọc thêm các bài nghiên cứu và trao đổi với những đồng nghiệp trong lúc nghiên cứu để có thể cùng hợp tác chung trong tương lai. 
+![](../assets/interviews/2024-dang-doan-duc-trung/image11.jpg?width=8cm)
 
-![](../assets/interviews/2024-dang-doan-duc-trung/image11.jpg)
+Mình cảm thấy cuộc sống của mình khá thoải mái. Buổi sáng mình sẽ đọc các bài nghiên cứu với 2 mục đích chính. Thứ nhất là để cập nhật kiến thức của mình về những nghiên cứu khác. Thật sự thì những nghiên cứu của mình khá là thuần toán, kiểu áp dụng và mình cũng không code nhiều. Thứ hai là để mình có thể học những cách chứng minh của người ta, xem người ta dùng những kĩ thuật nào để chứng minh. Ví dụ như vừa rồi mình vừa đọc một kỹ thuật rất hay, và đang thử áp dụng vào bài hiện tại của mình. Tất nhiên là mình vừa học hai học kỳ thôi nên cuộc sống của mình cũng chưa có nhiều điều mới, mình cũng tranh thủ để mở rộng các chủ đề có thể theo đuổi qua việc đọc thêm các bài nghiên cứu và trao đổi với những đồng nghiệp trong lúc nghiên cứu để có thể cùng hợp tác chung trong tương lai. 
 
 Đương nhiên quá trình này đòi hỏi mình sẽ phải nghĩ rất nhiều, hầu hết quá trình nghiên cứu của mình sẽ cứ chầm chậm và đột nhiên khám phá ra một hướng giải có thể ra kết quả và tiếp tục theo đuổi hướng đi đó để ra hướng giải cuối cùng. Và ít nhất 2 bài nghiên cứu mình đã viết xong đều theo xu hướng này cả, cụ thể hơn thì mình hầu hết sẽ tốn tầm vài tháng nhưng chỉ tốn 2 tuần gần cuối để ra hết ý tưởng cuối cùng của bài nghiên cứu. 
 
@@ -162,7 +162,7 @@ Một paper đã được xuất bản và một paper thì mình đang gửi đ
 Cái paper thứ 2 của mình với thầy Alex Psomas là một bài toán khá là dễ thương. Khi đi mua điện thoại, cách để biết nó tốt hay không là nhìn giá, giá thì thường được định do nhà sản xuất hoặc thị trường đặt, nên về cơ bản thì giá chỉ là ‘noisy sample’. Kiểu như một chiếc điện thoại có hiệu suất được đánh giá là 2 triệu đồng nhưng lại được bán là 2 triệu 500 nghìn đồng, tức nhiều tiền hơn so với hiệu năng thật của điện thoại. Lúc này, bạn sẽ tham khảo thị trường có nhiều điện thoại với những cái giá khác nhau, tất nhiên bạn sẽ muốn mua điện thoại có cái hiệu năng tốt nhất so với túi tiền hiện tại. Theo xu hướng sẽ mua điện thoại đắt nhất mà có thể trả được, nhưng giả sử, trước mắt bạn có 2 cái điện thoại với giá 15 triệu đồng và 14 triệu 999 nghìn đồng, lúc này bạn không thể mua điện thoại 15 triệu một cách ngẫu nhiên mà phải so sánh thêm. Vậy nên bài toán của mình sẽ cho giá tiền mà nhà sản xuất rao bán của những chiếc điện thoại này và kèm với những ‘noisy sample’ so với giá trị thật mà điện thoại đem lại và mình cần phải tìm một thuật toán mà cho ra chiếc điện thoại có giá tiền niêm yết sát với giá trị thật nhất mà đem lại hiệu năng cao nhất. 
 
 
-![](../assets/interviews/2024-dang-doan-duc-trung/image15.jpg)
+![](../assets/interviews/2024-dang-doan-duc-trung/image15.jpg?width=11cm)
 
 Mình cảm thấy bài toán này rất là hay mà vẫn chưa có paper nào nghiên cứu thật là kĩ về vấn đề này nên mình với thầy đã nghiên cứu. Trong bài toán này, mình cũng tìm được một thuật toán rất hay để giải quyết, mình có thể biểu diễn ‘noisy value’ bằng phương sai của số tiền niêm yết so với giá trị thật, lúc này mình sẽ không quan tâm các điện thoại có phương sai to và ở những ở điện thoại còn lại mình sẽ chỉ chọn những cái có giá tiền cao nhất vì đương nhiên những điện thoại có phương sai to sẽ không liên quan quá nhiều đến giá trị thật của chiếc điện thoại đem lại, chính vì thế những điện thoại có phương sai nhỏ khả năng sẽ phản ảnh chất lượng tốt nhất. Thuật toán này nghe có vẻ đúng nhưng mình không chỉ đề xuất ra nó mà còn chứng minh nó tốt luôn.
 
@@ -174,12 +174,11 @@ Mình cảm thấy bài toán này rất là hay mà vẫn chưa có paper nào 
 
 ### Bạn có thể chia sẻ cách bạn duy trì sức khỏe, tinh thần cũng như sức bền để làm việc ở cường độ cao như vậy trong thời gian dài?
 
-![](../assets/interviews/2024-dang-doan-duc-trung/image9.jpg)
-
 Đầu tiên để có sức bền thì mình nghĩ phải có đam mê trước đã. Điều quan trọng để duy trì công việc ở cường độ cao là phải có đam mê, giữ được đam mê đó bằng việc trải nghiệm nhiều khía cạnh khác nhau trong cuộc sống. Mình không chỉ dành cả ngày của mình với việc nghiên cứu mà mình cũng có một lối sống sinh hoạt lành mạnh, như ngay hôm qua mình đăng trên Twitter là mình vừa đi một concert xong (cười).
 
 Việc chuyển giữa các hoạt động khác nhau giúp cho mình không chán bất cứ hoạt động nào mà có phép  mình thích tất cả mọi thứ cùng lúc được. Tất nhiên mình cũng không phải người đi concert quá nhiều, nhưng nếu mình đi 1-2 lần trong nhiều tháng thì mình cảm thấy tinh thần của mình tốt hơn. Bên cạnh đó mình còn duy trì tinh thần của mình qua việc đi chơi với bạn bè, rủ các bạn nấu ăn, có thể các bạn không biết chứ mình nấu ăn rất là ngon, đăng Twitter là lúc nào cũng nhiều like cực kì luôn (cười).
 
+![](../assets/interviews/2024-dang-doan-duc-trung/image9.jpg?width=8cm)
 
 *Nếu các bạn không biết thì Kuroni là người thường xuyên đăng ảnh đồ ăn lúc đêm muộn trên kênh chat Discord của VNOI. Đúng là một tội ác*
 
@@ -192,8 +191,7 @@ Bên cạnh đó mình còn duy trì việc tập thể dục, mình cảm thấ
 
 ### Để kết thúc phần chia sẻ, Kuroni có thể chia sẻ những dự định của mình trong năm 2024 được không?
 
-![](../assets/interviews/2024-dang-doan-duc-trung/image14.jpg)
-
+![](../assets/interviews/2024-dang-doan-duc-trung/image14.jpg?width=8cm)
 Bên cạnh việc đạt HCV, làm ‘Chú Tư’ của thế giới một lần ở kỳ ICPC World Finals tới thì mình sẽ tiếp tục tổ chức các contest Codeforces tiếp và đương nhiên là lên LGM Codeforces. Mình không rõ sẽ cố gắng lên trước hay sau WF nhưng chắc chắn là trong khoảng nửa đầu của năm 2024. Về nghiên cứu thì mình mong muốn project hiện tại của mình sẽ thuận lợi và có thêm một paper nữa ở UT Austin. Thật ra bản thân mình cũng là một Swifty, một fan của Taylor Swift cũng đã lâu, phải cỡ 13-14 năm rồi nên mình cũng mong sẽ giật được một vé tour thì cũng khá là hay. Đợt rồi thì mình không may mắn có đủ tiền để đi Eras Tour nhưng mình mong muốn là sẽ được đi Taylor Swift tour một lần trong đời trước khi Taylor Swift giải nghệ. Ngoài ra thì mình muốn chơi hay hơn ở các môn thể thao, gặp nhiều bạn tốt, mở rộng mối quan hệ với không chỉ ở cộng đồng CP mà cả ở những cộng đồng khác. 
 
 *Cảm ơn Kuroni đã có phần chia sẻ vô cùng tâm huyết, chúc bạn sớm đạt được những dự định của bản thân trong năm 2024!*
