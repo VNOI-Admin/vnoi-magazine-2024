@@ -7,7 +7,7 @@ meta:
 
 - Trong năm vừa qua, ắt hẳn một số bạn độc giả đã quen với dự án **Problem of the Week** của team Bedao. Dự án đã để lại nhiều dấu ấn cho cộng đồng khi hàng tuần đem đến những bài toán hóc búa, thách thức độc giả gửi về những lời giải xuất sắc về cho VNOI. Giờ đây dự án một lần nữa quay trở lại với tên 'Thách thức lập trình' trong số tạp chí VNOI Xuân Giáp Thìn. 
 
-- Ở kì này sẽ có 3 bài toán được đặt ra, với mỗi bài giải được các bạn hãy viết lời giải (editorial) và gửi về cho chúng mình thông qua [Thách thức lập trình - Tạp chí VNOI Giáp Thìn 2023](https://forms.gle/uXvHQEvwC3UnjFjR7). Vào cuối thử thách, ban biên tập sẽ chọn và công bố 3 lời giải xuất sắc nhất của 3 bài toán trên [VNOI](https://www.facebook.com/vnoi.wiki).
+- Ở số  [Thách thức lập trình](https://oj.vnoi.info/contest/thachthuc_laptrinh_giapthin2024) này sẽ có 3 bài toán được đặt ra, với mỗi bài giải được các bạn hãy viết lời giải (editorial) và gửi về cho chúng mình thông qua [Thách thức lập trình - Tạp chí VNOI Giáp Thìn 2024](https://forms.gle/uXvHQEvwC3UnjFjR7). Vào cuối thử thách, ban biên tập sẽ chọn và công bố 3 lời giải xuất sắc nhất của 3 bài toán trên [VNOI](https://www.facebook.com/vnoi.wiki).
 
 - Ứng với mỗi lời giải được chọn, các bạn sẽ được một bộ merchandise đặc biệt gồm: **10 bao lì xì + móc khóa + dây đeo + sticker VNOI**. Chính vì thế hãy thật nhanh tay để giành lấy cho mình bộ quà có 1-0-2 dành riêng cho dịp Xuân Giáp Thìn này nhé! 
 
