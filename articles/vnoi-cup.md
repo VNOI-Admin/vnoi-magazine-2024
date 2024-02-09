@@ -54,9 +54,9 @@ Ngoài ra, Vòng Chung kết còn có sự góp mặt của các thí sinh đế
 
 Vòng Chung kết đã diễn ra cực kỳ gay cấn và cực kỳ quyết liệt, khi cục diện bảng xếp hạng bắt đầu thay đổi vào những khoảng thời gian cuối của vòng thi. Chung cuộc, ba vị trí đầu tiên của vòng Chung kết VNOI Cup 2023 đã thuộc về ba cái tên mới:
 
-- Nguyễn Đức Thắng (17 tuổi) - là chủ nhân của chiếc cup vô địch VNOI Cup mùa thứ hai, cùng với phần thưởng trị giá 20 triệu VNĐ.
-- Lê Hoàng Nam (17 tuổi) - giành cup bạc VNOI Cup 2023, cùng với phần thưởng trị giá 15 triệu VNĐ.
-- Lê Ngọc Bảo Anh (18 tuổi) - giành cup đồng VNOI Cup 2023, cùng với phần thưởng trị giá 10 triệu VNĐ.
+- Nguyễn Đức Thắng (Trường THPT Chuyên Hùng Vương, Phú Thọ) - là chủ nhân của chiếc cup vô địch VNOI Cup mùa thứ hai, cùng với phần thưởng trị giá 20 triệu VNĐ.
+- Lê Hoàng Nam (Trường THPT Chuyên Sư Phạm, Hà Nội) - giành cup Bạc VNOI Cup 2023, cùng với phần thưởng trị giá 15 triệu VNĐ.
+- Lê Ngọc Bảo Anh (Trường THPT Chuyên Lê Quý Đôn, Đà Nẵng) - giành cup Đồng VNOI Cup 2023, cùng với phần thưởng trị giá 10 triệu VNĐ.
 
 ![Bảng xếp hạng chính thức của VNOI CUP 2023](../assets/vnoi-cup/image5.png)
 
