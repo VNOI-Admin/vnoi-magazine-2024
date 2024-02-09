@@ -98,13 +98,14 @@ Chính là từ bài toán tìm chu kỳ của dãy số bên trên.
 Đơn giản thôi, chọn hằng số $c$ khác cho $f(x)$.
 
 Ta mô tả [**Thuật toán Rho**](https://en.wikipedia.org/wiki/Pollard%27s_rho_algorithm) như sau:
-> Sử dụng hàm $f(x) = (x^2+c) \bmod P$ để sinh dãy $(x_n)$ đến khi tìm được $x_s \equiv x_t \pmod P$ thỏa mãn $P =\gcd \left( |x_s-x_t|, N \right) > 1$.<br/>
+>Sử dụng hàm $f(x) = (x^2+c) \bmod P$ để sinh dãy $(x_n)$ đến khi tìm được $x_s \equiv x_t \pmod P$ thỏa mãn $P =\gcd \left( |x_s-x_t|, N \right) > 1$.
+
 >Khi này $P$ là một ước của $N$. Tiếp tục phân tích $P$ và $\frac{N}{P}$ đến khi không phân tích được nữa.
+
 
 Một điều thú vị là nhìn hình dưới đây chắc các bạn cùng hiểu tại sao *John Pollard* lại đặt tên *"Thuật toán $\rho$ (Rho)"*:
 
-Minh họa cho $N = 2206637$, $x_0 = 2$ và $f(x) = (x^2 + 1) \bmod N$:
-![Tương tự ví dụ của thuật toán Floyd](../assets/tortoise_and_hare/image3.png)
+![Minh họa cho $N = 2206637$, $x_0 = 2$ và $f(x) = (x^2 + 1) \bmod N$ (tương tự ví dụ của thuật toán Floyd)](../assets/tortoise_and_hare/image3.png)
 
 Bảng minh họa cho **Thuật toán Rho** trong trường hợp trên:
 
