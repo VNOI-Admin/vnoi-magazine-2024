@@ -29,4 +29,7 @@
 - Software Engineering: Kỹ thuật/Công nghệ phần mềm.
 - Computer Science: Khoa học máy tính.
 - Blockchain: công nghệ chuỗi – khối, cho phép truyền tải dữ liệu một cách an toàn dựa trên hệ thống mã hóa vô cùng phức tạp.
-- Coordinator: người tổ chức các contest Bedao trên VNOJ.
+- Coordinator: người tổ chức các contest cho OJ.
+- persistent: trong ngữ cảnh nói về cấu trúc dữ liệu thì là dạng cấu trúc dữ liệu có thể quay trở lại một trạng thái bất kỳ. Tiêu biểu là Persistent Segment Tree.
+- Problemsetter: người chuẩn bị bài tập cho kỳ thi.
+- upvote: tính năng 'yêu thích' bài viết trên trang Codeforces.
