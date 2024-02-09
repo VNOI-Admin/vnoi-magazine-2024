@@ -31,8 +31,8 @@ Em xuất phát vốn là dân học Toán, nên thi vào chuyên Toán cũng l�
 ### Ở cấp 3 thì bạn tiếp xúc với môn Tin từ lúc nào? 
 
 ![](../assets/interviews/2024-nguyen-duc-thang/image8.jpg?width=6cm&wrapfigLineheight=19)
-Khoảng hồi hè, trước khi vào cấp 3 cô Thái trường em có nghĩ ra ý tưởng và mở một lớp dạy C++ miễn phí cho các bạn học sinh mới vào trường, chủ yếu là để đào tạo vào ĐTQG sau này. 
-Ban đầu cũng không ai biết và để ý em bởi em không có gì nổi trội. Nhưng sau khi học được một thời gian thì có vẻ em bứt lên, thực ra thì hồi Tết năm ý em cũng có tìm hiểu một chút qua về C++ nên tiếp thu nhanh hơn, thời điểm đó em cũng rất đam mê với việc code, em code suốt cả hè năm ý luôn. Đến giờ em vẫn không hiểu sao hồi đó mình code nhiều thế.
+Khoảng hồi hè trước khi vào cấp 3, cô Thái dạy trường em có nghĩ ra ý tưởng và mở một lớp dạy C++ miễn phí cho các bạn học sinh mới vào trường, chủ yếu là để đào tạo vào ĐTQG sau này. 
+Ban đầu cũng không ai biết và để ý em bởi em không có gì nổi trội. Nhưng sau khi học được một thời gian thì có vẻ em bứt lên. Thực ra thì Tết năm đó, em cũng có tìm hiểu một chút qua về C++ nên tiếp thu nhanh hơn. Vả lại, em lúc ấy cũng rất đam mê với việc code, em code suốt cả hè luôn. Đến giờ em vẫn không hiểu sao hồi đó mình code nhiều thế.
 
 ### Cảm giác của bạn khi lần đầu tiếp xúc với Tin học? 
 
@@ -61,7 +61,7 @@ Thật ra thì cô Thái cho em đi ôn riêng với các thầy, các anh khá 
 ### Trước khi thi Vòng 2, bạn có cảm thấy hồi hộp không? Sau đó cả hai ngày thi của bạn diễn ra như thế nào?
 
 ![](../assets/interviews/2024-nguyen-duc-thang/image7.jpg?width=9cm&wrapfigLineheight=8)
-Em cảm thấy khá là bình tĩnh, vì mục tiêu của em ban đầu chỉ là vào APIO để miễn tốt nghiệp, chứ không thiết tha gì IOI cho lắm. Mà nếu lớp 11 trượt, thì lớp 12 vẫn thi lại VOI được ạ. Em thấy bản thân làm hai ngày cũng khá là bình thường, ngoài ra điểm của em cũng khá đều, còn mọi người thì hay có 1-2 bài điểm có để gánh các bài còn lại. 
+Em cảm thấy khá là bình tĩnh, vì mục tiêu của em ban đầu chỉ là vào APIO để miễn tốt nghiệp, chứ không thiết tha gì IOI cho lắm. Mà nếu lớp 11 có lỡ không may trượt vòng 2, thì lớp 12 vẫn thi lại VOI được ạ. Em thấy bản thân làm hai ngày ở mức khá bình thường. Ngoài ra, điểm của em cũng khá đều, còn mọi người thì hay có 1-2 bài điểm có để gánh các bài còn lại. 
 
 ### Vậy chiến thuật của bạn có phải là tập trung cắn tất cả các subtask thay vì chỉ tập trung là một bài không?
 
@@ -100,7 +100,7 @@ Em khá là vui, hạnh phúc, và tự hào. Nếu tính tới hiện tại, th
 ### Với tâm thế là một người đã có huy chương rồi, thì bạn có kì vọng gì cho Vòng 2 năm nay không? 
 
 ![](../assets/interviews/2024-nguyen-duc-thang/image4.jpg?width=8cm&wrapfigLineheight=11)
-Chắc chắn là khác năm ngoái rồi ạ. Mọi người sẽ kì vọng năm nay em có vàng IOI. Em nghĩ là năm nay được đại diện Việt Nam đi thi IOI đã là thành công rồi vì có khá nhiều bạn giỏi nên em không biết mình có thể vào được top 6 hay không nữa ạ. Từ khi thi IOI năm ngoái về thì em đi chơi khá là nhiều, và từ sau vòng 1 thì em mới tập trung hoàn toàn lại vào code ạ.
+Chắc chắn là khác năm ngoái rồi ạ. Mọi người sẽ kì vọng năm nay em có vàng IOI. Em nghĩ là năm nay được đại diện Việt Nam đi thi IOI đã là thành công rồi. Năm nay có khá nhiều bạn giỏi nên em không biết mình có thể vào được top 6 (top để được tính huy chương APIO) hay không nữa. Từ khi thi IOI năm ngoái về, em đi chơi khá là nhiều, chỉ từ sau vòng 1 năm nay thì em mới tập trung hoàn toàn lại vào code ạ.
 
 ### Mình thấy hầu hết các bạn khi chuẩn bị cho IOI đều luyện tập trên Codeforces rất nhiều nhưng bạn thì ngược lại, không cày Codeforces nhiều lắm. Lí do tại sao bạn lại làm thế? Khi không tham gia các contest trên Codeforces thì bạn có hay làm lại các bài trên đó không? 
 
