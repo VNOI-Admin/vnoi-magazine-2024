@@ -15,7 +15,10 @@ Em là fan Liverpool từ năm 2018, năm mà Liverpool thua chung kết Champio
 
 ### Vốn xuất phát học cấp 3 chuyên Toán trường Hùng Vương – trường chuyên duy nhất và tốt nhất của tỉnh Phú Thọ, với chuyên Toán là chuyên khó vào nhất, bạn đã có những bước đệm nào từ cấp 2 để lên cấp 3 có thể tỏa sáng được như thế không? Bạn có từng tham gia các kỳ thi như Violympic, Toán Quốc Tế, Toán Úc, ... dành cho học sinh từ cấp 2 trở xuống không?
 
-Việc học toán nâng cao của em đã bắt đầu từ những năm cấp 1 rồi ạ. Thời đó thì em vào được vòng huyện những năm cấp 1 và vòng tỉnh trong những năm cấp 2 và có được giải nhì, đây cũng là cấp độ cao nhất hồi đó ạ. Về trình độ toán của em thì em tự nhận thấy bản thân không giỏi ở phần hình và bất đẳng thức lắm. Khi thi vào chuyên Toánthì em đứng thứ 12/30 - một vị trí khá an toàn nhưng cũng không quá xuất sắc ạ.
+
+![](../assets/interviews/2024-nguyen-duc-thang/image6.jpg)
+
+Việc học toán nâng cao của em đã bắt đầu từ những năm cấp 1 rồi ạ. Thời đó thì em vào được vòng huyện những năm cấp 1 và vòng tỉnh trong những năm cấp 2 và có được giải nhì, đây cũng là cấp độ cao nhất hồi đó ạ. Về trình độ toán của em thì em tự nhận thấy bản thân không giỏi ở phần hình và bất đẳng thức lắm. Khi thi vào chuyên Toán thì em đứng thứ 12/30 - một vị trí khá an toàn nhưng cũng không quá xuất sắc ạ.
 
 Về các cuộc thi thì em có tham gia Violympic khi nó vẫn còn là một cuộc thi toán nhận được nhiều sự ủng hộ của học sinh và các thầy cô, và em đều đạt được thành tích tương đối ổn. Ngoài ra em cũng có thi các cuộc thi "Quốc Tế" đôi lần vào những năm cấp 2 nhưng cũng không mấy ấn tượng ạ.
 
@@ -23,13 +26,14 @@ Em nghĩ với một nền toán ở mức khá như vậy là đủ để giúp
 
 ### Tại sao bạn thi vào lớp chuyên Toán mà không phải lớp chuyên Tin? Tại sao bây giờ bạn lại học Tin mà lại không học toán? 
 
-![](../assets/interviews/2024-nguyen-duc-thang/image6.jpg)
 
 Tại vì em lúc đầu vốn là học Toán mà, thực ra bản thân em cũng chán việc học Toán từ lớp 8 do em rất kém hình, và em cũng thấy mình không còn hứng thú với việc biến đổi quá nhiều. Lên cấp 3 em mới bắt đầu thử học Tin chứ giả sử em học Tin kém mà vào lớp chuyên Tin thì lại không ổn lắm. Bây giờ mà em có được chọn lại học chuyên Toán hay chuyên Tin thì em vẫn sẽ chọn Toán bởi em thấy tính em vẫn hợp với các bạn lớp em bây giờ hơn, chứ vào lớp Tin chắc em trầm cảm mất. Em nghĩ đây cũng là background của khá nhiều người học cũng như thi Tin ạ.
 
 ### Ở cấp 3 thì bạn tiếp xúc với môn Tin từ lúc nào? 
 
-Khoảng hồi hè, trước khi vào cấp 3 cô Thái trường em có nghĩ ra ý tưởng và mở một lớp dạy C++ miễn phí cho các bạn học sinh mới vào trường, chủ yếu là để đào tạo vào ĐTQG sau này. Ban đầu cũng không ai biết và để ý em bởi em không có gì nổi trội. Nhưng sau khi học được một thời gian thì có vẻ em bứt lên, thực ra thì hồi Tết năm ý em cũng có tìm hiểu một chút qua về C++ nên tiếp thu nhanh hơn, thời điểm đó em cũng rất đam mê với việc code, em code suốt cả hè năm ý luôn. Đến giờ em vẫn không hiểu sao hồi đó mình code nhiều thế.
+![](../assets/interviews/2024-nguyen-duc-thang/image8.jpg)
+Khoảng hồi hè, trước khi vào cấp 3 cô Thái trường em có nghĩ ra ý tưởng và mở một lớp dạy C++ miễn phí cho các bạn học sinh mới vào trường, chủ yếu là để đào tạo vào ĐTQG sau này. 
+Ban đầu cũng không ai biết và để ý em bởi em không có gì nổi trội. Nhưng sau khi học được một thời gian thì có vẻ em bứt lên, thực ra thì hồi Tết năm ý em cũng có tìm hiểu một chút qua về C++ nên tiếp thu nhanh hơn, thời điểm đó em cũng rất đam mê với việc code, em code suốt cả hè năm ý luôn. Đến giờ em vẫn không hiểu sao hồi đó mình code nhiều thế.
 
 ### Cảm giác của bạn khi lần đầu tiếp xúc với Tin học? 
 
@@ -43,7 +47,6 @@ P/S: có một fact vui là hồi đó chỉ có 7 anh chị lớp 11-12 thi mà
 
 ### Phương pháp nào để bạn từ giải Nhì Quốc gia năm lớp 10 lên Á khoa của kỳ thi chỉ sau một năm như vậy? Bạn có thay đổi gì về chiến lược học trong suốt một năm hay không?
 
-![](../assets/interviews/2024-nguyen-duc-thang/image8.jpg)
 
 Em nghĩ sự khác biệt lớn nhất trong 2 năm của em là việc em đã có ý thức stress test trong phòng thi hơn ạ. Hồi lớp 10 thì em có phần tập trung vào việc luyện code trên VNOJ hơn mà quên mất phần chiến thuật trong phòng thi. Kết quả là em đã bị "sập" mất bài 2 năm đó và trượt - một kết quả làm em khá nuối tiếc. Sau đó em chơi nguyên hè cho tới khi được khuyến khích kì thi Duyên Hải Đồng bằng Bắc Bộ. Đến lớp 11 thì em cẩn thận hơn cũng như trình độ code cũng đã lên một chút, mà em cũng cảm thấy Vòng 1 chỉ cần code giỏi là vào được vòng sau rồi. Kết quả Á khoa em cảm thấy có chút may mắn, nhưng việc có được một kết quả tốt đã nằm trong dự liệu của em khi đó rồi ạ.
 

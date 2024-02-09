@@ -51,6 +51,7 @@ Ngoài ra, Vòng Chung kết còn có sự góp mặt của các thí sinh đế
 
 ![Các thí sinh Bảng mở rộng VNOI CUP](../assets/vnoi-cup/image6.jpg)
 
+
 Vòng Chung kết đã diễn ra cực kỳ gay cấn và cực kỳ quyết liệt, khi cục diện bảng xếp hạng bắt đầu thay đổi vào những khoảng thời gian cuối của vòng thi. Chung cuộc, ba vị trí đầu tiên của vòng Chung kết VNOI Cup 2023 đã thuộc về ba cái tên mới:
 
 - Nguyễn Đức Thắng (17 tuổi) - là chủ nhân của chiếc cup vô địch VNOI Cup mùa thứ hai, cùng với phần thưởng trị giá 20 triệu VNĐ.
