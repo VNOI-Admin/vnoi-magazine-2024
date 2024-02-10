@@ -81,7 +81,7 @@ Em nhớ nhất kỉ niệm... trốn học ạ. Phòng em có 3 người: em, a
 
 ![](../assets/interviews/2024-nguyen-duc-thang/image3.jpg?wrapfigLineheight=11)
 
-Ở Hungary, các toà nhà có kết cấu từ ngày xưa, có nhiều hoa văn khá độc lạ. Em thấy Hungary đẹp, nhưng cũng chưa phát triển lắm, vì em để ý thấy vẫn còn nhiều khu đất trống. Cảm giác hệt như ở vùng nông thôn vậy. Đợt tụi em đi thi IOI, hội du học sinh Việt Nam ở Hungary hỗ trợ rất nhiều. Ngoài ra còn có hội người Việt Nam ở Hungary tài trợ ở một số mặt nữa ạ. Em vui vì họ rất nhiệt tình, nhưng cũng hơi thắc mắc vì bay gần nửa vòng Trái Đất cuối cùng lại thưởng thức gà luộc, phở bò..., chả khác gì ở nhà cả! Em cũng rất thích Hungary vì đó là quê nhà của số 8 mới ở Anfield (sân nhà của đội bóng Liverpool) - Szoboszlai.
+Ở Hungary, các toà nhà có kết cấu từ ngày xưa, có nhiều hoa văn khá độc lạ. Em thấy Hungary đẹp, nhưng cũng chưa phát triển lắm, vì em để ý thấy vẫn còn nhiều khu đất trống. Cảm giác hệt như ở vùng nông thôn vậy. Đợt tụi em đi thi IOI, hội du học sinh Việt Nam ở Hungary hỗ trợ rất nhiều. Ngoài ra còn có hội người Việt Nam ở Hungary tài trợ ở một số mặt nữa ạ. Em vui vì họ rất nhiệt tình, nhưng cũng hơi thắc mắc vì bay gần nửa vòng Trái Đất cuối cùng lại thưởng thức gà luộc, phở bò..., chả khác gì ở nhà cả! Em cũng rất thích Hungary vì đó là quê nhà của số 8 mới ở Anfield (sân nhà đội Liverpool) - Szoboszlai.
 
 ### Khi bạn bước vào thi IOI, bạn chuẩn bị tâm lý như thế nào? 
 
