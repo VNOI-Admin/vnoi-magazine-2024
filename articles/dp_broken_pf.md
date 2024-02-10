@@ -20,7 +20,7 @@ DP Broken Profile là một dạng đặc biệt của dạng toán DP Bitmask n
 
 Bài tập sử dụng DP Broken Profile thường rất khó nên việc hiểu biết những hướng làm, những ưu và nhược điểm của từng hướng sẽ là chìa khóa giữa việc $AC$ bài đó hay không.
 
-## [Bài toán 1: Counting Tilings](https://cses.fi/problemset/task/2181)
+## [CSES - Counting Tilings](https://cses.fi/problemset/task/2181)
 
 * Cho một bảng $N \times M$ , hãy tìm số lượng cách lắp đầy bảng bằng cách đặt các viên domino có kích thước $1 \times 2$ hoặc $2 \times 1$ không giao nhau.
 * $N\le 10,M \le 1000$
@@ -264,7 +264,7 @@ Nếu ta xét thời gian chạy của cả $4$ thuật toán cho bài trên th�
 | $O(N\cdot M\cdot  2^N+M\cdot (1+\phi)^N)$           |  $0.14s$ | Sử dụng đệ quy nhưng vẫn nhanh hơn hướng làm $O(M*3^N)$. Nó nhanh hơn là do số lượng trường hợp phải xét giảm thiểu đáng kể với việc nhận lại hằng số từ đệ quy. Bộ nhớ sử dụng cũng kha khá.|
 | $O(N\cdot M\cdot  2^N)$ | $0.09s$ | Nhanh nhất và bộ nhớ dùng tương đối ít cũng như có hằng số khá thấp. Có thể tối ưu bộ nhớ và từ đó thời gian chạy hơn nữa những việc đó không cần thiết. |
 
-## [Bài toán 2: Domino](https://oj.vnoi.info/problem/bananabread_domino)
+## [VNOJ - Domino](https://oj.vnoi.info/problem/bananabread_domino)
 * Cho một bảng $A$ có kích thước $N \times M$, mỗi ô có một giá trị nguyên. Hãy tìm cách đặt đúng $k$ domino $2\times 1$ không chồng nhau để tổng các giá trị trên các ô được phủ là đạt giá trị cực đại.
     - $N\le 4,M\le 1000,K\le \frac{N\cdot M}{2}$
     - Subtask:

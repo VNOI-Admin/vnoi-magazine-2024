@@ -58,8 +58,11 @@ Vòng Chung kết đã diễn ra cực kỳ gay cấn và cực kỳ quyết li�
 - Lê Hoàng Nam (Trường THPT Chuyên Sư Phạm, Hà Nội) - giành cup Bạc VNOI Cup 2023, cùng với phần thưởng trị giá 15 triệu VNĐ.
 - Lê Ngọc Bảo Anh (Trường THPT Chuyên Lê Quý Đôn, Đà Nẵng) - giành cup Đồng VNOI Cup 2023, cùng với phần thưởng trị giá 10 triệu VNĐ.
 
-![Bảng xếp hạng chính thức của VNOI CUP 2023](../assets/vnoi-cup/image5.png)
+![Bảng xếp hạng chính thức của chung kết VNOI CUP 2023](../assets/vnoi-cup/image5.png)
 
-Có thể nói, VNOI Cup 2023 quy tụ đông đảo các thí sinh với profile rất “khủng” ở nhiều thế hệ khác nhau, từ những đàn anh kỳ cựu nhưng vẫn còn rất nhiều nhiệt huyết đối với lập trình thi đấu, đến những bạn trẻ là những trụ cột tương lai của nền tin học nước nhà. Đây chính là dịp để thế hệ coder trẻ có thể giao lưu, cọ xát và học hỏi kinh nghiệm quý báu từ những tiền bối đi trước, những coder đã có kinh nghiệm dày dặn trong mảng lập trình thi đấu lẫn lĩnh vực công nghệ. Như vậy, VNOI Cup 2023 đã trôi qua và để lại nhiều dấu ấn khó quên, cùng nhau hẹn gặp lại tại VNOI Cup 2024 thật sôi động, bùng cháy và kịch tính hơn nhé!
+Có thể nói, VNOI Cup 2023 quy tụ đông đảo các thí sinh với profile rất “khủng” ở nhiều thế hệ khác nhau, từ những đàn anh kỳ cựu nhưng vẫn còn rất nhiều nhiệt huyết đối với lập trình thi đấu, đến những bạn trẻ là những trụ cột tương lai của nền tin học nước nhà. 
 
 ![Ban tổ chức và thí sinh tham dự Chung kết VNOI CUP 2023](../assets/vnoi-cup/image7.jpg)
+
+Đây chính là dịp để thế hệ coder trẻ có thể giao lưu, cọ xát và học hỏi kinh nghiệm quý báu từ những tiền bối đi trước, những coder đã có kinh nghiệm dày dặn trong mảng lập trình thi đấu lẫn lĩnh vực công nghệ. Như vậy, VNOI Cup 2023 đã trôi qua và để lại nhiều dấu ấn khó quên, cùng nhau hẹn gặp lại tại VNOI Cup 2024 thật sôi động, bùng cháy và kịch tính hơn nhé!
+
