@@ -31,7 +31,7 @@ Hệ thống VNOJ – VNOI Online Judge được phát triển dựa trên DMOJ 
 
 Được thiết kế theo “phong cách” Việt Nam dựa trên nền tảng DMOJ, hệ thống VNOJ có giao diện rất thân thiện và dễ sử dụng, người dùng có thể chuyển đổi qua lại giữa giao diện Tiếng Việt và Tiếng Anh một cách nhanh chóng. Hệ thống điểm số cũng được thiết kế lại để tạo thuận lợi cho người dùng trong việc tự theo dõi, tự đánh giá thông qua quá trình luyện tập. 
 
-![VNOJ với giao diện Tiếng Việt](../assets/vnoj/image4.jpg)
+![VNOJ với giao diện Tiếng Anh](../assets/vnoj/image5.jpg)
 
 Với đội ngũ kỹ thuật có năng lực và tận tâm, VNOJ – VNOI Online Judge hoạt động vô cùng ổn định và bảo mật để phục vụ lượng lớn lượt sử dụng của cộng đồng. Đặc biệt trong năm 2023, VNOI đã nâng cấp công suất của máy chấm lên gấp đôi nhằm đáp ứng nhu cầu của đông đảo các bạn trẻ yêu lập trình trong quá trình ôn tập trước thềm các kỳ thi lớn như VOI, ICPC, và Olympic Tin học Sinh viên. Tính đến ngày 28/01/2024, VNOJ đã tiếp nhận và xử lí 4744496 lượt nộp bài, tương ứng khoảng 4688 lượt nộp bài trong một ngày.
 
