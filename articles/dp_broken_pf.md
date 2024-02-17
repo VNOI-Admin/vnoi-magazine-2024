@@ -53,7 +53,7 @@ Chứng minh:
 
 Nếu ta xây dựng $nextmask$ bằng cách xét tất cả các $nextmask$ rồi kiểm tra là $mask$ hiện tại và $nextmask$ có đồng khớp với nhau không thì nó sẽ mất khá lâu. Ta có for $M$ ,for $mask$ và for $nextmask$ nên độ phức tạp sẽ là $O(M\cdot 2^N\cdot 2^N)$ hay $O(M\cdot 4^N)$, không đủ nhanh cho bài này. Việc kiểm tra $mask$ và $nextmask$ có khớp được với nhau hay không trong $O(1)$ các bạn có thể tham khảo ở [đây](https://www.youtube.com/watch?v=0bnMHlFUM_o) tại phút thứ $40$. 
 
-Tham khảo code mẫu thuật $O(M*N^4)$:
+Tham khảo code mẫu thuật $O(M \cdot N^4)$:
 ```cpp
 #include<bits/stdc++.h>
 using namespace std;
