@@ -23,7 +23,7 @@ Tới ngày 03/04/2020 việc tải các bài tập lên hệ thống Codeforces
 
 Ngày 28/02/2021, Đại hội thành lập Câu lạc bộ Olympic Tin học Việt Nam (VNOI) đã được diễn ra dưới sự tham dự và chỉ đạo của đại diện hội Tin học Việt Nam (VAIP), đánh dấu thời khắc VNOI trở thành một nhánh của Hội. Kế thừa nhiệm vụ của Diễn đàn Tin học, BCH Câu lạc bộ nhận thấy những bất cập khi sử dụng hệ thống chấm của nước ngoài: Khó sử dụng với người Việt (do giao diện tiếng Anh), khó quảng bá tới tất cả các bạn học sinh, …, và quan trọng nhất là dữ liệu về các bài tập đều thuộc về các kỳ thi có quy mô tại Việt Nam. Mong muốn phát triển một hệ thống chấm bài trực tuyến của người Việt, cho người Việt và do người Việt, đồng thời cũng vì mục đích giữ dữ liệu quan trọng ở lại trong nước, BCH Câu lạc bộ đội ngũ kỹ thuật của VNOI đã tìm hiểu, phát triển và cho ra mắt hệ thống VNOJ – VNOI Online Judge.
 
-![Nhóm Codeforces VNOI vào thời điểm năm 2020](../assets/vnoj/image3.jpg)
+![VNOJ](../assets/vnoj/image3.jpg)
 
 Hệ thống VNOJ – VNOI Online Judge được phát triển dựa trên DMOJ – một hệ thống chấm bài mã nguồn mở. Hiện nay, VNOJ vẫn đang hoạt động tại tên miền <https://oj.vnoi.info>, các bài tập và kỳ thi trên hệ thống vẫn được cập nhật thường xuyên, liên tục. Trong số đó, nhiều kỳ thi mang thương hiệu của VNOI đã được tổ chức thành công như Bedao Contest, VNOI CUP, …. 
 

@@ -8,7 +8,7 @@ meta:
 *Đầu tiên thì rất cảm ơn thầy hôm nay đã nhận lời phỏng vấn cho tạp chí VNOI số Tết!
 Thầy là người mà tất cả các bạn rất mong muốn được phỏng vấn. Còn gì tuyệt vời hơn khi được phỏng vấn một “huyền thoại”, với không chỉ một, mà là hai nghiên cứu đã thay đổi nền Tin học Việt Nam – Sách “Giải thuật và Lập trình” và phần mềm chấm thi Themis mà các bạn bây giờ vẫn hay dùng. Kì thi Học sinh giỏi Quốc gia vẫn còn dùng Themis, và có thể sẽ còn được sử dụng dài dài.*
 
-### Thầy là một trong những giáo viên dạy Tin đời đầu, vậy thì cơ duyên nào đưa thầy đến với môn Tin học?
+### Thầy là một trong những giáo viên dạy Tin thuộc những thế hệ đầu, vậy thì cơ duyên nào đưa thầy đến với môn Tin học?
 Câu này nếu trả lời thì sẽ dài lắm! Từ khi mình học cấp 2, mình cũng biết Tin học là gì rồi. Hồi ấy, mình học Tin trong trong tiết Kĩ thuật. Tiết học chán lắm, mình chả có tí cảm hứng nào cả! Lên cấp 3, khi mình gặp người thầy đúng chuyên môn thì khác biệt thật, thầy không những dạy kiến thức, mà còn dạy những kĩ năng nghề nghiệp, và truyền cho mình cái đam mê nghề nghiệp nữa. Lúc đấy thì mình mới cảm thấy thích.
 
 Nói thật thì thời xưa, bọn mình học 100% là đam mê, chứ không nhận được nhiều ưu đãi về lớp chuyên, giải Quốc Gia,... như các bạn bây giờ. Hồi mình thi Quốc Gia, không hề có tiêu chuẩn tuyển thẳng đại học! 100% là vô tư, thích thì học, không thích thì bỏ thôi.
@@ -206,7 +206,7 @@ Nói tới chuyện sách, sau 4 năm không đả động gì tới Học sinh 
 
 Sau đấy thì còn lộn xộn lắm. Đến năm 2002, mình đi làm nghiên cứu sinh ở Nhật Bản (JAIST - Viện Khoa học và Công nghệ Tiên tiến Nhật Bản), mình cũng không chắc là mình có về được không nên mình để free trên web dưới dạng file pdf. Mạng Internet lúc đấy thì vẫn chưa phổ biến. Nếu về sau này, bạn nào tiếp thu được kiến thức ấy, thì đỡ phải cày lại từ đầu, có thể bước tiếp. 
 
-Hiện tại, mình cũng dự định viết lại vài chuyên đề, nhưng mà nói thật thì mình cũng lười rồi, ngồi lâu thì cũng mỏi lưng! Hồi ấy, khi mình viết những chuyên đề đó, mình phải chuẩn bị cả tuần thì mới dạy được các bạn đội tuyển một buổi. Tức là khi định dạy một chuyên đề nào đó, mình cần một tuần nghĩ bài với sự giúp đỡ của rất nhiều thầy khác, kể cả thầy cũ của mình: thầy Nghĩa, thầy Tùng, cô Thành, v.v để cho đội tuyển “ăn đủ” kiến thức. Nếu chỉ có một người dạy đội tuyển, mỗi tuần cho ra học một buổi thì thở ra bằng tai mất thôi.
+Hiện tại, mình cũng dự định viết lại vài chuyên đề, nhưng mà nói thật thì mình cũng lười rồi, ngồi lâu thì cũng mỏi lưng! Hồi ấy, khi mình viết những chuyên đề đó, mình phải chuẩn bị cả tuần thì mới dạy được các bạn đội tuyển một buổi. Tức là khi định dạy một chuyên đề nào đó, mình cần một tuần nghĩ bài với sự giúp đỡ của rất nhiều thầy khác, kể cả thầy cũ của mình: thầy Nghĩa, thầy Tùng, thầy Thành, v.v để cho đội tuyển “ăn đủ” kiến thức. Nếu chỉ có một người dạy đội tuyển, mỗi tuần cho ra học một buổi thì thở ra bằng tai mất thôi.
 
 Cũng từ chuyện đấy, mình viết sách. Các chuyên đề đó ban đầu chỉ để dạy thôi, nhưng sau đó thì mình thấy trong nước dùng khá phổ biến. Mình nhận ra rằng môn Tin cần nhất là tài liệu – một học sinh sẽ không cần thầy, tự học vẫn được nếu như tài liệu đủ tốt, đưa ra một lộ trình rõ ràng để tự học. 
 Về sau này, có các bài viết trên VNOI và các nguồn trong và ngoài nước, nhưng mình vẫn cảm thấy thiếu một cuốn sách để hệ thống lại đầy đủ. Từng topic một, từng chuyên đề thì sẽ có bài riêng; nhưng lắp ghép nó vào trong một bối cảnh chung – dạy cái này vào lúc nào, thì vẫn chưa có tài liệu nào như vậy. Mình cũng đang kì vọng nhưng mà vẫn chưa xong được.
