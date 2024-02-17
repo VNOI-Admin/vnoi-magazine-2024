@@ -23,7 +23,7 @@ Tới ngày 03/04/2020 việc tải các bài tập lên hệ thống Codeforces
 
 Ngày 28/02/2021, Đại hội thành lập Câu lạc bộ Olympic Tin học Việt Nam (VNOI) đã được diễn ra dưới sự tham dự và chỉ đạo của đại diện hội Tin học Việt Nam (VAIP), đánh dấu thời khắc VNOI trở thành một nhánh của Hội. Kế thừa nhiệm vụ của Diễn đàn Tin học, BCH Câu lạc bộ nhận thấy những bất cập khi sử dụng hệ thống chấm của nước ngoài: Khó sử dụng với người Việt (do giao diện tiếng Anh), khó quảng bá tới tất cả các bạn học sinh, …, và quan trọng nhất là dữ liệu về các bài tập đều thuộc về các kỳ thi có quy mô tại Việt Nam. Mong muốn phát triển một hệ thống chấm bài trực tuyến của người Việt, cho người Việt và do người Việt, đồng thời cũng vì mục đích giữ dữ liệu quan trọng ở lại trong nước, BCH Câu lạc bộ đội ngũ kỹ thuật của VNOI đã tìm hiểu, phát triển và cho ra mắt hệ thống VNOJ – VNOI Online Judge.
 
-![Nhóm Codeforces VNOI vào thời điểm năm 2020](../assets/vnoj/image3.jpg)
+![VNOJ](../assets/vnoj/image3.jpg)
 
 Hệ thống VNOJ – VNOI Online Judge được phát triển dựa trên DMOJ – một hệ thống chấm bài mã nguồn mở. Hiện nay, VNOJ vẫn đang hoạt động tại tên miền <https://oj.vnoi.info>, các bài tập và kỳ thi trên hệ thống vẫn được cập nhật thường xuyên, liên tục. Trong số đó, nhiều kỳ thi mang thương hiệu của VNOI đã được tổ chức thành công như Bedao Contest, VNOI CUP, …. 
 
@@ -31,7 +31,7 @@ Hệ thống VNOJ – VNOI Online Judge được phát triển dựa trên DMOJ 
 
 Được thiết kế theo “phong cách” Việt Nam dựa trên nền tảng DMOJ, hệ thống VNOJ có giao diện rất thân thiện và dễ sử dụng, người dùng có thể chuyển đổi qua lại giữa giao diện Tiếng Việt và Tiếng Anh một cách nhanh chóng. Hệ thống điểm số cũng được thiết kế lại để tạo thuận lợi cho người dùng trong việc tự theo dõi, tự đánh giá thông qua quá trình luyện tập. 
 
-![VNOJ với giao diện Tiếng Việt](../assets/vnoj/image4.jpg)
+![VNOJ với giao diện Tiếng Anh](../assets/vnoj/image4.jpg)
 
 Với đội ngũ kỹ thuật có năng lực và tận tâm, VNOJ – VNOI Online Judge hoạt động vô cùng ổn định và bảo mật để phục vụ lượng lớn lượt sử dụng của cộng đồng. Đặc biệt trong năm 2023, VNOI đã nâng cấp công suất của máy chấm lên gấp đôi nhằm đáp ứng nhu cầu của đông đảo các bạn trẻ yêu lập trình trong quá trình ôn tập trước thềm các kỳ thi lớn như VOI, ICPC, và Olympic Tin học Sinh viên. Tính đến ngày 28/01/2024, VNOJ đã tiếp nhận và xử lí 4744496 lượt nộp bài, tương ứng khoảng 4688 lượt nộp bài trong một ngày.
 
